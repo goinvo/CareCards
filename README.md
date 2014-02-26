@@ -47,4 +47,4 @@ Another fabulous illustrator who seeded many compositions.
 
 
 ## License
-Creative Commons Attribution 3.0
+Creative Commons Attribution v3.0
