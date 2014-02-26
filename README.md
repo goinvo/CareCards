@@ -13,7 +13,7 @@ There are 32 cards in our deck. On the front of each card is a beautiful illustr
 
 A little bigger than a standard deck of cards, Health Axioms were designed to fit into your pocket – and your life.
 
-##### Driven by a mission to create better lives, and a better world
+#### Driven by a mission to create better lives, and a better world
 
 We are part of a global movement to shift the health care system to one of:
 
@@ -31,9 +31,11 @@ For almost 10 years, we at Involution Studios have been building software for he
 ## Team
 
 **Juhan Sonin**
+
 Author, [juhan@goinvo.com] (mailto:juhan@goinvo.com)
 
 **Harry Sleeper**
+
 Author
 
 **Sarah Kaiser**
