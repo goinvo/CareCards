@@ -30,19 +30,17 @@ For almost 10 years, we at Involution Studios have been building software for he
 
 ## Team
 
-**Juhan Sonin**
-
+**Juhan Sonin**<br>
 Author, [juhan@goinvo.com] (mailto:juhan@goinvo.com)
 
-**Harry Sleeper**
-
+**Harry Sleeper**<br>
 Author
 
-**Sarah Kaiser**
+**Sarah Kaiser**<br>
 The fabulous artist who brought the concepts and agitprop vibe to life.
 
-**Jane Kokernak**
+**Jane Kokernak**<br>
 Editor and researcher
 
-**Kelly Mansfield**
+**Kelly Mansfield**<br>
 Another fabulous illustrator who seeded many compositions.
