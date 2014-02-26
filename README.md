@@ -31,7 +31,7 @@ For almost 10 years, we at Involution Studios have been building software for he
 ## Team
 
 **Juhan Sonin**<br>
-Author, [juhan@goinvo.com] (mailto:juhan@goinvo.com)
+Author, [juhan@goinvo.com](mailto:juhan@goinvo.com)
 
 **Harry Sleeper**<br>
 Author
