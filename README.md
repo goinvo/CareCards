@@ -1,6 +1,7 @@
 Health-Axioms
 =============
 
+
 ## Missionette Statement
 
 #### This mighty little deck of cards will change your health habits.
@@ -27,7 +28,6 @@ We are part of a global movement to shift the health care system to one of:
 For almost 10 years, we at Involution Studios have been building software for health companies of every shape and size, from household names like AstraZeneca and Walgreens, to research leaders like the Personal Genome Project and Partners Healthcare. We also work with the most exciting and progressive health startups. We’ve made digital healthcare our top focus.
 
 
-
 ## Team
 
 **Juhan Sonin**<br>
@@ -44,3 +44,7 @@ Editor and researcher
 
 **Kelly Mansfield**<br>
 Another fabulous illustrator who seeded many compositions.
+
+
+## License
+Creative Commons Attribution 3.0
