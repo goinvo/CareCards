@@ -53,7 +53,7 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
   box-sizing: border-box; }
 .column,
 .columns {
@@ -64,14 +64,15 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 100%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 80%; 
+    padding: 0 20px;}
   .column,
   .columns {
     margin-left: 4%; }
@@ -141,7 +142,7 @@ $font-stack-title: "source_sans_probold", "HelveticaNeue", "Helvetica Neue", Hel
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-family: $font-stack;
   color: #222; }
@@ -215,8 +216,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: #1083dd;
+  line-height: 34px;
+  border: 3px #1083dd solid;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -304,10 +306,9 @@ label > .label-body {
 /* Lists
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: disc inside; 
-  margin-left: -13px;}
+  list-style: disc outside; }
 ol {
-  list-style: decimal inside; }
+  list-style: decimal outside; }
 ol, ul {
   padding-left: 0;
   margin-top: 0; }

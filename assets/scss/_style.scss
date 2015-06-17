@@ -1,7 +1,7 @@
 /* Menu
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #menu {
-	border-bottom: solid 1px #224d7a;
+	border-bottom: solid 1px #dedede;
 	background-color: rgba(255,255,255,.8);
 	position: fixed;
 	width: 100%;
@@ -23,30 +23,34 @@
 
 /* About
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#about { margin-top: 150px;}
+#about { 
+	margin-top: 150px;
+	max-width: 700px;
+	padding: 0 20px;
+}
+#download {
+	margin: 0 auto;
+	display: block;
+	width: 250px;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
 
 /* Cards
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
 img.scale-with-grid {
-		max-width: 100%;
-		height: auto; }
+	max-width: 100%;
+	height: auto; 
+}
 
 .card {
-	background-color: #fafafa;
 	.card-desc {
-		
-		padding: 20px 0 20px 0;
+		padding: 40px 40px 60px 20px;
 		margin-top: -10px;
 		color: #454545;
-		h3{
-			
-		}
-		p, ul {
-			
-		}
 	}
 	.column {
-		margin-bottom: -7px;
+		margin-bottom: -10px;
 	}
 }
 
@@ -57,7 +61,14 @@ img.scale-with-grid {
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+	.card-desc {
+		padding: 40px 40px 60px 0;
+	}
+	#about { 
+		padding-left: 0;
+	}
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
