@@ -1,0 +1,214 @@
+{ "cards" : [
+  {
+    "name" : "Move More",
+    "id"   : "move_more",
+    "img"  : "movemore.jpg",
+    "desc" : "<p>Our ancestors walked 10,000 steps a day. People who walk or run 30 minutes at least five times a week live longer.</p><p>An increase in light activity increases fitness, so fidget and putter and do housework.</p><p>Friends who exercixe together stick with it longer. Find an exercise buddy and then... run, bicycle, swim, row, hike, ski, or walk.</p><p>Make walking a daily habit — for your commute, errands, stairs, and fitness — and get that step count going up.</p>"
+  }, {
+    "name" : "Eat Food",
+    "id"   : "eat_food",
+    "img"  : "eatfood.jpg",
+    "desc" : "<p>Michael Pollan got it right: real food is better for humans.</p><p>The outer aisles of the supermarket are where the healthiest foods are: greens, fruits, poultry, nuts, grains, and diary. Fill up the cart.</p><p>Meals at home and a brownbag lunch at work are more nutritious than eating out.</p><p>Families who eat the evening meal together eat healthier.</p>"
+  }, {
+    "name" : "Drink Water",
+    "id"   : "drink_water",
+    "img"  : "drinkwater.jpg",
+    "desc" : "<p>Water is actually a nutrient. Our bodies need water replenished throughout the day to replace the large amount lost to vital functions.</p><p>Fluid needs, like energy needs, increase when we are active or outdoor temperatures are high.</p><p>High-fructose and sugared drinks make us gain weight and crave sweets. Water is the best thirst quencher.</p><p>An 8-ounce glass of water near your bed at night will remind you to start the day with what you cannot live without.</p><p>Drink up.</p>"
+  }, {
+    "name" : "Exercise is Medicine",
+    "id"   : "exercise_is_medicine",
+    "img"  : "exerciseismedicine.jpg",
+    "desc" : "<p>Exercise habits are as important a vital sign as a person's pulse, heart rate, and temperature.</p><p>Doctors should ask about, and record, their patients' activity levels.</p><p>150 minutes per week of moderate activity is recommended for baseline health benefits.</p><p>EXercise can also be included in a treatment plan: for injury recovery, weight loss, and even some mood disorders.</p>"
+  }, {
+    "name" : "Get More Sleep",
+    "id"   : "get_more_sleep",
+    "img"  : "getmoresleep.jpg",
+    "desc" : "<p>Healthy adults have a basal sleep need, or amount needed for optimal performance, of seven to eight hours per day. Children and teens need more.</p><p>A consistent sleep schedule, even on weekends, is critical. Insufficient sleep affects productivity, mental acuity, and even physical health.</p><p>Create a relaxing bedtime ritual, and keep laptops out of the bedroom. Beds are for sex and rest.</p><p>Short naps help you recharge and pay down a sleep deficit.</p><p>Make sleep a priority. Recommit to getting enought.</p>"
+  }, {
+    "name" : "Wash Your Hands",
+    "id"   : "wash_your_hands",
+    "img"  : "washyourhands.jpg",
+    "desc" : "<p>Hand-washing reduces the spread of the flu, food poisoning, stomach bug, and other illnesses.</p><p>Fun fact: humans touch their hands to eyes, nose, ot mouth about 15 times an hour. And hand-to-face contact accounts for about 30% of the risk of flu infection.</p><p>Plain old soap and warm water gets germs off your hands. Use warm water and plenty of suds.</p><p>Hand sanitizer with at least 60% alcohol &mdash; that's the magic number &mdash; is just as effective. Keep some at home and work, and carry it with you.</p>"
+  }, {
+    "name" : "Don't Rush the Brush",
+    "id"   : "dont_rush_the_brush",
+    "img"  : "dontrushthebrush.jpg",
+    "desc" : "<p>Oral health is the gateway to total health.</p><p>The teeth, gums, and mouth allow us to eat good food, speak, and express emotion.</p><p>It's elementary: brush twice a day, for two minutes each time, and floss one of those times.</p><p>Dentists are doctors too &mdash; visit one annually for a checkup. Twice-a-year cleanings by a dental hygienist keep plaque under control.</p><p>It's foolish to neglect your pearly whites. Evidence has linked inadequate dental care with poor health and conditions like heart disease and diabetes.</p>"
+  }, {
+    "name" : "Better Safe than Sorry",
+    "id"   : "better_safe_than_sorry",
+    "img"  : "bettersafethansorry.jpg",
+    "desc" : "<p>Injury is the leading cause of death in the US among people ages 1 to 44.</p><p>Know what it takes to protect you, and children in your care, from road accidents, falls, fire, drowning, and violence.</p><ul><li>Wear a helmet.</li><li>Buckle up.</li><li>Be the designated driver.</li><li>Build your core strength and balance.</li><li>Test your home smoke alarms.</li><li>Swim with a buddy.</li><li>Advocate for violence prevention programs, and join in.</li></ul>"
+  }, {
+    "name" : "Examine Yourself",
+    "id"   : "examine_yourself",
+    "img"  : "examineyourself.jpg",
+    "desc" : "<p>You are the expert on how your body looks and feels.</p><p>A few minutes of daily head-to-toe visual checks helps you notice changes, like a new freckle or unusual hair growth or loss.</p><p>Monthly checks &mdash; of skin and your male or female parts &mdash; give you information to share with your doctor.</p><p>And don;t wait too long to share observations with your doctor. Call her if you notice a lump in the breast or genitals, a larger or asymmetrical mole, persistent skin changes (coloring, rash), or wounds or bruises that do not heal.</p>"
+  }, {
+    "name" : "Quit Smoking",
+    "id"   : "quit_smoking",
+    "img"  : "quitsmoking.jpg",
+    "desc" : "<p>Say &quot;No&quot; to smoking, for good. The health rewards begin immediately.</p><p>Within 20 minutes, your heartrate and blood pressure drop.</p><p>Within 12 hours, the carbon monoxide level in your blood returns to normal.</p><p>In only one month, you'll exercise easier, your clothes and home will smell better, and your sense of taste will return.</p><p>In a year, coughing subsides and your risk of coronary heart disease plummets.</p><p>The use of smoking cessation products and therapies could double or triple the chance of lasting change: try the patch or a support group.</p><p>Today.</p>"
+  }, {
+    "name" : "Take Your Meds On Time",
+    "id"   : "take_your_meds_on_time",
+    "img"  : "takemedsontime.jpg",
+    "desc" : "<p>Patients who stick to their medications have better outcomes. If you quit early, your health suffers.</p><p>All prescriptions have a medical purpose: to maintain or restore your health, reduce pain, or help you heal.</p><p>Part of your job is to follow the plan of care, so find a method that helps you take your meds on time.</p><p>A problem taking or paying for medication is not a sufficient reason to outright quit taking them. Talk to your doctor, nurse, or clinic stagg for help.</p>"
+  }, {
+    "name" : "Have More Sex",
+    "id"   : "have_more_sex",
+    "img"  : "havemoresex.jpg",
+    "desc" : "<p>Good health bolsters your sex life; your sex life bolsters your health.</p><p>Regular sex &mdash; once a week or more &mdash; is associated with greater immunity, less stress, fewer heart attacks, and longer life.</p><p>Two reasons to be happy: sex burns about five calories per minute and it unleashes mood-boosting endorphins.</p><p>If worries or physcial challenges are hindering your enjoyment of sex, talk to your partner and possibly a doctor for reassurance and advice.</p>"
+  }, {
+    "name" : "Wrap It Before You Tap It",
+    "id"   : "wrap_it_before_you_tap_it",
+    "img"  : "wrapitbeforeyoutapit.jpg",
+    "desc" : "<p>To avoid HIV infection and sexually transmitted diseases (STDs), a condom is the first line of defense. It forms a barrier between the penis and anus, vagina, or mouth. Bodily fluids cannot get past it.</p><p>For safer oral sex, there are dental dams.</p><p>Lower-risk sex play includes  kissing and fondling. There's no-risk sex play too, like masturbation (alone or mutual) and sharing fantasies.</p><p>Safe sex can be fun. It prompts exploration, reduces worry, and enhances trust. And no prescription is needed.</p>"
+  }, {
+    "name" : "Take Baby Steps",
+    "id"   : "Take_baby_steps",
+    "img"  : "takebabysteps.jpg",
+    "desc" : "<p>Health behaviors are interconnected.</p><p>A small change in one area, like cuttin down on tv time, triggers change in other areas, like diet.</p><p>A combination of small steps leads to big change: improved nutrition, greater activity, more motivation.</p><p>Two small behavior changes at a time, jump-started over a few weeks, are optimal.</p><p>Do two. Stick with them for six weeks, the amount of time needed to form a habit. Add two more.</p>"
+  }, {
+    "name" : "Meditate and Prosper",
+    "id"   : "meditate_and_prosper",
+    "img"  : "meditateandprosper.jpg",
+    "desc" : "<p>Meditation is the deliberate and continuous focus on one's breath, bodily sensations, and mental images.</p><p>While from the outside, it may look like &quot;just sitting still,&quot; meditation increase well-being.</p><p>People who meditate report feeling control over depression, anxiety, and levels of chronic pain.</p><p>Bonus: Because it's associated with a boose in empathy, meditation may improve the lives of those around us too.</p>"
+  }, {
+    "name" : "Do What Makes You Happy",
+    "id"   : "do_what_makes_you_happy",
+    "img"  : "dowhatmakesyouhappy.jpg",
+    "desc" : "<p>Well-being is associated with long-term health and survival: happier people live longer and better.</p><p>Stron relationships &mdash; friends, family, or romance &mdash; are essential to feeling good about life.</p><p>Optimism at work increases productivity, creativity, and engagement.</p><p>50% of happiness is geneicl 10% is circumstantial; and 40% is a result of our own intentional activity. That's a big margin. Take a risk, find what matters to your, and incorporate it into your work or life."
+  }, {
+    "name" : "Bring the Exam Room to Me",
+    "id"   : "bring_the_exam_room_to_me",
+    "img"  : "bringtheexamroomtome.jpg",
+    "desc" : "<p>The incorporation of a touch screen into a bathroom mirror means we can brush our teeth or look at ourselves naked and get vital information at the same time.</p><p>Sensors, cameras, and a built-in touch screen can put health data at our fingertips &mdash; for example, heart rate or medication instructions &mdash; and help the sick get better and the well stay healthy.</p><p>Bathroom &quot;smart&quot; mirrors are already available for the rich. Let's make them available in all of our homes.</p>"
+  }, {
+    "name" : "Live Your Care Plan",
+    "id"   : "live_your_care_plan",
+    "img"  : "liveyourcareplan.jpg",
+    "desc" : "<p>Your care plan is an agreement between you and your caregivers. It's important to establish, write down, and discuss your goals for you health.</p><p>Your doctor or care team can suggest self-care resources for nutrition, exercise, rest, and therapy.</p><p>Medication may be a key component of your care plan. (Take your meds!)</p><p>A care plan is a living document, to be reviewed and modified periodically. It's your blueprint for health.</p><p>Live it.</p>"
+  }, {
+    "name" : "Know Your Numbers",
+    "id"   : "know_your_numbers",
+    "img"  : "knowyournumbers.jpg",
+    "desc" : "<p>Tracking your health through data, not just senses, lets you see you health in actionable ways.</p><p>Some data come from the lab tests your doctor orders. Make sure you understand what the numbers mean.</p><p>Apps and wearable sensors &mdash; for tracking sleep, activity, and food intake patters &mdash; give you powerful daily data to monitor effects and make changes.</p><p>Data = medicine.</p><p>Your doctor shares some with you. It's time you collected your own health data and shared some with him.</p>"
+  }, {
+    "name" : "Give Me My Data!",
+    "id"   : "give_me_my_data",
+    "img"  : "givememydata.jpg",
+    "desc" : "<p>Health habits and decisions are patially based on information.</p><p>When doctors, hospitals, and labs give us easy access to our health data, we can act more knowlegeably.</p><p>Medical charts must be redesigned, on paper and online, to be fully understood. Designers can help.</p><p>It's not enought to open the file cabinet; the health care system must exploit technologies that make getting and using our data more seamless with other tasks, like goal setting, fitness tracking, and calorie budgeting.</p>"
+  }, {
+    "name" : "Keep Good Records",
+    "id"   : "keep_good_records",
+    "img"  : "keepgoodrecords.jpg",
+    "desc" : "<p>A thorough health record is like an extension of your brain: it helps you remember major events and routine procedures and share that information with a new doctor.</p><p>Paper files a re a good start.</p><p>Electronic files make your health information and medical history more portable.</p><p>Legally, your medical records are yours. So ask your doctor, dentist, and child's pediatrician for a copy.</p><p>And if your health netowkr offers you access to your electronic record, sign up.</p>"
+  }, {
+    "name" : "The Doctor is in Your Pocket",
+    "id"   : "doctor_is_in_your_pocket",
+    "img"  : "doctorinyourpocket.jpg",
+    "desc" : "<p>Wearable gadgets and smartphone apps track data, vital signs, and health habits like sleep or nutrition.</p><p>Smartphones also help us search the Web for health infor and subscribe to public-health messaging.</p><p>In the future, we'll use personal technologies even more to monitor micro changes in the body and fine tune medication, diet, exercise, and doctor visits. Scientists will use patient generated data for population studies on disease and treatment.</p><p>today, a wearable device can help you understand health issues, see patterns, and take action."
+  }, {
+    "name" : "Bang the Drum",
+    "id"   : "bang_the_drum",
+    "img"  : "bangthedrum.jpg",
+    "desc" : "<p>Dopamine, the feel ood chemical in our brains, is released when people hear something they like.</p><p>Positive messages are more powerful and lasting moticators than criticism. If you want to pack a punch, praise should be specific and timely.</p><p>We can also give ourselves credit and reward new health habits when personal goals are reached.</p><p>An a little boasting about positive results may inspire someone else to tackle a health or life challenge.</p>"
+  }, {
+    "name" : "Tell Someone",
+    "id"   : "tell_someone",
+    "img"  : "tellsomeone.jpg",
+    "desc" : "<p>Good health bolsters your sex life; your sex life bolsters your health.</p><p>Regular sex &mdash; once a week or more &mdash; is associated with greater immunity, less stress, fewer heart attacks, and longer life.</p><p>Two reasons to be happy: sex burns about five calories per minute and it unleashes mood-boosting endorphins.</p><p>If worries or physcial challenges are hindering your enjoyment of sex, talk to your partner and possibly a doctor for reassurance and advice.</p>"
+  }, {
+    "name" : "Talk About Death",
+    "id"   : "talk_about_death",
+    "img"  : "talkaboutdeath.jpg",
+    "desc" : "<p>Humans of all ages deserve a good quality of life and good quality of death. Bringing the subject into the open is a first step.</p><p>Talk to your loved ones about your specific wishes for your final days. Make a living will, a legal document that formulates your preferences for prolonged medical treatments.</p><p>Consider the well-being of your survivors: make a will that legally provides how your property will be distributed after death and, if relevant, names a guardian for your children.</p><p>Doctors can have a conversation with patients, no matter their age or health level, about options for their final days that might include long-term care, palliative services, and, in cases of terminal illness, hospice.</p>"
+  }, {
+    "name" : "Who is Your Wingman?",
+    "id"   : "who_is_your_wingman",
+    "img"  : "whoisyourwingman.jpg",
+    "desc" : "<p>If you are hospitalized, undergoing surgery, or seeing a specialist for a serious condition, bring a friend or relative with you.</p><p>Your wingman can help you navigate the experience, understand complex instructions, and advocate for your best interests if you are confused or impaired.</p><p>And, while you are well, get a health care proxy, a simple legal document that allows you to appoint a trusted person to make medical decisions for you if you are unable &mdash; because of serious accident or illness &mdash; to make them yourself.</p>"
+  }, {
+    "name" : "Let Patients Help",
+    "id"   : "let_patients_help",
+    "img"  : "letpatientshelp.jpg",
+    "desc" : "<p>Doctors, nurses, and other clinicians are experts on treatments and outcomes.</p><p>Patients are experts on their own priorities and limits.</p><p>When patients are involved in their own care, they manage conditions better, and they need fewer visits to specialists and hospitals and fewer tests.</p><p>Patients who search online for health and medical information tend to trust their doctors and be better prepared for the visit.</p><p>Good discussions may be prompted by patients' research. Doctors should encourage it.</p>"
+  }, {
+    "name" : "Nurses Save",
+    "id"   : "nurses_save",
+    "img"  : "nursessave.jpg",
+    "desc" : "<p>There are more nurses than doctors. And nurse deliver most of the hands-on care.</p><p>Patients look to nurses for confort, insight, and guidance when they experience fear, pain, or uncertainty related to their health.</p><p>New doctors rely on skilled nurses when learning to practice medicine.</p><p>Nurses are poised for leadership. Higher education is the key: a bachelor's degree means better outcomes for patients, and a graduate degree prepares hands-on nurses for management and leadership.</p><p>Recognize the critical role of nurses in your health care, and seek their knowledge.</p>"
+  }, {
+    "name" : "Doctor as Your Life Coach",
+    "id"   : "doctor_as_your_life_coach",
+    "img"  : "doctorasyourlifecoach.jpg",
+    "desc" : "<p>Life issues &mdash; employment, housing, food access, and education &mdash; can profoundly affect health.</p><p>Doctors, nurses, and other health care workers have the potential to be at the nexus of their patients' lives, treating the whole person.</p><p>A patient's trust in the doctor is immense. That relationship can be leveraged to provide advice, real help, access to resources, and encouragement on life's diverse challenges.</p><p>When your doctor asks you how you are, give a real answer. Share information that will start a conversation about the circumstances of your life.</p>"
+  }, {
+    "name" : "Know the Cost",
+    "id"   : "know_the_cost",
+    "img"  : "knowthecost.jpg",
+    "desc" : "<p>As antional health care costs have risen, so have the costs that employers, workers, and even the retired and unemployed must bear.</p><p>Co-pays, deductibles, and out-of-pocket expenses are up.</p><p>It makes sense to research costs for doctors, hospitals, and treatments before you have to pay them or when you want to dispute a bill.</p><p>Healthcare pricing is available online from Internet companies and government agencies. Some big health plans also disclose price ranges.</p><p>Ask your doctor or dentist: Can you give me a written estimate?</p>"
+  }, {
+    "name" : "Medicare for All",
+    "id"   : "medicare_for_all",
+    "img"  : "medicareforall.jpg",
+    "desc" : "<p>A national health care system, paid for by taxes, would provide freem comprehensive medical care to all.</p><p>Single-payer systems, like Canada's aliminate administrative overhead. Money is spent on health, not bureaucracy.</p><p>Everyone benefits, no matter their age or health status. The range of care is expanded, and evidence-based practices are shared across the system.</p><p>single-payer systems devote more resources to preventative medicine, keeping us all healthier.</p>"
+  }, {
+    "name" : "Start Now",
+    "id"   : "start_now",
+    "img"  : "startnow.jpg",
+    "desc" : "<p>What is one health action you can do now that you can do again tomorrow?</p><p>Try one of these:</p><ul><li>Drink water.</li><li>Take a walk.</li><li>Ignore the vending machine.</li><li>Eat greens.</li><li>Meet up with your fitness buddy.</li><li>Reach out to a trusted friend.</li></ul><p>The mental barrier to getting started is often the toughest one. Power through it today.</p><p>Once you overcome the inertia of getting started, make a plan to reach your health goals.</p><p>Go! Go! Go!</p>"
+  }, {
+    "name" : "Avoid Sunburn",
+    "id"   : "avoid_sunburn",
+    "img"  : "avoidsunburn.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Who's Your Care Team?",
+    "id"   : "care_team",
+    "img"  : "careteam.jpg",
+    "desc" : " "
+  },
+  {
+    "name" : "Control Your Cholesterol",
+    "id"   : "control_cholesterol",
+    "img"  : "controlyourcholesterol.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Donate Your Data to Science",
+    "id"   : "donate_data",
+    "img"  : "donateyourdata.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Food Is Medicine",
+    "id"   : "food_med",
+    "img"  : "foodismedicine.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Healthcare Is a Human Right",
+    "id"   : "healthcare_human_right",
+    "img"  : "humanright.jpg",
+    "desc" : " "
+  },{
+    "name" : "Meet Your Eats",
+    "id"   : "meet_your_eats",
+    "img"  : "meetyoureats.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Sit Less",
+    "id"   : "sit_less",
+    "img"  : "sitless.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Skip the Salt",
+    "id"   : "skip_salt",
+    "img"  : "skipthesalt.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Tell Them It Was Great",
+    "id"   : "tell_them_great",
+    "img"  : "tellthemitwasgreat_2.jpg",
+    "desc" : " "
+  }]
+}

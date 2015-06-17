@@ -1,0 +1,111 @@
+module.exports = {
+	build: {
+		src: [
+			'_build/Canvas/**/*.css',
+			'_build/Common/**/*.css', 
+			'_build/Components/**/*.css', 
+			'_build/Sites/**/*.css', 
+		    '!_build/Components/Utilities/Social/SocialPlugins/SocialPlugins.css',
+		    '!_build/Components/mlm/Social/Feed/FacebookFeed/FacebookFeed.css',
+		    '!_build/Components/mlm/Social/Feed/TwitterFeed/TwitterFeed.css'
+		],
+		options: {
+			force: true,
+			formatters: [
+				{id: 'junit-xml', dest: '_build/reports/css/csslint_junit.xml'},
+				{id: 'csslint-xml', dest: '_build/reports/css/csslint.xml'}
+			],
+			//Set to false to ignore, set to 2 for Error, set to 0 for warnings
+			'import': 2,
+			'important': 2,
+			'adjoining-classes': false,
+			'known-properties': false,
+			'box-sizing': false,
+			'box-model': false,
+			'overqualified-elements': false,
+			'display-property-grouping': false,
+			'bulletproof-font-face': false,
+			'compatible-vendor-prefixes': false,
+			'regex-selectors': false,
+			'errors': false,
+			'duplicate-background-images': false,
+			'duplicate-properties': false,
+			'empty-rules': false,
+			'selector-max-approaching': false,
+			'gradients': false,
+			'fallback-colors': false,
+			'font-sizes': false,
+			'font-faces': false,
+			'floats': false,
+			'star-property-hack': false,
+			'outline-none': false,
+			'ids': false,
+			'underscore-property-hack': false,
+			'rules-count': false,
+			'qualified-headings': false,
+			'selector-max': false,
+			'shorthand': false,
+			'text-indent': false,
+			'unique-headings': false,
+			'universal-selector': false,
+			'unqualified-attributes': false,
+			'vendor-prefix': false,
+			'zero-units': false
+		}
+	},
+	test: {
+		src: [
+			'_IT/**/*.css',
+			'Canvas/**/*.css',
+			'Common/**/*.css', 
+			'Components/**/*.css', 
+			'Sites/**/*.css', 
+			'!Components/Utilities/Social/SocialPlugins/SocialPlugins.css',
+		    '!Components/mlm/Social/Feed/FacebookFeed/FacebookFeed.css',
+		    '!Components/mlm/Social/Feed/TwitterFeed/TwitterFeed.css'
+		],
+		options: {
+			force: true,
+			formatters: [
+				{id: 'junit-xml', dest: 'tests/reports/css/csslint_junit.xml'},
+				{id: 'csslint-xml', dest: 'tests/reports/css/csslint.xml'}
+			],
+			//Set to false to ignore, set to 2 for Error, set to 0 for warnings
+			'import': 2,
+			'important': 2,
+			'adjoining-classes': false,
+			'known-properties': false,
+			'box-sizing': false,
+			'box-model': false,
+			'overqualified-elements': false,
+			'display-property-grouping': false,
+			'bulletproof-font-face': false,
+			'compatible-vendor-prefixes': false,
+			'regex-selectors': false,
+			'errors': false,
+			'duplicate-background-images': false,
+			'duplicate-properties': false,
+			'empty-rules': false,
+			'selector-max-approaching': false,
+			'gradients': false,
+			'fallback-colors': false,
+			'font-sizes': false,
+			'font-faces': false,
+			'floats': false,
+			'star-property-hack': false,
+			'outline-none': false,
+			'ids': false,
+			'underscore-property-hack': false,
+			'rules-count': false,
+			'qualified-headings': false,
+			'selector-max': false,
+			'shorthand': false,
+			'text-indent': false,
+			'unique-headings': false,
+			'universal-selector': false,
+			'unqualified-attributes': false,
+			'vendor-prefix': false,
+			'zero-units': false
+		}
+	}
+}

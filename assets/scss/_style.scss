@@ -1,0 +1,69 @@
+/* Menu
+ * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#menu {
+	border-bottom: solid 1px #224d7a;
+	background-color: rgba(255,255,255,.8);
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	ul {
+		margin-bottom: 0;
+		li {
+			display:inline-block;
+			padding-left: 20px;
+			margin-top: 10px;
+			a {
+				text-decoration: none;
+				color: #224d7a;
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+/* About
+ * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#about { margin-top: 150px;}
+
+/* Cards
+ * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+
+.card {
+	background-color: #fafafa;
+	.card-desc {
+		
+		padding: 20px 0 20px 0;
+		margin-top: -10px;
+		color: #454545;
+		h3{
+			
+		}
+		p, ul {
+			
+		}
+	}
+	.column {
+		margin-bottom: -7px;
+	}
+}
+
+/* Media Queries
+ * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
