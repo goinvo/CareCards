@@ -30,10 +30,24 @@ $(document).ready(function() {
 
     //cards
     $.getJSON('./assets/data/care-cards.json', function(data) { 
-        var card_tpl = '{{#cards}}<div class="card row"><div class="card-img one-half column"  id="{{id}}"><img src="./assets/images/opt-cards/{{img}}" alt="{{name}}" class="scale-with-grid" /></div><div class="card-desc one-half column"><h3>{{name}}</h3>{{{desc}}}</div></div>{{/cards}}';
+        var card_tpl = '{{#cards}}<div class="card row"><div class="card-img one-half column"  id="{{id}}"><img src="./assets/images/opt-cards/{{img}}" alt="{{name}}" class="scale-with-grid" /></div><div class="card-desc one-half column" id="{{id}}-desc"><h3>{{name}}</h3>{{{desc}}}</div></div>{{/cards}}';
         //var card_tpl = $('#card_tpl');
         var html = Mustache.to_html(card_tpl, data);
         $('#cards').html(html);
         console.log(data);
+
+        for(var i=0,j=data.cards.length; i<j; i++){
+          var s = $("#" + data.cards[i].id);
+          var pos = s.position();
+
+          $(window).scroll(function(){ 
+              var windowpos = $(window).scrollTop();
+              if (windowpos >= pos.top) {
+                  s.addClass("stick");
+              } else {
+                  s.removeClass("stick"); 
+              }
+          });
+        }
     });
 });

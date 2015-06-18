@@ -40,4 +40,6 @@ $RECYCLE.BIN/
 .AppleDesktop
 Network Trash Folder
 Temporary Items
+.sass-cache
+node_modules
 .apdisk
