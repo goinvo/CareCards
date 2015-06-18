@@ -40,6 +40,8 @@ $RECYCLE.BIN/
 .AppleDesktop
 Network Trash Folder
 Temporary Items
+.sass-cache
+node_modules
 .apdisk
 npm-debug.log
 node_modules/*
