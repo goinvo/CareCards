@@ -34,21 +34,25 @@ $(document).ready(function() {
         //var card_tpl = $('#card_tpl');
         var html = Mustache.to_html(card_tpl, data);
         $('#cards').html(html);
-        console.log(data);
+        //console.log(data);
 
         for(var i=0,j=data.cards.length; i<j; i++){
-          var s = $("#" + data.cards[i].id);
-          var pos = s.position();
+          var card = $("#" + data.cards[i].id);
+          var pos = card.position();
 
           $(window).scroll(function(){ 
               var windowpos = $(window).scrollTop();
               if (windowpos >= pos.top) {
-                  s.addClass("stick");
+                  card.addClass("stick");
+
+               console.log(card.position);
               } else {
-                  s.removeClass("stick"); 
+                  card.removeClass("stick"); 
               }
           });
         }
+
+        
     });
 
 });

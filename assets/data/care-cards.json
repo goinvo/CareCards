@@ -23,7 +23,7 @@
     "name" : "Get More Sleep",
     "id"   : "get_more_sleep",
     "img"  : "getmoresleep.jpg",
-    "desc" : "<p>Healthy adults have a basal sleep need, or amount needed for optimal performance, of seven to eight hours per day. Children and teens need more.</p><p>A consistent sleep schedule, even on weekends, is critical. Insufficient sleep affects productivity, mental acuity, and even physical health.</p><p>Create a relaxing bedtime ritual, and keep laptops out of the bedroom. Beds are for sex and rest.</p><p>Short naps help you recharge and pay down a sleep deficit.</p><p>Make sleep a priority. Recommit to getting enought.</p>"
+    "desc" : "<p>Healthy adults have a basal sleep need, or amount needed for optimal performance, of seven to eight hours per day. Children and teens need more.</p><p>A consistent sleep schedule, even on weekends, is critical. Insufficient sleep affects productivity, mental acuity, and even physical health.</p><p>Create a relaxing bedtime ritual, and keep laptops out of the bedroom. Beds are for sex and rest.</p><p>Short naps help you recharge and pay down a sleep deficit.</p><p>Make sleep a priority. Recommit to getting enough.</p>"
   }, {
     "name" : "Wash Your Hands",
     "id"   : "wash_your_hands",
@@ -43,7 +43,7 @@
     "name" : "Examine Yourself",
     "id"   : "examine_yourself",
     "img"  : "examineyourself.jpg",
-    "desc" : "<p>You are the expert on how your body looks and feels.</p><p>A few minutes of daily head-to-toe visual checks helps you notice changes, like a new freckle or unusual hair growth or loss.</p><p>Monthly checks &mdash; of skin and your male or female parts &mdash; give you information to share with your doctor.</p><p>And don;t wait too long to share observations with your doctor. Call her if you notice a lump in the breast or genitals, a larger or asymmetrical mole, persistent skin changes (coloring, rash), or wounds or bruises that do not heal.</p>"
+    "desc" : "<p>You are the expert on how your body looks and feels.</p><p>A few minutes of daily head-to-toe visual checks helps you notice changes, like a new freckle or unusual hair growth or loss.</p><p>Monthly checks &mdash; of skin and your male or female parts &mdash; give you information to share with your doctor.</p><p>And don't wait too long to share observations with your doctor. Call her if you notice a lump in the breast or genitals, a larger or asymmetrical mole, persistent skin changes (coloring, rash), or wounds or bruises that do not heal.</p>"
   }, {
     "name" : "Quit Smoking",
     "id"   : "quit_smoking",
@@ -73,12 +73,12 @@
     "name" : "Meditate and Prosper",
     "id"   : "meditate_and_prosper",
     "img"  : "meditateandprosper.jpg",
-    "desc" : "<p>Meditation is the deliberate and continuous focus on one's breath, bodily sensations, and mental images.</p><p>While from the outside, it may look like &quot;just sitting still,&quot; meditation increase well-being.</p><p>People who meditate report feeling control over depression, anxiety, and levels of chronic pain.</p><p>Bonus: Because it's associated with a boose in empathy, meditation may improve the lives of those around us too.</p>"
+    "desc" : "<p>Meditation is the deliberate and continuous focus on one's breath, bodily sensations, and mental images.</p><p>While from the outside, it may look like &quot;just sitting still,&quot; meditation increases well-being.</p><p>People who meditate report feeling control over depression, anxiety, and levels of chronic pain.</p><p>Bonus: Because it's associated with a boose in empathy, meditation may improve the lives of those around us too.</p>"
   }, {
     "name" : "Do What Makes You Happy",
     "id"   : "do_what_makes_you_happy",
     "img"  : "dowhatmakesyouhappy.jpg",
-    "desc" : "<p>Well-being is associated with long-term health and survival: happier people live longer and better.</p><p>Stron relationships &mdash; friends, family, or romance &mdash; are essential to feeling good about life.</p><p>Optimism at work increases productivity, creativity, and engagement.</p><p>50% of happiness is geneicl 10% is circumstantial; and 40% is a result of our own intentional activity. That's a big margin. Take a risk, find what matters to your, and incorporate it into your work or life."
+    "desc" : "<p>Well-being is associated with long-term health and survival: happier people live longer and better.</p><p>Stron relationships &mdash; friends, family, or romance &mdash; are essential to feeling good about life.</p><p>Optimism at work increases productivity, creativity, and engagement.</p><p>50% of happiness is genetic 10% is circumstantial; and 40% is a result of our own intentional activity. That's a big margin. Take a risk, find what matters to your, and incorporate it into your work or life."
   }, {
     "name" : "Bring the Exam Room to Me",
     "id"   : "bring_the_exam_room_to_me",
@@ -98,7 +98,7 @@
     "name" : "Give Me My Data!",
     "id"   : "give_me_my_data",
     "img"  : "givememydata.jpg",
-    "desc" : "<p>Health habits and decisions are patially based on information.</p><p>When doctors, hospitals, and labs give us easy access to our health data, we can act more knowlegeably.</p><p>Medical charts must be redesigned, on paper and online, to be fully understood. Designers can help.</p><p>It's not enought to open the file cabinet; the health care system must exploit technologies that make getting and using our data more seamless with other tasks, like goal setting, fitness tracking, and calorie budgeting.</p>"
+    "desc" : "<p>Health habits and decisions are patially based on information.</p><p>When doctors, hospitals, and labs give us easy access to our health data, we can act more knowlegeably.</p><p>Medical charts must be redesigned, on paper and online, to be fully understood. Designers can help.</p><p>It's not enough to open the file cabinet; the health care system must exploit technologies that make getting and using our data more seamless with other tasks, like goal setting, fitness tracking, and calorie budgeting.</p>"
   }, {
     "name" : "Keep Good Records",
     "id"   : "keep_good_records",

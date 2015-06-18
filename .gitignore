@@ -46,3 +46,6 @@ node_modules
 npm-debug.log
 node_modules/*
 package.json
+.sass-cache/59cd4f402c35a801c1c92d2d18c7ea762e9cf0ab/_skeleton.scssc
+.sass-cache/59cd4f402c35a801c1c92d2d18c7ea762e9cf0ab/_style.scssc
+*.scssc
