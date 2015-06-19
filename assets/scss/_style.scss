@@ -24,6 +24,15 @@
 
 /* About
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#page-title-wrapper {
+	background-color: #fafafa;
+	margin-top: 50px;
+	#page-title {
+	    max-width: 700px;
+	    padding: 50px 20px 20px 20px;
+	}
+}
+
 #about-wrapper {
 	background-color: #fafafa;
 	margin-top: 50px;
@@ -33,12 +42,14 @@
 	}
 }
 
-#download {
-   margin: 0 auto;
-   display: block;
-   width: 250px;
-   margin-top: 60px;
-   margin-bottom: 70px;
+#download, #buy, #feedback {
+	margin-top: 60px;
+	margin-bottom: 70px;
+	a {
+	   margin: 0 auto;
+	   display: block;
+	   width: 250px;
+	}
 }
 
 /* Cards

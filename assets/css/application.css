@@ -647,6 +647,15 @@ hr {
 
 /* About
  * ΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇô */
+#page-title-wrapper {
+  background-color: #fafafa;
+  margin-top: 50px;
+}
+#page-title-wrapper #page-title {
+  max-width: 700px;
+  padding: 50px 20px 20px 20px;
+}
+
 #about-wrapper {
   background-color: #fafafa;
   margin-top: 50px;
@@ -656,12 +665,14 @@ hr {
   padding: 50px 20px 20px 20px;
 }
 
-#download {
+#download, #buy, #feedback {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+#download a, #buy a, #feedback a {
   margin: 0 auto;
   display: block;
   width: 250px;
-  margin-top: 60px;
-  margin-bottom: 70px;
 }
 
 /* Cards

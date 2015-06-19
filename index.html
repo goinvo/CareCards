@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Care Cards</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Mantras for patients to change themselves, clinicians, and the healthcare system.">
+  <meta name="author" content="Involution Studios">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  
   <link rel="stylesheet" href="./assets/css/application.css">
 
   <script src="./assets/js/mustache.js" type="text/javascript"></script>
@@ -19,39 +19,56 @@
   <section id="menu">
   </section>
   
-  <section id="about-wrapper">
+  <section id="page-title-wrapper">
     <div class="container">
-      <div class="row column" id="about">
+      <div class="row column" id="page-title">
 		  </div>
     </div>
   </section>
   
   <div class="container">
     <section class="row">
-      <a href="https://github.com/goinvo/HealthAxioms" class="button" id="download">Download</a>
+      <div id="download"></div>
     </section>
   </div>
-
+  
   <div class="container">
     <section id="cards">
-      <div class="card">
-      </div>
-      <!--<script id="cards_tpl" type="text/template">
-        {{#cards}}
-        <div class="card row">
-          <div class="card-img one-half column" id="{{id}}">
-            <img src="./assets/images/opt-cards/{{img}}" alt="{{name}}" class="scale-with-grid" />
+        <script id="cardTpl" type="text/template">
+          {{#cards}}
+          <div class="card row">
+            <div class="card-img one-half column" id="{{id}}">
+              <img src="./assets/images/opt-cards/{{img}}" alt="{{name}}" class="scale-with-grid" />
+            </div>
+            <div class="card-desc one-half column">
+              <h3>{{name}}</h3>
+              {{{desc}}}
+            </div>
           </div>
-          <div class="card-desc one-half column">
-            <h3>{{name}}</h3>
-            {{{desc}}}
-          </div>
-        </div>
-        {{/cards}}
-      </script>-->
+          {{/cards}}
+        </script>
     </section>
   </div>
 
-  <script src="./assets/js/index.js" type="text/javascript"></script>
+  <section id="about-wrapper">
+    <div class="container">
+      <div class="row column" id="about">
+      </div>
+    </div>
+  </section>
+
+  <!--<div class="container">
+    <section class="row">
+      <div id="buy"></div>
+    </section>
+  </div>-->
+
+  <div class="container">
+    <section class="row">
+      <div id="feedback"></div>
+    </section>
+  </div>
+
+<script src="./assets/js/index.js" type="text/javascript"></script>  
 </body>
 </html>
