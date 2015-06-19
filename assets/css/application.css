@@ -327,6 +327,14 @@ p {
   margin-top: 0;
 }
 
+b, strong {
+  font-family: "source_sans_probold";
+}
+
+i, em {
+  font-family: "source_sans_prolight_italic";
+}
+
 /* Links
  * ΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇô */
 a {
@@ -623,7 +631,7 @@ hr {
 }
 /* Menu
  * ΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇô */
-#menu {
+#nav {
   border-bottom: solid 1px #dedede;
   background-color: rgba(255, 255, 255, 0.8);
   position: fixed;
@@ -631,15 +639,25 @@ hr {
   z-index: 2;
   margin-top: -50px;
 }
-#menu ul {
+#nav #menu-trigger {
+  border-radius: 40px;
+  border: #3F9BAA solid 2px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 10px;
+  color: #3F9BAA;
+  padding: 3px 7px 11px 8px;
+}
+#nav #menu ul {
   margin-bottom: 0;
 }
-#menu ul li {
+#nav #menu ul li {
   display: inline-block;
   padding-left: 30px;
   margin-top: 10px;
 }
-#menu ul li a {
+#nav #menu ul li a {
   text-decoration: none;
   color: #224d7a;
   font-size: 18px;

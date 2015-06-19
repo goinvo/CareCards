@@ -3,7 +3,7 @@
     "name" : "Move More",
     "id"   : "move_more",
     "img"  : "movemore.jpg",
-    "desc" : "<p>Our ancestors walked 10,000 steps a day. People who walk or run 30 minutes at least five times a week live longer.</p><p>An increase in light activity increases fitness, so fidget and putter and do housework.</p><p>Friends who exercixe together stick with it longer. Find an exercise buddy and then... run, bicycle, swim, row, hike, ski, or walk.</p><p>Make walking a daily habit — for your commute, errands, stairs, and fitness — and get that step count going up.</p>"
+    "desc" : "<p>Our ancestors walked 10,000 steps a day. People who walk or run 30 minutes at least five times a week live longer.</p><p>An increase in light activity increases fitness, so fidget and putter and do housework.</p><p>Friends who exercixe together stick with it longer. Find an exercise buddy and then... run, bicycle, swim, row, hike, ski, or walk.</p><p>Make walking a daily habit &mdash; for your commute, errands, stairs, and fitness &mdash; and get that step count going up.</p>"
   }, {
     "name" : "Eat Food",
     "id"   : "eat_food",
@@ -163,12 +163,12 @@
     "name" : "Avoid Sunburn",
     "id"   : "avoid_sunburn",
     "img"  : "avoidsunburn.jpg",
-    "desc" : " "
+    "desc" : "<p>Your skin is the body's largest organ. It protects us, helps regulate body temperature, and permits senstation. Skin needs care through our lives, especially protection from the sun and ultraviolet (UV) radiation.</p><p>Sun's effects on the skin &mdash; wrinkles, freckling, and especially skin cancers &mdash; can be significantly lessened or prevented. Follow the ABC method, even on overcast days, when 40% of UV rays still get through clouds.</p><p>A is for avoiding the sun exposure at mid-day (10am to 4pm) when it's most intense. Play in the shade or enjoy the pool or beach under an umbrella.</p><p>B is for blocking the damaging UV rays by applying sunscreen with a sun protection factor (SPF) of 15 or higher for adults and 30 or higher for children. Reapply frequently.</p><p>C is for covering up with clothing, brimmed hats, and sunglasses with UV protection when heading outdoors for longer periods of recreation, exercise, and work.</p><p>And tanning &mdash; whether in the sun or at a salon &mdash; damages the skin over time, even if you wear sunscreen. The temporary &quot;glow&quot; of a tan masks the cumulative, long-term effects of UV exposure.</p><p>Protect the health of your skin every day of the year: avoid, block, and cover up.</p>"
   }, {
     "name" : "Who's Your Care Team?",
     "id"   : "care_team",
     "img"  : "careteam.jpg",
-    "desc" : " "
+    "desc" : "<p>You have more than a primary doctor. There’s a team of people &mdash; nurse practitioners, specialists, dieticians, and even hospitalists &mdash; who occupy themselves around your care.</p><p>As patient, you are the most important member of the team: captain. Be active. Understand the role of the different team members. Know your health goals and convey them to the team. Share complete information about your health, medications, and behaviors. Ask questions to understand recommendations and treatments.</p><p>If you have a chronic condition or impairment, the size and diversity of your team may increase. Find out: how will the different members interact?</p><p>Clear communication and engagement with your care team will give you a sense of control over your health and your life.</p>"
   },
   {
     "name" : "Control Your Cholesterol",
@@ -179,22 +179,22 @@
     "name" : "Donate Your Data to Science",
     "id"   : "donate_data",
     "img"  : "donateyourdata.jpg",
-    "desc" : " "
+    "desc" : "<p>Did you know that you can contribute to scientific and medical research by swiping just a few cells from your mouth, skin, and gut? It's a painless little gift with big impact potential.</p><p>For insights into populations, scientists are collectively mapping the DNA (genetic code) and human microbiome (bacterial communities) from the bodies of thousands of living people to discover the origins of disease and health.</p><p>If you share your biological data from your saliva, skin, mucus, and, er, solid waste, it will be pooled with data from other human donors</p><p>To find a way to participate, contact the clinical trials and research program at your nearest hospital or search online for &quot;human genome&quot; or &quotmicrobiome&quot; and &quot;research.&quot;</p><p>Science, medicine, and the future of humanity will benefit. Your individual privacy will not be compromised. Give a few cells: it doesn't hurt.</p>"
   }, {
     "name" : "Food Is Medicine",
     "id"   : "food_med",
     "img"  : "foodismedicine.jpg",
-    "desc" : " "
+    "desc" : "<p>&quot;Let food be thy medicine and medicine thy food.&quot Hippocrates, a physician in Classical Greece, recommended this in 431 BC.</p><p>Physicians and nutritionists today are returning to his wisdom. While a medication or nutritional supplement typically isolates only a few beneficial chemicals, whole foods may contain thousands of phytonutrients that can enhance well being and illness resistance.</p><p>The food-as-medicine principles are worth studying and discussing with your doctor. Start here:</p><ul><li>Eat the rainbow, or a meal with a large variety of color, to insure diverse nutrients including antioxidants.</li><li>Know how to combine foods &mdash; like apples with blueberries, or carrots with avocado &mdash; to increase the body's ability to absorb nutrients.</li><li>Reduce sugar consumption, whether in processed or &quot;natural&quot; foods, juices, or beverages, to reduce triglycerides, blood pressure, and the body's storage of fat.</li><li>Lower your dependence on meat, stick to lean cuts, and cook with methods, like broiling and poaching, that produce fewer carcinogens than high-flame methods.</li><li>Seek nutrition counseling for your body's particular needs to perform as an athlete, heal after an injury or acute illness, or improve health with chronic conditions like diabetes, asthma, and allergies.</li><li>Finally, address malnutrition in your community and help overcome hunger. For some families, getting access to enough food and the right food can be a major health boost.</li></ul>"
   }, {
     "name" : "Healthcare Is a Human Right",
     "id"   : "healthcare_human_right",
     "img"  : "humanright.jpg",
-    "desc" : " "
+    "desc" : "<p>The health of our communities depends on the health of individual members.</p><p>The Universal Declaration of Human Rights, for all people and all nations, was proclaimed by the United Nations in 1948. Included as a fundamental right is a standard living that supports the health and well-being of one’s self and family.</p><p>World health leaders have asserted that governments must generate conditions in which every person can be as healthy as possible. The right to health does not mean a right to be healthy.</p><p>Because of insufficient access to health care and medical resources, 150 million people annually suffer financial catastrophe, and 100 million people pushed below the poverty line, because of personal expenditures related to health.</p><p>You can join workers’ campaigns, at your workplace or through a union, to advocate for universal healthcare. Politically, you can join a people’s movement, like one ongoing in Vermont, attend public forums, write letters to elected officials in your state, and vote for health care access.</p><p>Even if your own health care needs are covered, look for opportunities to insure access to health care for all.</p>"
   },{
     "name" : "Meet Your Eats",
     "id"   : "meet_your_eats",
     "img"  : "meetyoureats.jpg",
-    "desc" : " "
+    "desc" : "<p>Food grown or produced locally &mdash; from lettuce to eggs to bread &mdash; are often fresher, with fewer chemicals applied for preservation or ripening, than foods produced far away or by large agrocompanies.</p><p>Make it a practice to read labels and signage not just for nutrition data and price, but for the origin and producer of your food. In your favorite grocery store, encourage the store manager to offer even more foods produced in your region. Get your neighbors to do the same.</p><p>Seek out your local farmers' market, including ones that operate in winter, and do more than shop there: talk to farmers about their growing methods and about farming issues that concern them.</p><p>Having a connection to the source of your food may induce you and your child to choose these nutritious foods again and again and even expand your exploration of regional specialties, whether vegetable, fruit, grain, fish, meat, or dairy.</p><p>Your involvement in the local and regional food chain is also good for business, insuring that small farmers, producers, and markets flourish and continue to provide the foods you value.</p>"
   }, {
     "name" : "Sit Less",
     "id"   : "sit_less",
@@ -210,5 +210,10 @@
     "id"   : "tell_them_great",
     "img"  : "tellthemitwasgreat_2.jpg",
     "desc" : " "
+  }, {
+    "name" : "Smile More",
+    "id"   : "smile_more",
+    "img"  : "smilemore.jpg",
+    "desc" : "<p>Charles Darwin, writing in 1872, suggested that &quot;even the simulation of an emotion arouses it in our minds.&quot; A century later, the facial feedback hypothesis asserted that muscle feedback from facial expressions helped regulate emotions. A change in the body’s expression of emotion might prompt genuine feeling.</p><p>Deliberately turning up the corners of your mouth &mdash; smiling &mdash; may ‘trick’ the mind and body into a better mood.</p><p>A smile also draws people to you, which is good for social interactions.</p><p>If tired or stressed, prompt yourself to smile. Your face will appear brighter and more refreshed, improving your appearance and approachability. Because of mirror neurons, people will likely repay your smile with their own, and in turn boost your mood.</p><p>Even if you’re not in the mood, think &quot;smile&quot; and let it light up your face and trigger a moment of happiness, your own and others.</p>"
   }]
 }

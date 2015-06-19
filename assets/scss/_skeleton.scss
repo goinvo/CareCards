@@ -141,6 +141,8 @@
  * are based on 10px sizing. So basically 1.5rem = 15px :) */
 $font-stack: "source_sans_prolight", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 //$font-stack-title: "source_sans_probold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$bold:"source_sans_probold";
+$italic:"source_sans_prolight_italic";
 
 html {
   font-size: 62.5%; }
@@ -178,6 +180,12 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p {
   margin-top: 0; }
+b, strong {
+  font-family: $bold;
+}
+i, em {
+  font-family: $italic;
+}
 
 /* Links
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
