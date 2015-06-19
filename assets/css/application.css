@@ -707,6 +707,10 @@ img.scale-with-grid {
   padding: 40px 40px 60px 20px;
   color: #454545;
 }
+.card .card-desc ul {
+  margin-left: 2em;
+}
+
 .card .card-img img {
   border-radius: 15px;
   -webkit-border-radius: 15px;
