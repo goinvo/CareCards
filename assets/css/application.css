@@ -632,17 +632,7 @@ hr {
   position: fixed;
   width: 100%;
   z-index: 2;
-  margin-top: -50px;
-}
-#nav #menu-trigger {
-  border-radius: 40px;
-  border: #3F9BAA solid 2px;
-  width: 20px;
-  height: 20px;
-  display: block;
-  margin: 10px;
-  color: #3F9BAA;
-  padding: 3px 7px 11px 8px;
+  margin-top: -45px;
 }
 #nav #menu ul {
   margin-bottom: 0;
@@ -662,27 +652,39 @@ hr {
  * ΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇô */
 #page-title-wrapper {
   background-color: #fafafa;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 #page-title-wrapper #page-title {
   max-width: 700px;
-  padding: 50px 0px 20px 0px;
+  padding: 30px 0px 0px 0px;
 }
 
 #about-wrapper {
   background-color: #fafafa;
   margin-top: 50px;
 }
-#about-wrapper #about {
+#about-wrapper #about, #about-wrapper #team {
   max-width: 700px;
-  padding: 50px 0px 20px 0px;
+  padding: 50px 0px 0px 0px;
+}
+#about-wrapper #team {
+  margin-left: 0px;
+}
+#about-wrapper #team .team-member p {
+  line-height: 1em;
+}
+#about-wrapper #team .team-member .role {
+  font-size: 14px;
+}
+#about-wrapper #footer {
+  margin-left: 0px;
 }
 
-#download, #buy, #feedback {
-  margin-top: 60px;
-  margin-bottom: 70px;
+#download {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-#download a, #buy a, #feedback a {
+#download a {
   margin: 0 auto;
   display: block;
   width: 250px;
@@ -724,20 +726,13 @@ img.scale-with-grid {
 /* Media Queries
  * ΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇôΓÇô */
 /* Larger than mobile */
-/* Larger than phablet (also point when grid becomes active)
+/* Larger than phablet (also point when grid becomes active)*/
 @media (min-width: 550px) {
-	.container { border: solid orange 1px;}
-	.card {
-		.card-img { padding-bottom: 20px; }
-	    .card-desc {
-	        padding: 0px 0px 60px 20px;
-	        margin-top: 0;
-	    }
-	}
-    #about {
-        padding-left: 0;
-    }
-}*/
+  #page-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
 /* Larger than tablet */
 @media (min-width: 750px) {
   .card {
@@ -751,8 +746,18 @@ img.scale-with-grid {
     vertical-align: top;
   }
 
+  #page-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
   #about {
     padding-left: 0;
+  }
+
+  #download {
+    margin-top: 60px;
+    margin-bottom: 70px;
   }
 }
 /* Larger than desktop */

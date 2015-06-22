@@ -113,7 +113,7 @@
     "name" : "Tell Them It Was Great",
     "id"   : "tell_them_great",
     "img"  : "tellthemitwasgreat_2.jpg",
-    "desc" : " "
+    "desc" : "<p>Dopamine, the feel ood chemical in our brains, is released when people hear something they like.</p><p>Positive messages are more powerful and lasting moticators than criticism. If you want to pack a punch, praise should be specific and timely.</p><p>We can also give ourselves credit and reward new health habits when personal goals are reached.</p><p>An a little boasting about positive results may inspire someone else to tackle a health or life challenge.</p>"
   }, {
     "name" : "Tell Someone",
     "id"   : "tell_someone",
@@ -169,8 +169,7 @@
     "id"   : "care_team",
     "img"  : "careteam.jpg",
     "desc" : "<p>You have more than a primary doctor. There’s a team of people &mdash; nurse practitioners, specialists, dieticians, and even hospitalists &mdash; who occupy themselves around your care.</p><p>As patient, you are the most important member of the team: captain. Be active. Understand the role of the different team members. Know your health goals and convey them to the team. Share complete information about your health, medications, and behaviors. Ask questions to understand recommendations and treatments.</p><p>If you have a chronic condition or impairment, the size and diversity of your team may increase. Find out: how will the different members interact?</p><p>Clear communication and engagement with your care team will give you a sense of control over your health and your life.</p>"
-  },
-  {
+  }, {
     "name" : "Control Your Cholesterol",
     "id"   : "control_cholesterol",
     "img"  : "controlyourcholesterol.jpg",
@@ -196,9 +195,24 @@
     "img"  : "meetyoureats.jpg",
     "desc" : "<p>Food grown or produced locally &mdash; from lettuce to eggs to bread &mdash; are often fresher, with fewer chemicals applied for preservation or ripening, than foods produced far away or by large agrocompanies.</p><p>Make it a practice to read labels and signage not just for nutrition data and price, but for the origin and producer of your food. In your favorite grocery store, encourage the store manager to offer even more foods produced in your region. Get your neighbors to do the same.</p><p>Seek out your local farmers' market, including ones that operate in winter, and do more than shop there: talk to farmers about their growing methods and about farming issues that concern them.</p><p>Having a connection to the source of your food may induce you and your child to choose these nutritious foods again and again and even expand your exploration of regional specialties, whether vegetable, fruit, grain, fish, meat, or dairy.</p><p>Your involvement in the local and regional food chain is also good for business, insuring that small farmers, producers, and markets flourish and continue to provide the foods you value.</p>"
   }, {
-    "name" : "Sit Less",
-    "id"   : "sit_less",
-    "img"  : "sitless.jpg",
+    "name" : "Get Your Flu Shot",
+    "id"   : "get_your_flu_shot",
+    "img"  : "flushot.jpg",
+    "desc" : "<p>Influenza (flu) is a highly contagious and serious respiratory disease that is caused by a virus and can lead to serious complications, like pneumonia. It's way more than a &quot;bad cold.&quot;</p><p>Everyone 6 months or older should get a flu vaccine &mdash; whether shot or nasal spray &mdash; at the start of every flu season.</p><p>And, because flu viruses are constantly mutating or changing, and different flu viruses cause illneses each year, it's critical to get a flu vaccine annually. Scientists and public health researchers track the flu and select vaccines best matched to viruses in current circulation.</p><p>While other health practices, such as frequent hand sanitizing, can help you lessen your exposure to the flu, the best way to avoid the flu is the current vaccine. It's not enough to have gotten one last year.</p><p>Getting vaccinated also protects your community, providing &quot;herd immunity,&quot; or an effect where enough people have been vaccinated that there is little opportunity for a local outbreak. By getting a flu shot, you help infants and pregnant women, for example, who cannot be immunized.</p>"
+  }, {
+    "name" : "Vaccinate Your Child",
+    "id"   : "vaccinate",
+    "img"  : "vaccinate.jpg",
+    "desc" : "<p>Vaccines produce immunity from serious diseases. They are well designed and rigorously tested in scientific studies, and they protect the health of you, your child, and the community.</p><p>Follow the recommended schedule of vaccines, which starts for babies at 6 months old, and save your child from diseases that once injured or killed thousands of children. Polio, once the most feared disease in America, has been eliminated because of vaccines.</p><p>Vaccines, especially injected ones, may cause some discomfort and even pain at the site. Your child may fuss and complain. This is normal and can be soothed.</p><p>Discomfort from the vaccine is minimal compared to the pain, trauma, and even death that the disease itself could cause. Without the measles vaccine, one of the most effective available, your child has a 90% chance of contracting it from an infected person.</p><p>Talk to your trusted pediatrician or nurse practitioner and read valid information sources to understand vaccine technology and its place in human health.</p><p>Keep your child on schedule for the series of vaccines recommended from birth through the teenage years.</p>"
+  }, {
+    "name" : "Smile More",
+    "id"   : "smile_more",
+    "img"  : "smilemore.jpg",
+    "desc" : "<p>Charles Darwin, writing in 1872, suggested that &quot;even the simulation of an emotion arouses it in our minds.&quot; A century later, the facial feedback hypothesis asserted that muscle feedback from facial expressions helped regulate emotions. A change in the body’s expression of emotion might prompt genuine feeling.</p><p>Deliberately turning up the corners of your mouth &mdash; smiling &mdash; may ‘trick’ the mind and body into a better mood.</p><p>A smile also draws people to you, which is good for social interactions.</p><p>If tired or stressed, prompt yourself to smile. Your face will appear brighter and more refreshed, improving your appearance and approachability. Because of mirror neurons, people will likely repay your smile with their own, and in turn boost your mood.</p><p>Even if you’re not in the mood, think &quot;smile&quot; and let it light up your face and trigger a moment of happiness, your own and others.</p>"
+  }, {
+    "name" : "Slow Down",
+    "id"   : "slow_down",
+    "img"  : "slowdown.jpg",
     "desc" : " "
   }, {
     "name" : "Skip the Salt",
@@ -206,9 +220,9 @@
     "img"  : "skipthesalt.jpg",
     "desc" : " "
   }, {
-    "name" : "Smile More",
-    "id"   : "smile_more",
-    "img"  : "smilemore.jpg",
-    "desc" : "<p>Charles Darwin, writing in 1872, suggested that &quot;even the simulation of an emotion arouses it in our minds.&quot; A century later, the facial feedback hypothesis asserted that muscle feedback from facial expressions helped regulate emotions. A change in the body’s expression of emotion might prompt genuine feeling.</p><p>Deliberately turning up the corners of your mouth &mdash; smiling &mdash; may ‘trick’ the mind and body into a better mood.</p><p>A smile also draws people to you, which is good for social interactions.</p><p>If tired or stressed, prompt yourself to smile. Your face will appear brighter and more refreshed, improving your appearance and approachability. Because of mirror neurons, people will likely repay your smile with their own, and in turn boost your mood.</p><p>Even if you’re not in the mood, think &quot;smile&quot; and let it light up your face and trigger a moment of happiness, your own and others.</p>"
+    "name" : "Sit Less",
+    "id"   : "sit_less",
+    "img"  : "sitless.jpg",
+    "desc" : " "
   }]
 }

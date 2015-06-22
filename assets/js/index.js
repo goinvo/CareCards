@@ -9,7 +9,7 @@ $(document).ready(function() {
           'name' : 'About',
           'url'  : './#about'
         }, {
-          'name' : 'Buy a Deck',
+          'name' : 'Buy',
           'url'  : 'http://prefundia.com/projects/view/care-cards/5723/'
         }, {
           'name' : 'Feedback',
@@ -23,6 +23,17 @@ $(document).ready(function() {
     var menu_html = Mustache.to_html(menu_tpl, menu);
     $('#menu').html(menu_html);
    
+    $('#menuTrigger').click(function(){
+      $('#menu').toggleClass('showMenu');
+      $(this).toggleClass('closeMenu');
+    });
+
+    //footer
+    var currentYear = (new Date).getFullYear();
+    $('#currentYear').text(currentYear);
+
+    
+
     //one-liner
     var pageTitle = {
       pTitle: "Care Cards",
@@ -37,9 +48,9 @@ $(document).ready(function() {
           teamMembers : [
               {name : "Juhan Sonin",    role : "Author, juhan@goinvo.com"},
               {name : "Harry Sleeper",  role : "Author"},
-              {name : "Sarah Kaiser",   role : "The fabulous artist who brought the concepts and agitprop vibe to life."},
-              {name : "Jane Kokernak",  role : "Editor and researcher"},
-              {name : "Emily Twaddell", role : "Editor and researcher"},
+              {name : "Sarah Kaiser",   role : "Artist, lead illustrator"},
+              {name : "Jane Kokernak",  role : "Editor, researcher"},
+              {name : "Emily Twaddell", role : "Editor, researcher"},
               {name : "Jennifer Patel", role : "Designer, web presence"}]
       },
       {   name : "Other Contributors",
@@ -52,14 +63,14 @@ $(document).ready(function() {
     };
     var team_tpl = '{{#teams}}<h3>{{name}}</h3>' +
               '{{#teamMembers}}<div class="team-member">{{>teamMember}}</div>{{/teamMembers}}{{/teams}}';
-    var team_partials = {teamMember: "<p>{{name}} <br/>{{role}}</p>"};
+    var team_partials = {teamMember: '<p>{{name}} <br/><span class="role">{{role}}</span></p>'};
     var team_html = Mustache.to_html(team_tpl, team, team_partials);
     $('#team').html(team_html);
 
     //about
     var about = {
       title   : "About Care Cards",
-      content : "<p>Care Cards put you in touch with habits to improve your health, life, and well-being. Our sometimes surprising, always practical axioms nudge you toward the healthiest life possible. This deck of cards will transform the way you think about yourself and what it means to be healthy.</p><p>There are 32 cards in our deck. On the front of each card is a beautiful illustration reminding you of a specific axiom that can move you in the direction of better health. On the back of each card, we give you essential insights, tips, and help in manifesting that axiom in your life.</p>"
+      content : "<p>Care Cards put you in touch with habits to improve your health, life, and well-being. Our sometimes surprising, always practical axioms nudge you toward the healthiest life possible. This deck of cards will transform the way you think about yourself and what it means to be healthy.</p><p>There are 44 cards in our deck. On the front of each card is a beautiful illustration reminding you of a specific axiom that can move you in the direction of better health. On the back of each card, we give you essential insights, tips, and help in manifesting that axiom in your life.</p>"
     };
     var about_tpl = '<h2>{{title}}</h2>' + 
                   '{{{content}}}';
@@ -91,6 +102,5 @@ $(document).ready(function() {
       $('#cards').html(html);
     });
 
-    var currentYear = (new Date).getFullYear();
-    $('#currentYear').text(currentYear);
+
 });

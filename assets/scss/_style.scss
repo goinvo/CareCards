@@ -1,29 +1,18 @@
 /* Menu
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+$button-size : 3.5rem; 
+$transition: .3s;
+
 #nav{
 	border-bottom: solid 1px #dedede;
 	background-color: rgba(255,255,255,.8);
 	position: fixed;
 	width: 100%;
 	z-index: 2;
-	margin-top: -50px;
-	#menu-trigger {
-		border-radius: 40px;
-		border: #3F9BAA solid 2px;
-		width: 20px;
-		height: 20px;
-		display: block;
-		margin: 10px;
-		color: #3F9BAA;
-		padding: 3px 7px 11px 8px;
-		
-		:hover {
-
-		}
-	}
+	margin-top: -45px;
+	
 	#menu {
 		ul {
-			//display:none;
 			margin-bottom: 0;
 			li {
 				display:inline-block;
@@ -42,25 +31,39 @@
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #page-title-wrapper {
 	background-color: #fafafa;
-	margin-top: 50px;
+	margin-top: 45px;
 	#page-title {
 	    max-width: 700px;
-	    padding: 50px 0px 20px 0px;
+	    padding: 30px 0px 0px 0px;
 	}
 }
 
 #about-wrapper {
 	background-color: #fafafa;
 	margin-top: 50px;
-	#about {
+	#about, #team {
 	    max-width: 700px;
-	    padding: 50px 0px 20px 0px;
+	    padding: 50px 0px 0px 0px;
+	}
+	#team{
+		margin-left: 0px;
+		.team-member{
+			p {
+				line-height: 1em;
+			}
+			.role {
+				font-size: 14px;
+			}
+		}
+	}
+	#footer {
+		margin-left: 0px;
 	}
 }
 
-#download, #buy, #feedback {
-	margin-top: 60px;
-	margin-bottom: 70px;
+#download {
+	margin-top: 40px;
+	margin-bottom: 40px;
 	a {
 	   margin: 0 auto;
 	   display: block;
@@ -110,20 +113,14 @@ img.scale-with-grid {
 	//.container { border: solid red 1px;}
 }
 
-/* Larger than phablet (also point when grid becomes active)
+/* Larger than phablet (also point when grid becomes active)*/
 @media (min-width: 550px) {
-	.container { border: solid orange 1px;}
-	.card {
-		.card-img { padding-bottom: 20px; }
-	    .card-desc {
-	        padding: 0px 0px 60px 20px;
-	        margin-top: 0;
-	    }
+	//.container { border: solid orange 1px;}
+	#page-title {
+		padding-top: 50px;
+	    padding-bottom: 20px;
 	}
-    #about {
-        padding-left: 0;
-    }
-}*/
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -138,9 +135,17 @@ img.scale-with-grid {
 	        }
 	    }
 	}
+	#page-title {
+		padding-top: 50px;
+	    padding-bottom: 20px;
+	}
     #about {
         padding-left: 0;
     }
+	#download {
+		margin-top: 60px;
+		margin-bottom: 70px;
+	}
 }
 
 /* Larger than desktop */
