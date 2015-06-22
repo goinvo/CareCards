@@ -116,9 +116,11 @@ img.scale-with-grid {
 /* Larger than phablet (also point when grid becomes active)*/
 @media (min-width: 550px) {
 	//.container { border: solid orange 1px;}
-	#page-title {
-		padding-top: 50px;
-	    padding-bottom: 20px;
+	#page-title-wrapper {
+		#page-title {
+			padding-top: 50px;
+		    padding-bottom: 20px;
+		}
 	}
 }
 
@@ -135,9 +137,11 @@ img.scale-with-grid {
 	        }
 	    }
 	}
-	#page-title {
-		padding-top: 50px;
-	    padding-bottom: 20px;
+	#page-title-wrapper {
+		#page-title {
+			padding-top: 50px;
+		    padding-bottom: 20px;
+		}
 	}
     #about {
         padding-left: 0;

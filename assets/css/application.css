@@ -728,7 +728,7 @@ img.scale-with-grid {
 /* Larger than mobile */
 /* Larger than phablet (also point when grid becomes active)*/
 @media (min-width: 550px) {
-  #page-title {
+  #page-title-wrapper #page-title {
     padding-top: 50px;
     padding-bottom: 20px;
   }
@@ -746,7 +746,7 @@ img.scale-with-grid {
     vertical-align: top;
   }
 
-  #page-title {
+  #page-title-wrapper #page-title {
     padding-top: 50px;
     padding-bottom: 20px;
   }
