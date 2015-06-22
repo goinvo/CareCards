@@ -4,22 +4,25 @@ $(document).ready(function() {
       menuItems: [
         {
           'name' : 'Cards',
-          'url' : './#cards'
-        },
-        {
+          'url'  : './#cards'
+        }, {
           'name' : 'About',
-          'url' : './#about'
-        },
-        {
+          'url'  : './#about'
+        }, {
+          'name' : 'Buy a Deck',
+          'url'  : 'http://prefundia.com/projects/view/care-cards/5723/'
+        }, {
           'name' : 'Feedback',
-          'url' : 'mailto:juhan@goinvo.com'
+          'url'  : 'mailto:juhan@goinvo.com'
         } 
       ]
     };
-    var menu_tpl = '<ul>{{#menuItems}}<li><a href="{{url}}">{{name}}</a></li>{{/menuItems}}</ul>';
+    var menu_tpl = '<ul>{{#menuItems}}' + 
+                      '<li><a href="{{url}}">{{name}}</a></li>' + 
+                    '{{/menuItems}}</ul>';
     var menu_html = Mustache.to_html(menu_tpl, menu);
     $('#menu').html(menu_html);
-
+   
     //one-liner
     var pageTitle = {
       pTitle: "Care Cards",
@@ -29,31 +32,48 @@ $(document).ready(function() {
     var pT_html = Mustache.to_html(pageTitle_tpl, pageTitle);
     $('#page-title').html(pT_html);
 
+    team = { teams: [
+      {   name : "Team",
+          teamMembers : [
+              {name : "Juhan Sonin",    role : "Author, juhan@goinvo.com"},
+              {name : "Harry Sleeper",  role : "Author"},
+              {name : "Sarah Kaiser",   role : "The fabulous artist who brought the concepts and agitprop vibe to life."},
+              {name : "Jane Kokernak",  role : "Editor and researcher"},
+              {name : "Emily Twaddell", role : "Editor and researcher"},
+              {name : "Jennifer Patel", role : "Designer, web presence"}]
+      },
+      {   name : "Other Contributors",
+          teamMembers : [
+              {name : "Beth Herlin",     role : "Designer, researcher"},
+              {name : "Kelly Mansfield", role : "illustrator"},
+              {name : "Dirk Knemeyer",   role : ""},
+              {name : "Eric Benoit",     role : ""}]
+      }]
+    };
+    var team_tpl = '{{#teams}}<h3>{{name}}</h3>' +
+              '{{#teamMembers}}<div class="team-member">{{>teamMember}}</div>{{/teamMembers}}{{/teams}}';
+    var team_partials = {teamMember: "<p>{{name}} <br/>{{role}}</p>"};
+    var team_html = Mustache.to_html(team_tpl, team, team_partials);
+    $('#team').html(team_html);
+
     //about
     var about = {
-      title: "About Care Cards",
-      content: "<p>Care Cards put you in touch with habits to improve your health, life, and well-being. Our sometimes surprising, always practical axioms nudge you toward the healthiest life possible. This deck of cards will transform the way you think about yourself and what it means to be healthy.</p><p>There are 32 cards in our deck. On the front of each card is a beautiful illustration reminding you of a specific axiom that can move you in the direction of better health. On the back of each card, we give you essential insights, tips, and help in manifesting that axiom in your life.</p>"
+      title   : "About Care Cards",
+      content : "<p>Care Cards put you in touch with habits to improve your health, life, and well-being. Our sometimes surprising, always practical axioms nudge you toward the healthiest life possible. This deck of cards will transform the way you think about yourself and what it means to be healthy.</p><p>There are 32 cards in our deck. On the front of each card is a beautiful illustration reminding you of a specific axiom that can move you in the direction of better health. On the back of each card, we give you essential insights, tips, and help in manifesting that axiom in your life.</p>"
     };
-    var about_tpl = "<h1>{{title}}</h1>{{{content}}}";
+    var about_tpl = '<h2>{{title}}</h2>' + 
+                  '{{{content}}}';
     var about_html = Mustache.to_html(about_tpl, about);
     $('#about').html(about_html);
 
     //download
     var download = {
       label : "Download on GitHub",
-      url : "https://github.com/goinvo/HealthAxioms"
+      url   : "https://github.com/goinvo/HealthAxioms"
     }
     var download_tpl = '<a href="{{url}}" class="button">{{label}}</a>';
     var dl_html = Mustache.to_html(download_tpl, download);
     $('#download').html(dl_html);
-    //buy
-    var buy = {
-      label : "Buy a Deck",
-      url : "https://github.com/goinvo/HealthAxioms"
-    }
-    var buy_tpl = '<a href="{{url}}" class="button">{{label}}</a>';
-    var buy_html = Mustache.to_html(buy_tpl, buy);
-    $('#buy').html(buy_html);
 
     //feedback
      var feedback = {
@@ -70,4 +90,7 @@ $(document).ready(function() {
       var html = Mustache.to_html(card_tpl, data);
       $('#cards').html(html);
     });
+
+    var currentYear = (new Date).getFullYear();
+    $('#currentYear').text(currentYear);
 });

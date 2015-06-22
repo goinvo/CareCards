@@ -110,10 +110,10 @@
     "img"  : "doctorinyourpocket.jpg",
     "desc" : "<p>Wearable gadgets and smartphone apps track data, vital signs, and health habits like sleep or nutrition.</p><p>Smartphones also help us search the Web for health infor and subscribe to public-health messaging.</p><p>In the future, we'll use personal technologies even more to monitor micro changes in the body and fine tune medication, diet, exercise, and doctor visits. Scientists will use patient generated data for population studies on disease and treatment.</p><p>today, a wearable device can help you understand health issues, see patterns, and take action."
   }, {
-    "name" : "Bang the Drum",
-    "id"   : "bang_the_drum",
-    "img"  : "bangthedrum.jpg",
-    "desc" : "<p>Dopamine, the feel ood chemical in our brains, is released when people hear something they like.</p><p>Positive messages are more powerful and lasting moticators than criticism. If you want to pack a punch, praise should be specific and timely.</p><p>We can also give ourselves credit and reward new health habits when personal goals are reached.</p><p>An a little boasting about positive results may inspire someone else to tackle a health or life challenge.</p>"
+    "name" : "Tell Them It Was Great",
+    "id"   : "tell_them_great",
+    "img"  : "tellthemitwasgreat_2.jpg",
+    "desc" : " "
   }, {
     "name" : "Tell Someone",
     "id"   : "tell_someone",
@@ -204,11 +204,6 @@
     "name" : "Skip the Salt",
     "id"   : "skip_salt",
     "img"  : "skipthesalt.jpg",
-    "desc" : " "
-  }, {
-    "name" : "Tell Them It Was Great",
-    "id"   : "tell_them_great",
-    "img"  : "tellthemitwasgreat_2.jpg",
     "desc" : " "
   }, {
     "name" : "Smile More",

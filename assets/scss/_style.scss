@@ -45,7 +45,7 @@
 	margin-top: 50px;
 	#page-title {
 	    max-width: 700px;
-	    padding: 50px 20px 20px 20px;
+	    padding: 50px 0px 20px 0px;
 	}
 }
 
@@ -54,7 +54,7 @@
 	margin-top: 50px;
 	#about {
 	    max-width: 700px;
-	    padding: 50px 20px 20px 20px;
+	    padding: 50px 0px 20px 0px;
 	}
 }
 
@@ -78,11 +78,8 @@ img.scale-with-grid {
 .card {
 	margin: 10px 0 10px 0;
 	.card-desc {
-		padding: 40px 40px 60px 20px;
+		padding: 40px 0px 60px 0px;
 		color: #454545;
-		ul {
-			margin-left: 2em;
-		}
 	}
 	.card-img {
 		img {
@@ -90,14 +87,19 @@ img.scale-with-grid {
 			-webkit-border-radius: 15px; /* Saf3+, Chrome */
 			/*-moz-border-radius: 30px;  Disabled for FF1+ */
 			overflow:hidden;
-			-webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.3);
-	    	box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+	    	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
     	}
 	}
 }
-.stick {
-    position:fixed;
-    top:0px;
+
+/* Footer
+ * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#footer {
+	font-size: 14px;
+	border-top: solid 1px #dedede;
+	margin-top: 40px;
+	padding-top: 20px
 }
 
 /* Media Queries
@@ -105,15 +107,35 @@ img.scale-with-grid {
 //.container { border: solid purple 1px;}
 /* Larger than mobile */
 @media (min-width: 400px) {
-	//.container { border: solid red 1px;}
+	.container { border: solid red 1px;}
 }
 
-/* Larger than phablet (also point when grid becomes active) */
+/* Larger than phablet (also point when grid becomes active)
 @media (min-width: 550px) {
-	//.container { border: solid orange 1px;}
+	.container { border: solid orange 1px;}
 	.card {
+		.card-img { padding-bottom: 20px; }
 	    .card-desc {
-	        padding: 0 40px 60px 0;
+	        padding: 0px 0px 60px 20px;
+	        margin-top: 0;
+	    }
+	}
+    #about {
+        padding-left: 0;
+    }
+}*/
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.container { border: solid yellow 1px;}
+	.card{ 
+		margin-bottom: 50px;
+		.card-desc {
+	        padding: 0 40px 60px 20px;
+	        h3{
+	        	margin-top: 0;
+	        	vertical-align: top;
+	        }
 	    }
 	}
     #about {
@@ -121,23 +143,12 @@ img.scale-with-grid {
     }
 }
 
-/* Larger than tablet */
-@media (min-width: 750px) {
-	//.container { border: solid yellow 1px;}
-	.card-desc {
-        padding: 0 40px 60px 0;
-    }
-    #about {
-        padding-left: 0;
-    }
-}
-
 /* Larger than desktop */
 @media (min-width: 1000px) {
-	//.container { border: solid green 1px;}
+	.container { border: solid green 1px;}
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-	//.container { border: solid blue 1px;}
+	.container { border: solid blue 1px;}
 }
