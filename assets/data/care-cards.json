@@ -210,14 +210,14 @@
     "img"  : "smilemore.jpg",
     "desc" : "<p>Charles Darwin, writing in 1872, suggested that &quot;even the simulation of an emotion arouses it in our minds.&quot; A century later, the facial feedback hypothesis asserted that muscle feedback from facial expressions helped regulate emotions. A change in the body’s expression of emotion might prompt genuine feeling.</p><p>Deliberately turning up the corners of your mouth &mdash; smiling &mdash; may ‘trick’ the mind and body into a better mood.</p><p>A smile also draws people to you, which is good for social interactions.</p><p>If tired or stressed, prompt yourself to smile. Your face will appear brighter and more refreshed, improving your appearance and approachability. Because of mirror neurons, people will likely repay your smile with their own, and in turn boost your mood.</p><p>Even if you’re not in the mood, think &quot;smile&quot; and let it light up your face and trigger a moment of happiness, your own and others.</p>"
   }, {
-    "name" : "Slow Down",
-    "id"   : "slow_down",
-    "img"  : "slowdown.jpg",
-    "desc" : " "
-  }, {
     "name" : "Skip the Salt",
     "id"   : "skip_salt",
     "img"  : "skipthesalt.jpg",
+    "desc" : "<p>When you consume more salt than your body needs, sodium builds up in your blood. This causes your body to hold water, increasing your blood volume and pressure. Chronic high blood pressure can lead to heart disease, stroke, kidney disease, and congestive heart failure.</p><p>The recommended limit for sodium is less than 2,300 mg/day and 1,500 mg/day if you are over age 51. Certain genetically based characteristics can make some people especially sensitive to sodium, as well.</p><p>One teaspoon of table salt contains 2,325 mg of sodium! To avoid hidden salt in your diet, try these tips: Buy fresh ingredients without added salt. Avoid canned, frozen, and other processed foods. Avoid spice blends, dressings, and sauces with added salt. Look for &quot;low sodium&quot; or &quot;no salt added&quot; products. Learn to read nutrition information labels on packaged foods.</p>"
+  }, {
+    "name" : "Slow Down",
+    "id"   : "slow_down",
+    "img"  : "slowdown.jpg",
     "desc" : " "
   }, {
     "name" : "Sit Less",

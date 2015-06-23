@@ -1,5 +1,5 @@
 /* Menu
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 $button-size : 3.5rem; 
 $transition: .3s;
 
@@ -28,7 +28,7 @@ $transition: .3s;
 	}
 }
 /* About
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 #page-title-wrapper {
 	background-color: #fafafa;
 	margin-top: 45px;
@@ -74,7 +74,7 @@ $transition: .3s;
 
 
 /* Cards
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 img.scale-with-grid {
 		max-width: 100%;
 		height: auto;
@@ -98,7 +98,7 @@ img.scale-with-grid {
 					width: 5px;
 					height: 5px;
 					border-radius: 5px;
-					background: #989898;
+					background: #878787;
 				}
 			}
 		}
@@ -120,9 +120,9 @@ img.scale-with-grid {
 	height: 40px;
 	float: right;
 	opacity: 60%;
-	margin-top: -45px;
+	/*margin-top: -45px;
 	background: rgba(255,255,255,.5);
-	z-index: 4;
+	z-index: 4;*/
 	.social-button {
 		display: inline-block;
 		border: none;
@@ -144,7 +144,7 @@ img.scale-with-grid {
 }
 
 /* Footer
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 #footer {
 	font-size: 14px;
 	border-top: solid 1px #dedede;
@@ -153,7 +153,7 @@ img.scale-with-grid {
 }
 
 /* Media Queries
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 //.container { border: solid purple 1px;}
 /* Larger than mobile */
 @media (min-width: 400px) {

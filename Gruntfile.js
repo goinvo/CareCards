@@ -26,10 +26,10 @@ module.exports = function(grunt) {
 		    },
 		    build: {
 		        options: {
-		            style: 'collapsed'
+		            style: 'compressed'
 		        },
 		        files: {
-		            'assets/css/application.css': 'assets/scss/application.scss'
+		            'assets/css/build/application.css': 'assets/scss/application.scss'
 		        }
 		    } 
 		},
@@ -43,13 +43,23 @@ module.exports = function(grunt) {
         }
       }, concat: {
 			options: {
-				separator: ';',
+				separator: ';\n',
 			},
 			build: {
-				src: ['assets/js/index.js', 'assets/js/mustache.js', 'assets/js/jquery-1.11.3.min.js'],
-				dest: 'assets/js/build.js'
+				src: ['assets/js/mustache.js', 'assets/js/jquery-1.11.3.min.js', 'assets/js/index.js'],
+				dest: 'assets/js/application.js'
 			}
-		}
+		}, uglify: {
+		    options: {
+		      mangle: false
+		    },
+		    my_target: {
+		      files: {
+		        'assets/js/application.min.js': ['assets/js/application.js']
+		      }
+		    }
+		  }
+
     });
 
     // Load dependencies
@@ -57,8 +67,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
 	grunt.registerTask('default', [ 'sass:dev', 'connect', 'watch' ]);
-	grunt.registerTask('build', [ 'sass:build', 'concat:build' ]);
+	grunt.registerTask('build', [ 'sass:build', 'concat:build', 'uglify' ]);
 };
 

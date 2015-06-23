@@ -7,7 +7,7 @@
 * 12/29/2014 */
 
 /* Table of contents
- * –––––––––––––––––––––––––––––––––––––––––––––––––
+ * =================================================
  * - Resets
  * - Grid
  * - Base Styles
@@ -47,7 +47,7 @@
     border-spacing: 0; }
 
 /* Grid
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 .container {
   position: relative;
   width: 80%;
@@ -131,7 +131,7 @@
 }
 
 /* Base Styles
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 /* NOTE: html is set to 62.5% so that all the REM measurements throughout Skeleton
  * are based on 10px sizing. So basically 1.5rem = 15px :) */
 $font-stack: "source_sans_prolight", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -148,7 +148,7 @@ body {
   color: #222; }
 
 /* Typography
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -184,14 +184,14 @@ i, em {
 }
 
 /* Links
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
 
 /* Buttons
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 .button,
 button,
 input[type="submit"],
@@ -251,7 +251,7 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
 
 /* Forms
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -312,7 +312,8 @@ label > .label-body {
   font-weight: normal; }
 
 /* Lists
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
+//list style outside by default for good typographic practices
 ul {
   list-style: disc outside; }
 ol {
@@ -330,7 +331,7 @@ li {
   margin-bottom: 1rem; }
 
 /* Code
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
@@ -345,7 +346,7 @@ pre > code {
   white-space: pre; }
 
 /* Tables
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 th,
 td {
   padding: 12px 15px;
@@ -359,7 +360,7 @@ td:last-child {
   padding-right: 0; }
 
 /* Spacing
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 button,
 .button {
   margin-bottom: 1rem; }
@@ -380,7 +381,7 @@ form {
   margin-bottom: 2.5rem; }
 
 /* Misc
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
@@ -388,7 +389,7 @@ hr {
   border-top: 1px solid #E1E1E1; }
 
 /* Clearing
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ * ================================================== */
 /* Self Clearing Goodness */
 .container:after,
 .row:after,
