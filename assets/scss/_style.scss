@@ -125,22 +125,28 @@ img.scale-with-grid {
 	z-index: 4;*/
 	.social-button {
 		display: inline-block;
-		border: none;
-		height:36px;
-		width: 36px;
-		padding: 0;
-		margin-left: 10px;
+		border: #4791BA 2px solid;
+		padding: 8px;
+		border-radius: 36px;
+		#twitter, #facebook {
+			height:18px;
+			width: 18px;
+			padding: 0;
+		}
+		#twitter {
+			background: url("../images/twitter.svg") no-repeat;
+			background-size: contain;
+			background-position: right 50% bottom 50%;
+			
+		}
+		#facebook{
+			background: url("../images/facebook.svg") no-repeat;
+			background-size: contain;
+			background-position: right 50% bottom 50%;
+
+		}
 	}
-	#twitter {
-		background: url("../images/twitter.svg") no-repeat;
-		background-size: contain;
-		background-position: right 50% bottom 50%;
-	}
-	#facebook{
-		background: url("../images/facebook.svg") no-repeat;
-		background-size: contain;
-		background-position: right 50% bottom 50%;
-	}
+	
 }
 
 /* Footer
