@@ -23,6 +23,14 @@ module.exports = function(grunt) {
 		        files: {
 		            'assets/css/application.css': 'assets/scss/application.scss'
 		        }
+		    },
+		    build: {
+		        options: {
+		            style: 'collapsed'
+		        },
+		        files: {
+		            'assets/css/application.css': 'assets/scss/application.scss'
+		        }
 		    } 
 		},
       connect: {
@@ -33,14 +41,24 @@ module.exports = function(grunt) {
             livereload: true
           }
         }
-      }
+      }, concat: {
+			options: {
+				separator: ';',
+			},
+			build: {
+				src: ['assets/js/index.js', 'assets/js/mustache.js', 'assets/js/jquery-1.11.3.min.js'],
+				dest: 'assets/js/build.js'
+			}
+		}
     });
 
     // Load dependencies
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-concat');
 
-	grunt.registerTask('default', [ 'connect', 'watch', 'sass']);
+	grunt.registerTask('default', [ 'sass:dev', 'connect', 'watch' ]);
+	grunt.registerTask('build', [ 'sass:build', 'concat:build' ]);
 };
 

@@ -38,6 +38,16 @@ $transition: .3s;
 	}
 }
 
+#download {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	a {
+	   margin: 0 auto;
+	   display: block;
+	   width: 250px;
+	}
+}
+
 #about-wrapper {
 	background-color: #fafafa;
 	margin-top: 50px;
@@ -61,15 +71,7 @@ $transition: .3s;
 	}
 }
 
-#download {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	a {
-	   margin: 0 auto;
-	   display: block;
-	   width: 250px;
-	}
-}
+
 
 /* Cards
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -83,16 +85,61 @@ img.scale-with-grid {
 	.card-desc {
 		padding: 40px 0px 60px 0px;
 		color: #454545;
+		ul {
+			list-style: none;
+			li {
+				position: relative;
+				//make smaller lighter bullets
+				&:before {
+					content: "";
+					position: absolute;
+					left: -15px;
+					top: calc( 1.3rem - 2.5px );
+					width: 5px;
+					height: 5px;
+					border-radius: 5px;
+					background: #989898;
+				}
+			}
+		}
 	}
 	.card-img {
 		img {
 			border-radius: 15px;
-			-webkit-border-radius: 15px; /* Saf3+, Chrome */
-			/*-moz-border-radius: 30px;  Disabled for FF1+ */
+			-webkit-border-radius: 15px;
 			overflow:hidden;
 			-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
 	    	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+	    	z-index: 2;
     	}
+	}
+}
+
+.social{
+	display: block;
+	height: 40px;
+	float: right;
+	opacity: 60%;
+	margin-top: -45px;
+	background: rgba(255,255,255,.5);
+	z-index: 4;
+	.social-button {
+		display: inline-block;
+		border: none;
+		height:36px;
+		width: 36px;
+		padding: 0;
+		margin-left: 10px;
+	}
+	#twitter {
+		background: url("../images/twitter.svg") no-repeat;
+		background-size: contain;
+		background-position: right 50% bottom 50%;
+	}
+	#facebook{
+		background: url("../images/facebook.svg") no-repeat;
+		background-size: contain;
+		background-position: right 50% bottom 50%;
 	}
 }
 
