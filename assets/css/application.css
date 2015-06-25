@@ -737,23 +737,44 @@ img.scale-with-grid {
   background: rgba(255,255,255,.5);
   z-index: 4;*/
 }
-.social .social-button {
+.social ul {
+  list-style: none;
+  margin-top: 8px;
+}
+.social ul li {
+  display: inline-block;
+  padding-left: 8px;
+}
+.social ul li .social-button {
   display: inline-block;
   border: #4791BA 2px solid;
   padding: 8px;
   border-radius: 36px;
 }
-.social .social-button #twitter, .social .social-button #facebook {
+.social ul li .social-button:hover {
+  background-color: #4791BA;
+}
+.social ul li .social-button:hover #twitter {
+  background: url("../images/twitter-white.svg") no-repeat;
+  background-size: contain;
+  background-position: right 50% bottom 50%;
+}
+.social ul li .social-button:hover #facebook {
+  background: url("../images/facebook-white.svg") no-repeat;
+  background-size: contain;
+  background-position: right 50% bottom 50%;
+}
+.social ul li .social-button #twitter, .social ul li .social-button #facebook {
   height: 18px;
   width: 18px;
   padding: 0;
 }
-.social .social-button #twitter {
+.social ul li .social-button #twitter {
   background: url("../images/twitter.svg") no-repeat;
   background-size: contain;
   background-position: right 50% bottom 50%;
 }
-.social .social-button #facebook {
+.social ul li .social-button #facebook {
   background: url("../images/facebook.svg") no-repeat;
   background-size: contain;
   background-position: right 50% bottom 50%;

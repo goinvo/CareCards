@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Care Cards</title>
-  <meta name="description" content="Mantras for patients to change themselves, clinicians, and the healthcare system.">
+  <meta name="title" property="og:title" content="Care Cards">
+  <meta name="description" property="og:description" content="Mantras for patients to change themselves, clinicians, and the healthcare system.">
+  <meta property="og:image" content="http://healthaxioms.com/assets/images/opt-cards/movemore.jpg">
   <meta name="author" content="Involution Studios">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -40,8 +42,10 @@
             <div class="card-img one-half column" id="{{id}}">
               <img src="./assets/images/opt-cards/{{img}}" alt="{{name}}" class="scale-with-grid" />
               <div class="social">
-                <a href="https://twitter.com/share?url=http://healthaxioms.com/#{{id}}&text={{name}}&via=goinvo" target="_blank" class="button social-button"  alt="Tweet this"><div id="twitter"></div></a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=http://healthaxioms.com/#{{id}}"target="_blank" class="button social-button" alt="Share on Facebook"><div id="facebook"></div></a>
+                <ul>
+                  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhealthaxioms.com%2F&text={{urlName}}%2C%20a%20Care%20Card%20to%20help%20improve%20your%20health:%20http%3A%2F%2Fhealthaxioms.com%2F%23{{id}}&via=goinvo" target="_blank" class="button social-button" title="Tweet this"><div id="twitter"></div></a></li>
+                  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhealthaxioms.com%2F%23{{id}}&t={{urlName}}%2C%20a%20Care%20Card%20to%20help%20improve%20your%20health" target="_blank" class="button social-button" title="Share on Facebook"><div id="facebook"></div></a></li>
+                </ul>
               </div>
             </div>
             <div class="card-desc one-half column">
@@ -50,7 +54,7 @@
             </div>
           </div>
           {{/cards}}
-        </script>
+        </script>http://healthaxioms.com/&t=Care Cards
     </section>
   </div>
 
