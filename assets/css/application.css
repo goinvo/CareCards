@@ -638,7 +638,7 @@ hr {
 }
 #nav #menu ul li {
   display: inline-block;
-  padding-left: 30px;
+  padding-right: 30px;
   margin-top: 10px;
 }
 #nav #menu ul li a {

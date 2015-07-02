@@ -17,9 +17,9 @@ $(document).ready(function() {
         } 
       ]
     };
-    var menu_tpl = '<ul>{{#menuItems}}' + 
+    var menu_tpl = '<div class="container"><ul>{{#menuItems}}' + 
                       '<li><a href="{{url}}">{{name}}</a></li>' + 
-                    '{{/menuItems}}</ul>';
+                    '{{/menuItems}}</ul></div>';
     var menu_html = Mustache.to_html(menu_tpl, menu);
     $('#menu').html(menu_html);
    
