@@ -18,6 +18,9 @@ $transition: .3s;
 				display:inline-block;
 				padding-right: 30px;
 				margin-top: 10px;
+				&last-child: {
+					padding-right 0px;
+				}
 				a {
 					text-decoration: none;
 					color: #224d7a;
