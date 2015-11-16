@@ -659,7 +659,7 @@ img.scale-with-grid {
  * ================================================== */
 .pack {
   width: 100%;
-  padding: 30px 0 50px 0; }
+  padding: 50px 0; }
   .pack .current-image {
     float: left;
     border-radius: 15px;
