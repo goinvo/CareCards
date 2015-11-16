@@ -175,7 +175,7 @@ img.scale-with-grid {
  * ================================================== */
 .pack {
 	width: 100%;
-	padding: 30px 0;
+	padding: 30px 0 50px 0;
 	
 	.pack-info,
 	.current-image-wrap {
@@ -308,6 +308,16 @@ img.scale-with-grid {
 /* Larger than desktop */
 @media (min-width: 1000px) and (max-width: 1199px) {
 	//.container { border: solid green 1px;}
+	.card{ 
+		margin-bottom: 50px;
+		.card-desc {
+	        padding: 0 40px 60px 20px;
+	        h3{
+	        	margin-top: 0;
+	        	vertical-align: top;
+	        }
+	    }
+	}
 	.pack-info,
 	.current-image-wrap {
 		display: inline-block;
@@ -328,6 +338,16 @@ img.scale-with-grid {
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 	//.container { border: solid blue 1px;}
+	.card{ 
+		margin-bottom: 50px;
+		.card-desc {
+	        padding: 0 40px 60px 20px;
+	        h3{
+	        	margin-top: 0;
+	        	vertical-align: top;
+	        }
+	    }
+	}
 	.pack-info,
 	.current-image-wrap {
 		display: inline-block;

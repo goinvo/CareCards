@@ -9,6 +9,30 @@
 			"pack-group-image4": "03_DrinkWater.jpg",
 			"pack-group-image5": "19_KnowYourNumbers.jpg",
 			"pack-group-image6": "10_Quit-Smoking.jpg"
+		},
+		{
+			"name": "Blood Pressure for High Blood Pressure",
+			"current-image": "05_GetMoreSleep.jpg",
+			"pack-group-image1": "05_GetMoreSleep.jpg",
+			"pack-group-image2": "03_DrinkWater.jpg",
+			"pack-group-image3": "02_EatFood.jpg",
+			"pack-group-image4": "10_Quit-Smoking.jpg",
+			"pack-group-image5": "15_MeditateAndPropser.jpg",
+			"pack-group-image6": "01_MoveMore.jpg",
+			"pack-group-image7": "11_TakeYourMedsOnTime.jpg",
+			"pack-group-image8": "36_SkipTheSalt.jpg"
+		},
+		{
+			"name": "Cholesterol",
+			"current-image": "11_TakeYourMedsOnTime.jpg",
+			"pack-group-image1": "11_TakeYourMedsOnTime.jpg",
+			"pack-group-image2": "01_MoveMore.jpg",
+			"pack-group-image3": "02_EatFood.jpg",
+			"pack-group-image4": "03_DrinkWater.jpg",
+			"pack-group-image5": "15_MeditateAndPropser.jpg",
+			"pack-group-image6": "19_KnowYourNumbers.jpg",
+			"pack-group-image7": "35_SitLess.jpg",
+			"pack-group-image8": "10_Quit-Smoking.jpg"
 		}
 	]
 }
