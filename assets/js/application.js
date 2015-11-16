@@ -624,13 +624,16 @@ $(document).ready(function() {
       menuItems: [
         {
           'name' : 'Cards',
-          'url'  : './#cards'
+          'url'  : '/#cards'
         }, {
           'name' : 'About',
-          'url'  : './#about'
+          'url'  : '/#about'
         }, {
+          'name' : 'Pack',
+          'url'  : '/pages/pack.html'
+        },{
           'name' : 'Buy',
-          'url'  : 'http://prefundia.com/projects/view/care-cards/5723/'
+          'url'  : '' //http://prefundia.com/projects/view/care-cards/5723/
         }, {
           'name' : 'Feedback',
           'url'  : 'mailto:juhan@goinvo.com'
