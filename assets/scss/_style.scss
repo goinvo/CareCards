@@ -18,8 +18,8 @@ $transition: .3s;
 				display:inline-block;
 				padding-right: 30px;
 				margin-top: 10px;
-				&last-child: {
-					padding-right 0px;
+				&:last-child {
+					padding-right: 0px;
 				}
 				a {
 					text-decoration: none;
@@ -37,7 +37,7 @@ $transition: .3s;
 	margin-top: 45px;
 	#page-title {
 	    max-width: 700px;
-	    padding: 30px 0px 0px 0px;
+	    padding: 60px 0px 0px 0px;
 	}
 }
 
@@ -170,6 +170,45 @@ img.scale-with-grid {
 	}
 }
 
+
+/* Pack
+ * ================================================== */
+.pack {
+	width: 100%;
+	padding: 30px 0;
+	
+	.pack-info,
+	.current-image-wrap {
+		//display: inline-block;
+		// width: 50%;
+		// float: left;
+	}
+	.current-image {
+		float: left;
+	}
+	.pack-images-group-line {
+		width: 100%;
+		img {
+			margin-bottom: 10px;
+		}
+	}
+	.social {
+		float: none;
+		li {
+			padding-left: 0;
+		}
+	}
+	.clearfix {
+		content: "."; 
+	    visibility: hidden; 
+	    display: block; 
+	    height: 0; 
+	    clear: both;
+	}
+}
+
+
+
 /* Footer
  * ================================================== */
 #footer {
@@ -183,12 +222,22 @@ img.scale-with-grid {
  * ================================================== */
 //.container { border: solid purple 1px;}
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (max-width: 549px) {
 	//.container { border: solid red 1px;}
+	.current-image-wrap {
+		display: none;
+	}
+	.pack-images-group-line {
+		img {
+			width: 48px;
+			margin-right: 3px;
+			float: left;
+		}
+	}
 }
 
 /* Larger than phablet (also point when grid becomes active)*/
-@media (min-width: 550px) {
+@media (min-width: 550px) and (max-width: 749px) {
 	//.container { border: solid orange 1px;}
 	#page-title-wrapper {
 		#page-title {
@@ -196,10 +245,20 @@ img.scale-with-grid {
 		    padding-bottom: 20px;
 		}
 	}
+	.current-image-wrap {
+		display: none;
+	}
+	.pack-images-group-line {
+		img {
+			width: 80px;
+			margin-right: 3px;
+		}
+	}
+
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 750px) and (max-width: 999px) {
 	//.container { border: solid yellow 1px;}
 	.card{ 
 		margin-bottom: 50px;
@@ -224,14 +283,60 @@ img.scale-with-grid {
 		margin-top: 60px;
 		margin-bottom: 70px;
 	}
+	.pack-info,
+	.current-image-wrap {
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+
+	.current-image {
+		height: 350px;
+	}
+	.pack-images-group-line {
+		img {
+			width: 48px;
+			margin-right: 4px;
+		}
+	}
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
 	//.container { border: solid green 1px;}
+	.pack-info,
+	.current-image-wrap {
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+	.current-image {
+		height: 480px;
+	}
+	.pack-images-group-line {
+		img {
+			width: 68px;
+			margin-right: 4px;
+		}
+	}
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 	//.container { border: solid blue 1px;}
+	.pack-info,
+	.current-image-wrap {
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+	.current-image {
+		height: 510px;
+	}
+	.pack-images-group-line {
+		img {
+			width: 78px;
+			margin-right: 8px;
+		}
+	}
 }
