@@ -625,13 +625,13 @@ $(document).ready(function() {
         {
           'name' : 'Cards',
           'url'  : '/#cards'
+        },{
+          'name' : 'Packs',
+          'url'  : '/pages/packs.html'
         }, {
           'name' : 'About',
           'url'  : '/#about'
         }, {
-          'name' : 'Pack',
-          'url'  : '/pages/pack.html'
-        },{
           'name' : 'Buy',
           'url'  : '' //http://prefundia.com/projects/view/care-cards/5723/
         }, {
@@ -679,5 +679,12 @@ $(document).ready(function() {
       var card_tpl = $('#cardTpl').html();
       var html = Mustache.to_html(card_tpl, data);
       $('#cards').html(html);
+    });
+
+    //packs
+    $.getJSON('../../assets/data/packs.json', function(data) {
+      var packsTpl = $('#packsTpl').html();
+      var html = Mustache.to_html(packsTpl, data);
+      $('#packs').html(html);
     });
 });

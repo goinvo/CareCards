@@ -29,27 +29,29 @@
   </section>
   
   <div class="container">
-    <section class="row">
+    <section class="row" id="packs">
+      <script id="packsTpl" type="text/template">
+      {{#packs}}
       <div class="pack">
         <div class="current-image-wrap">
-          <img src="../graphics/fronts/02_EatFood.jpg" class="current-image">
+          <img src="../graphics/fronts/{{current-image}}" class="current-image">
         </div>
         <div class="pack-info">
-          <h2>Pack Name</h2>
+          <h2>{{name}}</h2>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
           <div class="pack-images-group-line pack-images-group-line-one">
-            <img src="../graphics/fronts/02_EatFood.jpg">
-            <img src="../graphics/fronts/11_TakeYourMedsOnTime.jpg">
-            <img src="../graphics/fronts/02_EatFood.jpg">
-            <img src="../graphics/fronts/11_TakeYourMedsOnTime.jpg">
-            <img src="../graphics/fronts/11_TakeYourMedsOnTime.jpg">
+            <img src="../graphics/fronts/{{pack-group-image1}}">
+            <img src="../graphics/fronts/{{pack-group-image2}}">
+            <img src="../graphics/fronts/{{pack-group-image3}}">
+            <img src="../graphics/fronts/{{pack-group-image4}}">
+            <img src="../graphics/fronts/{{pack-group-image5}}">
           </div>
           <div class="pack-images-group-line pack-images-group-line-two">
-            <img src="../graphics/fronts/02_EatFood.jpg">
-            <img src="../graphics/fronts/11_TakeYourMedsOnTime.jpg">
-            <img src="../graphics/fronts/02_EatFood.jpg">
-            <img src="../graphics/fronts/11_TakeYourMedsOnTime.jpg">
-            <img src="../graphics/fronts/11_TakeYourMedsOnTime.jpg">
+            <img src="../graphics/fronts/{{pack-group-image6}}">
+            <img src="../graphics/fronts/{{pack-group-image7}}">
+            <img src="../graphics/fronts/{{pack-group-image8}}">
+            <img src="../graphics/fronts/{{pack-group-image9}}">
+            <img src="../graphics/fronts/{{pack-group-image10}}">
           </div>
           <div class="clearfix"></div>
           <div class="social">
@@ -60,6 +62,8 @@
             </div>
         </div>
       </div>
+      {{/packs}}
+      </script>
     </section>
   </div>
   

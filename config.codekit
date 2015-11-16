@@ -31,6 +31,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/assets\/data\/packs.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/data\/packs.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/assets\/data\/packs-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/assets\/fonts\/sourcesanspro-bold-demo.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2008,6 +2019,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/fronts\/33_FoodIsMedicine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61959,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/33_FoodIsMedicine.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/33_FoodIsMedicine.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/fronts\/33_Index.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2015,6 +2037,116 @@
 		"initialSize": 599064,
 		"inputAbbreviatedPath": "\/graphics\/fronts\/33_Index.jpg",
 		"outputAbbreviatedPath": "\/graphics\/fronts\/33_Index.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/34_SmileMore.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41069,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/34_SmileMore.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/34_SmileMore.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/35_SitLess.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36649,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/35_SitLess.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/35_SitLess.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/36_SkipTheSalt.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56021,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/36_SkipTheSalt.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/36_SkipTheSalt.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/37_SlowDown.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58365,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/37_SlowDown.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/37_SlowDown.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/38_AvoidSunburn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52063,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/38_AvoidSunburn.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/38_AvoidSunburn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/39_GetYourFluShot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73961,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/39_GetYourFluShot.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/39_GetYourFluShot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/40_MeetYourEats.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77984,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/40_MeetYourEats.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/40_MeetYourEats.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/41_TellThemItWasGreat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43215,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/41_TellThemItWasGreat.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/41_TellThemItWasGreat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/42_VaccinateYourChild.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80623,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/42_VaccinateYourChild.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/42_VaccinateYourChild.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/43_KnowYourCareTeam.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87764,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/43_KnowYourCareTeam.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/43_KnowYourCareTeam.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2160,11 +2292,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/pages\/pack.html": {
+	"\/pages\/packs.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/pack.html",
+		"inputAbbreviatedPath": "\/pages\/packs.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

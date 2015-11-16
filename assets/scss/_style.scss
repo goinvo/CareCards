@@ -185,11 +185,15 @@ img.scale-with-grid {
 	}
 	.current-image {
 		float: left;
+		border-radius: 15px;
+	    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
 	}
 	.pack-images-group-line {
 		width: 100%;
 		img {
 			margin-bottom: 10px;
+			border-radius: 5px;
+			box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
 		}
 	}
 	.social {
@@ -295,8 +299,8 @@ img.scale-with-grid {
 	}
 	.pack-images-group-line {
 		img {
-			width: 48px;
-			margin-right: 4px;
+			width: 50px;
+			margin-right: 1px;
 		}
 	}
 }
@@ -315,7 +319,7 @@ img.scale-with-grid {
 	}
 	.pack-images-group-line {
 		img {
-			width: 68px;
+			width: 67px;
 			margin-right: 4px;
 		}
 	}
