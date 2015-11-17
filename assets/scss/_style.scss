@@ -196,6 +196,28 @@ img.scale-with-grid {
 			box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
 		}
 	}
+	.image {
+		position: relative;
+		display: inline-block;
+	}
+	.image:after {
+		content: " ";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		background: rgba(0, 0, 0, 0.3);
+		transition: all 200ms;
+	}
+	.image:hover {
+		cursor: pointer;
+	}
+	.image:hover:after {
+		opacity: 0;
+	}
 	.social {
 		float: none;
 		li {
@@ -239,6 +261,10 @@ img.scale-with-grid {
 			float: left;
 		}
 	}
+	.image {
+		width: 48px;
+		height: 69px;
+	}
 }
 
 /* Larger than phablet (also point when grid becomes active)*/
@@ -259,6 +285,10 @@ img.scale-with-grid {
 			height: 113px;
 			margin-right: 3px;
 		}
+	}
+	.image {
+		width: 80px;
+		height: 113px;
 	}
 
 }
@@ -306,6 +336,10 @@ img.scale-with-grid {
 			margin-right: 1px;
 		}
 	}
+	.image {
+		width: 50px;
+		height: 70px;
+	}
 }
 
 /* Larger than desktop */
@@ -337,6 +371,10 @@ img.scale-with-grid {
 			margin-right: 4px;
 		}
 	}
+	.image {
+		width: 67px;
+		height: 94px;
+	}
 }
 
 /* Larger than Desktop HD */
@@ -367,5 +405,9 @@ img.scale-with-grid {
 			height: 110px;
 			margin-right: 8px;
 		}
+	}
+	.image {
+		width: 78px;
+		height: 110px;
 	}
 }

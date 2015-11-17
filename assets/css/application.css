@@ -670,6 +670,24 @@ img.scale-with-grid {
       margin-bottom: 10px;
       border-radius: 5px;
       box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3); }
+  .pack .image {
+    position: relative;
+    display: inline-block; }
+  .pack .image:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 200ms; }
+  .pack .image:hover {
+    cursor: pointer; }
+  .pack .image:hover:after {
+    opacity: 0; }
   .pack .social {
     float: none; }
     .pack .social li {
@@ -700,7 +718,11 @@ img.scale-with-grid {
     width: 48px;
     height: 69px;
     margin-right: 3px;
-    float: left; } }
+    float: left; }
+
+  .image {
+    width: 48px;
+    height: 69px; } }
 /* Larger than phablet (also point when grid becomes active)*/
 @media (min-width: 550px) and (max-width: 749px) {
   #page-title-wrapper #page-title {
@@ -713,7 +735,11 @@ img.scale-with-grid {
   .pack-images-group-line img {
     width: 80px;
     height: 113px;
-    margin-right: 3px; } }
+    margin-right: 3px; }
+
+  .image {
+    width: 80px;
+    height: 113px; } }
 /* Larger than tablet */
 @media (min-width: 750px) and (max-width: 999px) {
   .card {
@@ -747,7 +773,11 @@ img.scale-with-grid {
   .pack-images-group-line img {
     width: 50px;
     height: 70px;
-    margin-right: 1px; } }
+    margin-right: 1px; }
+
+  .image {
+    width: 50px;
+    height: 70px; } }
 /* Larger than desktop */
 @media (min-width: 1000px) and (max-width: 1199px) {
   .card {
@@ -770,7 +800,11 @@ img.scale-with-grid {
   .pack-images-group-line img {
     width: 67px;
     height: 94px;
-    margin-right: 4px; } }
+    margin-right: 4px; }
+
+  .image {
+    width: 67px;
+    height: 94px; } }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   .card {
@@ -793,4 +827,8 @@ img.scale-with-grid {
   .pack-images-group-line img {
     width: 78px;
     height: 110px;
-    margin-right: 8px; } }
+    margin-right: 8px; }
+
+  .image {
+    width: 78px;
+    height: 110px; } }
