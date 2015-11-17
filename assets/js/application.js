@@ -687,17 +687,55 @@ $(document).ready(function() {
       var html = Mustache.to_html(packsTpl, data);
       $('#packs').html(html);
 
-      $(".pack .pack-images-group-line-one .image:first-child").addClass('hidden');
+      //$(".pack .pack-images-group-line-one .image:first-child").addClass('hidden');
 
       //remove dark cover on the selected small image
       $(".image").click(function() {
         /* Act on the event */
-        $(this).closest('.pack').find(".image").removeClass('hidden');
-        $(this).addClass('hidden');
-        //change current image of the current padk
-        var current_image = $(this).find("img").attr("name");
-        $(this).closest('.pack').find('.current-image').attr("src","../graphics/fronts/"+current_image);
-        console.log($(this).closest('.pack').find('.current-image'))
+        if ( $(window).width() > 750) {     
+          //Add your javascript for large screens here
+          $(this).closest('.pack').find(".image").removeClass('hidden');
+          $(this).addClass('hidden');
+          //change current image of the current padk
+          var current_image = $(this).find("img").attr("name");
+          $(this).closest('.pack').find('.current-image').attr("src","../graphics/fronts/"+current_image);
+        }
+        else {
+          //Add your javascript for small screens here
+          $(".image img").click(function(){
+              var imageAddress = $(this).attr("src");
+              var width = $(this).width();
+              var height = $(this).height();
+              openPhotoSwipe(imageAddress,width*6,height*6);
+          });
+        }
       });
     });
 });
+
+function openPhotoSwipe(imageAddress,width,height) {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: imageAddress,
+            w: width,
+            h: height
+        }
+    ];
+    
+    // define options (if needed)
+    var options = {
+             // history & focus options are disabled on CodePen        
+        history: false,
+        focus: false,
+
+        showAnimationDuration: 0,
+        hideAnimationDuration: 0
+        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+}

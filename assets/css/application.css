@@ -723,12 +723,12 @@ img.scale-with-grid {
 
   .pack-images-group-line img {
     width: 80px;
-    height: 113px;
-    margin-right: 3px; }
+    height: 113px; }
 
   .image {
     width: 80px;
-    height: 113px; } }
+    height: 113px;
+    margin-right: 3px; } }
 /* Larger than tablet */
 @media (min-width: 750px) and (max-width: 999px) {
   .card {
@@ -761,27 +761,12 @@ img.scale-with-grid {
 
   .pack-images-group-line img {
     width: 50px;
-    height: 70px;
-    margin-right: 1px; }
+    height: 70px; }
 
   .image {
     width: 50px;
-    height: 70px; }
-
-  .image:after {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.5);
-    transition: all 200ms; }
-
-  .image:hover:after {
-    opacity: 0; } }
+    height: 70px;
+    margin-right: 1px; } }
 /* Larger than desktop */
 @media (min-width: 1000px) and (max-width: 1199px) {
   .card {
@@ -803,27 +788,12 @@ img.scale-with-grid {
 
   .pack-images-group-line img {
     width: 67px;
-    height: 94px;
-    margin-right: 4px; }
+    height: 94px; }
 
   .image {
     width: 67px;
-    height: 94px; }
-
-  .image:after {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.5);
-    transition: all 200ms; }
-
-  .image:hover:after {
-    opacity: 0; } }
+    height: 94px;
+    margin-right: 4px; } }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   .card {
@@ -845,24 +815,9 @@ img.scale-with-grid {
 
   .pack-images-group-line img {
     width: 78px;
-    height: 110px;
-    margin-right: 8px; }
+    height: 110px; }
 
   .image {
     width: 78px;
-    height: 110px; }
-
-  .image:after {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.5);
-    transition: all 200ms; }
-
-  .image:hover:after {
-    opacity: 0; } }
+    height: 110px;
+    margin-right: 8px; } }

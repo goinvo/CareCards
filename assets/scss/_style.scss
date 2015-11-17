@@ -271,12 +271,12 @@ img.scale-with-grid {
 		img {
 			width: 80px;
 			height: 113px;
-			margin-right: 3px;
 		}
 	}
 	.image {
 		width: 80px;
 		height: 113px;
+		margin-right: 3px;
 	}
 }
 
@@ -320,28 +320,28 @@ img.scale-with-grid {
 		img {
 			width: 50px;
 			height: 70px;
-			margin-right: 1px;
 		}
 	}
 	.image {
 		width: 50px;
 		height: 70px;
+		margin-right: 1px;
 	}
-	.image:after {
-		content: " ";
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		border-radius: 5px;
-		top: 0;
-		left: 0;
-		opacity: 1;
-		background: rgba(0, 0, 0, 0.5);
-		transition: all 200ms;
-	}
-	.image:hover:after {
-		opacity: 0;
-	}
+	// .image:after {
+	// 	content: " ";
+	// 	position: absolute;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	border-radius: 5px;
+	// 	top: 0;
+	// 	left: 0;
+	// 	opacity: 1;
+	// 	background: rgba(0, 0, 0, 0.5);
+	// 	transition: all 200ms;
+	// }
+	// .image:hover:after {
+	// 	opacity: 0;
+	// }
 }
 
 /* Larger than desktop */
@@ -370,28 +370,28 @@ img.scale-with-grid {
 		img {
 			width: 67px;
 			height: 94px;
-			margin-right: 4px;
 		}
 	}
 	.image {
 		width: 67px;
 		height: 94px;
+		margin-right: 4px;
 	}
-	.image:after {
-		content: " ";
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		border-radius: 5px;
-		top: 0;
-		left: 0;
-		opacity: 1;
-		background: rgba(0, 0, 0, 0.5);
-		transition: all 200ms;
-	}
-	.image:hover:after {
-		opacity: 0;
-	}
+	// .image:after {
+	// 	content: " ";
+	// 	position: absolute;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	border-radius: 5px;
+	// 	top: 0;
+	// 	left: 0;
+	// 	opacity: 1;
+	// 	background: rgba(0, 0, 0, 0.5);
+	// 	transition: all 200ms;
+	// }
+	// .image:hover:after {
+	// 	opacity: 0;
+	// }
 }
 
 /* Larger than Desktop HD */
@@ -420,26 +420,26 @@ img.scale-with-grid {
 		img {
 			width: 78px;
 			height: 110px;
-			margin-right: 8px;
 		}
 	}
 	.image {
 		width: 78px;
 		height: 110px;
+		margin-right: 8px;
 	}
-	.image:after {
-		content: " ";
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		border-radius: 5px;
-		top: 0;
-		left: 0;
-		opacity: 1;
-		background: rgba(0, 0, 0, 0.5);
-		transition: all 200ms;
-	}
-	.image:hover:after {
-		opacity: 0;
-	}
+	// .image:after {
+	// 	content: " ";
+	// 	position: absolute;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	border-radius: 5px;
+	// 	top: 0;
+	// 	left: 0;
+	// 	opacity: 1;
+	// 	background: rgba(0, 0, 0, 0.5);
+	// 	transition: all 200ms;
+	// }
+	// .image:hover:after {
+	// 	opacity: 0;
+	// }
 }
