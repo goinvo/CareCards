@@ -673,21 +673,6 @@ img.scale-with-grid {
   .pack .image {
     position: relative;
     display: inline-block; }
-  .pack .image:after {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.3);
-    transition: all 200ms; }
-  .pack .image:hover {
-    cursor: pointer; }
-  .pack .image:hover:after {
-    opacity: 0; }
   .pack .social {
     float: none; }
     .pack .social li {
@@ -777,7 +762,25 @@ img.scale-with-grid {
 
   .image {
     width: 50px;
-    height: 70px; } }
+    height: 70px; }
+
+  .image:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 200ms; }
+
+  .image:hover {
+    cursor: pointer; }
+
+  .image:hover:after {
+    opacity: 0; } }
 /* Larger than desktop */
 @media (min-width: 1000px) and (max-width: 1199px) {
   .card {
@@ -804,7 +807,25 @@ img.scale-with-grid {
 
   .image {
     width: 67px;
-    height: 94px; } }
+    height: 94px; }
+
+  .image:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 200ms; }
+
+  .image:hover {
+    cursor: pointer; }
+
+  .image:hover:after {
+    opacity: 0; } }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   .card {
@@ -831,4 +852,22 @@ img.scale-with-grid {
 
   .image {
     width: 78px;
-    height: 110px; } }
+    height: 110px; }
+
+  .image:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 200ms; }
+
+  .image:hover {
+    cursor: pointer; }
+
+  .image:hover:after {
+    opacity: 0; } }

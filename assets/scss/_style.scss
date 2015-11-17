@@ -200,24 +200,6 @@ img.scale-with-grid {
 		position: relative;
 		display: inline-block;
 	}
-	.image:after {
-		content: " ";
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		border-radius: 5px;
-		top: 0;
-		left: 0;
-		opacity: 1;
-		background: rgba(0, 0, 0, 0.3);
-		transition: all 200ms;
-	}
-	.image:hover {
-		cursor: pointer;
-	}
-	.image:hover:after {
-		opacity: 0;
-	}
 	.social {
 		float: none;
 		li {
@@ -290,7 +272,6 @@ img.scale-with-grid {
 		width: 80px;
 		height: 113px;
 	}
-
 }
 
 /* Larger than tablet */
@@ -340,6 +321,24 @@ img.scale-with-grid {
 		width: 50px;
 		height: 70px;
 	}
+	.image:after {
+		content: " ";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		background: rgba(0, 0, 0, 0.4);
+		transition: all 200ms;
+	}
+	.image:hover {
+		cursor: pointer;
+	}
+	.image:hover:after {
+		opacity: 0;
+	}
 }
 
 /* Larger than desktop */
@@ -375,6 +374,24 @@ img.scale-with-grid {
 		width: 67px;
 		height: 94px;
 	}
+	.image:after {
+		content: " ";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		background: rgba(0, 0, 0, 0.4);
+		transition: all 200ms;
+	}
+	.image:hover {
+		cursor: pointer;
+	}
+	.image:hover:after {
+		opacity: 0;
+	}
 }
 
 /* Larger than Desktop HD */
@@ -409,5 +426,23 @@ img.scale-with-grid {
 	.image {
 		width: 78px;
 		height: 110px;
+	}
+	.image:after {
+		content: " ";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		background: rgba(0, 0, 0, 0.4);
+		transition: all 200ms;
+	}
+	.image:hover {
+		cursor: pointer;
+	}
+	.image:hover:after {
+		opacity: 0;
 	}
 }
