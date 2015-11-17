@@ -2173,6 +2173,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/fronts\/46_ManageYourWeight.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 396738,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/46_ManageYourWeight.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/46_ManageYourWeight.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/47_AskQuestions.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 386171,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/47_AskQuestions.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/47_AskQuestions.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/48_SugarKills.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279475,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/48_SugarKills.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/48_SugarKills.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/49_DrinkLessAlcohol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341013,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/49_DrinkLessAlcohol.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/49_DrinkLessAlcohol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/50_KnowYourDiabetesPlan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362726,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/50_KnowYourDiabetesPlan.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/50_KnowYourDiabetesPlan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/51_ManageYourBloodPressure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398163,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/51_ManageYourBloodPressure.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/51_ManageYourBloodPressure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/52_SpeakUp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302405,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/52_SpeakUp.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/52_SpeakUp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/posters\/brushyourteeth.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -9,10 +9,10 @@
 			"pack-group-image4": "03_DrinkWater.jpg",
 			"pack-group-image5": "19_KnowYourNumbers.jpg",
 			"pack-group-image6": "10_Quit-Smoking.jpg",
-			"pack-group-image7": ".jpg",
-			"pack-group-image8": ".jpg",
-			"pack-group-image9": ".jpg",
-			"pack-group-image10": ".jpg"
+			"pack-group-image7": "46_ManageYourWeight.jpg",
+			"pack-group-image8": "48_SugarKills.jpg",
+			"pack-group-image9": "49_DrinkLessAlcohol.jpg",
+			"pack-group-image10": "50_KnowYourDiabetesPlan.jpg"
 		},
 		{
 			"name": "Blood Pressure for High Blood Pressure",
@@ -25,8 +25,8 @@
 			"pack-group-image6": "01_MoveMore.jpg",
 			"pack-group-image7": "11_TakeYourMedsOnTime.jpg",
 			"pack-group-image8": "36_SkipTheSalt.jpg",
-			"pack-group-image9": ".jpg",
-			"pack-group-image10": ".jpg"
+			"pack-group-image9": "49_DrinkLessAlcohol.jpg",
+			"pack-group-image10": "51_ManageYourBloodPressure.jpg"
 		},
 		{
 			"name": "Cholesterol",
@@ -39,8 +39,8 @@
 			"pack-group-image6": "19_KnowYourNumbers.jpg",
 			"pack-group-image7": "35_SitLess.jpg",
 			"pack-group-image8": "10_Quit-Smoking.jpg",
-			"pack-group-image9": ".jpg",
-			"pack-group-image10": ".jpg"
+			"pack-group-image9": "46_ManageYourWeight.jpg",
+			"pack-group-image10": "49_DrinkLessAlcohol.jpg"
 		},
 		{
 			"name": "Surgery for pre/post-operation",
@@ -54,7 +54,7 @@
 			"pack-group-image7": "09_ExamineYourself.jpg",
 			"pack-group-image8": "16_DoWhatMakesYouHappy.jpg",
 			"pack-group-image9": "43_KnowYourCareTeam.jpg",
-			"pack-group-image10": ".jpg"
+			"pack-group-image10": "47_AskQuestions.jpg"
 		},
 		{
 			"name": "Zen for mental health",
@@ -82,7 +82,7 @@
 			"pack-group-image7": "31_MedicareForAll.jpg",
 			"pack-group-image8": "44_DonateYourDataToScience.jpg",
 			"pack-group-image9": "45_HealthCareIsHumanRight.jpg",
-			"pack-group-image10": ".jpg"
+			"pack-group-image10": "52_SpeakUp.jpg"
 		},
 		{
 			"name": "Eat for nutrition",
@@ -94,8 +94,8 @@
 			"pack-group-image5": "36_SkipTheSalt.jpg",
 			"pack-group-image6": "37_SlowDown.jpg",
 			"pack-group-image7": "40_MeetYourEats.jpg",
-			"pack-group-image8": ".jpg",
-			"pack-group-image9": ".jpg",
+			"pack-group-image8": "48_SugarKills.jpg",
+			"pack-group-image9": "49_DrinkLessAlcohol.jpg",
 			"pack-group-image10": ".jpg"
 		},
 		{
@@ -123,8 +123,8 @@
 			"pack-group-image6": "24_TellSomeone.jpg",
 			"pack-group-image7": "34_SmileMore.jpg",
 			"pack-group-image8": "38_AvoidSunburn.jpg",
-			"pack-group-image9": ".jpg",
-			"pack-group-image10": ".jpg"
+			"pack-group-image9": "47_AskQuestions.jpg",
+			"pack-group-image10": "48_SugarKills.jpg"
 		},
 		{
 			"name": "You Know It for teenagers",
@@ -137,8 +137,8 @@
 			"pack-group-image6": "24_TellSomeone.jpg",
 			"pack-group-image7": "34_SmileMore.jpg",
 			"pack-group-image8": "38_AvoidSunburn.jpg",
-			"pack-group-image9": ".jpg",
-			"pack-group-image10": ".jpg"
+			"pack-group-image9": "47_AskQuestions.jpg",
+			"pack-group-image10": "48_SugarKills.jpg"
 		},
 		{
 			"name": "Nuggets for new parents",

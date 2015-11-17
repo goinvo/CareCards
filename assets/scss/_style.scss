@@ -200,6 +200,12 @@ img.scale-with-grid {
 		position: relative;
 		display: inline-block;
 	}
+	.image.hidden:after {
+		display: none;
+	}
+	.image:hover {
+		cursor: pointer;
+	}
 	.social {
 		float: none;
 		li {
@@ -330,11 +336,8 @@ img.scale-with-grid {
 		top: 0;
 		left: 0;
 		opacity: 1;
-		background: rgba(0, 0, 0, 0.4);
+		background: rgba(0, 0, 0, 0.5);
 		transition: all 200ms;
-	}
-	.image:hover {
-		cursor: pointer;
 	}
 	.image:hover:after {
 		opacity: 0;
@@ -383,11 +386,8 @@ img.scale-with-grid {
 		top: 0;
 		left: 0;
 		opacity: 1;
-		background: rgba(0, 0, 0, 0.4);
+		background: rgba(0, 0, 0, 0.5);
 		transition: all 200ms;
-	}
-	.image:hover {
-		cursor: pointer;
 	}
 	.image:hover:after {
 		opacity: 0;
@@ -436,11 +436,8 @@ img.scale-with-grid {
 		top: 0;
 		left: 0;
 		opacity: 1;
-		background: rgba(0, 0, 0, 0.4);
+		background: rgba(0, 0, 0, 0.5);
 		transition: all 200ms;
-	}
-	.image:hover {
-		cursor: pointer;
 	}
 	.image:hover:after {
 		opacity: 0;

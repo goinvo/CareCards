@@ -686,5 +686,18 @@ $(document).ready(function() {
       var packsTpl = $('#packsTpl').html();
       var html = Mustache.to_html(packsTpl, data);
       $('#packs').html(html);
+
+      $(".pack .pack-images-group-line-one .image:first-child").addClass('hidden');
+
+      //remove dark cover on the selected small image
+      $(".image").click(function() {
+        /* Act on the event */
+        $(this).closest('.pack').find(".image").removeClass('hidden');
+        $(this).addClass('hidden');
+        //change current image of the current padk
+        var current_image = $(this).find("img").attr("name");
+        $(this).closest('.pack').find('.current-image').attr("src","../graphics/fronts/"+current_image);
+        console.log($(this).closest('.pack').find('.current-image'))
+      });
     });
 });

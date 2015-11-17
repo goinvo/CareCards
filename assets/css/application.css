@@ -673,6 +673,10 @@ img.scale-with-grid {
   .pack .image {
     position: relative;
     display: inline-block; }
+  .pack .image.hidden:after {
+    display: none; }
+  .pack .image:hover {
+    cursor: pointer; }
   .pack .social {
     float: none; }
     .pack .social li {
@@ -773,11 +777,8 @@ img.scale-with-grid {
     top: 0;
     left: 0;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     transition: all 200ms; }
-
-  .image:hover {
-    cursor: pointer; }
 
   .image:hover:after {
     opacity: 0; } }
@@ -818,11 +819,8 @@ img.scale-with-grid {
     top: 0;
     left: 0;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     transition: all 200ms; }
-
-  .image:hover {
-    cursor: pointer; }
 
   .image:hover:after {
     opacity: 0; } }
@@ -863,11 +861,8 @@ img.scale-with-grid {
     top: 0;
     left: 0;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     transition: all 200ms; }
-
-  .image:hover {
-    cursor: pointer; }
 
   .image:hover:after {
     opacity: 0; } }
