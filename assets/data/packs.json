@@ -8,7 +8,11 @@
 			"pack-group-image3": "11_TakeYourMedsOnTime.jpg",
 			"pack-group-image4": "03_DrinkWater.jpg",
 			"pack-group-image5": "19_KnowYourNumbers.jpg",
-			"pack-group-image6": "10_Quit-Smoking.jpg"
+			"pack-group-image6": "10_Quit-Smoking.jpg",
+			"pack-group-image7": ".jpg",
+			"pack-group-image8": ".jpg",
+			"pack-group-image9": ".jpg",
+			"pack-group-image10": ".jpg"
 		},
 		{
 			"name": "Blood Pressure for High Blood Pressure",
@@ -20,7 +24,9 @@
 			"pack-group-image5": "15_MeditateAndPropser.jpg",
 			"pack-group-image6": "01_MoveMore.jpg",
 			"pack-group-image7": "11_TakeYourMedsOnTime.jpg",
-			"pack-group-image8": "36_SkipTheSalt.jpg"
+			"pack-group-image8": "36_SkipTheSalt.jpg",
+			"pack-group-image9": ".jpg",
+			"pack-group-image10": ".jpg"
 		},
 		{
 			"name": "Cholesterol",
@@ -32,7 +38,121 @@
 			"pack-group-image5": "15_MeditateAndPropser.jpg",
 			"pack-group-image6": "19_KnowYourNumbers.jpg",
 			"pack-group-image7": "35_SitLess.jpg",
-			"pack-group-image8": "10_Quit-Smoking.jpg"
+			"pack-group-image8": "10_Quit-Smoking.jpg",
+			"pack-group-image9": ".jpg",
+			"pack-group-image10": ".jpg"
+		},
+		{
+			"name": "Surgery for pre/post-operation",
+			"current-image": "01_MoveMore.jpg",
+			"pack-group-image1": "01_MoveMore.jpg",
+			"pack-group-image2": "02_EatFood.jpg",
+			"pack-group-image3": "03_DrinkWater.jpg",
+			"pack-group-image4": "26_WhoIsYourWingman.jpg",
+			"pack-group-image5": "05_GetMoreSleep.jpg",
+			"pack-group-image6": "11_TakeYourMedsOnTime.jpg",
+			"pack-group-image7": "09_ExamineYourself.jpg",
+			"pack-group-image8": "16_DoWhatMakesYouHappy.jpg",
+			"pack-group-image9": "43_KnowYourCareTeam.jpg",
+			"pack-group-image10": ".jpg"
+		},
+		{
+			"name": "Zen for mental health",
+			"current-image": "14_TakeBabySteps.jpg",
+			"pack-group-image1": "14_TakeBabySteps.jpg",
+			"pack-group-image2": "05_GetMoreSleep.jpg",
+			"pack-group-image3": "04_ExerciseIsMedicine.jpg",
+			"pack-group-image4": "02_EatFood.jpg",
+			"pack-group-image5": "26_WhoIsYourWingman.jpg",
+			"pack-group-image6": "11_TakeYourMedsOnTime.jpg",
+			"pack-group-image7": "16_DoWhatMakesYouHappy.jpg",
+			"pack-group-image8": "24_TellSomeone.jpg",
+			"pack-group-image9": "15_MeditateAndPropser.jpg",
+			"pack-group-image10": "37_SlowDown.jpg"
+		},
+		{
+			"name": "Change for having impact on the healthcare system",
+			"current-image": "30_KnowTheCost.jpg",
+			"pack-group-image1": "30_KnowTheCost.jpg",
+			"pack-group-image2": "17_BringTheExamineRoomToMe.jpg",
+			"pack-group-image3": "20_GiveMeMyData.jpg",
+			"pack-group-image4": "27_LetPatientsHelp.jpg",
+			"pack-group-image5": "28_NursesSave.jpg",
+			"pack-group-image6": "22_TheDoctorIsInYourPocket.jpg",
+			"pack-group-image7": "31_MedicareForAll.jpg",
+			"pack-group-image8": "44_DonateYourDataToScience.jpg",
+			"pack-group-image9": "45_HealthCareIsHumanRight.jpg",
+			"pack-group-image10": ".jpg"
+		},
+		{
+			"name": "Eat for nutrition",
+			"current-image": "02_EatFood.jpg",
+			"pack-group-image1": "02_EatFood.jpg",
+			"pack-group-image2": "03_DrinkWater.jpg",
+			"pack-group-image3": "14_TakeBabySteps.jpg",
+			"pack-group-image4": "33_FoodIsMedicine.jpg",
+			"pack-group-image5": "36_SkipTheSalt.jpg",
+			"pack-group-image6": "37_SlowDown.jpg",
+			"pack-group-image7": "40_MeetYourEats.jpg",
+			"pack-group-image8": ".jpg",
+			"pack-group-image9": ".jpg",
+			"pack-group-image10": ".jpg"
+		},
+		{
+			"name": "Slow Down for de-stressing",
+			"current-image": "05_GetMoreSleep.jpg",
+			"pack-group-image1": "05_GetMoreSleep.jpg",
+			"pack-group-image2": "12_HaveMoreSex.jpg",
+			"pack-group-image3": "16_DoWhatMakesYouHappy.jpg",
+			"pack-group-image4": "17_BringTheExamineRoomToMe.jpg",
+			"pack-group-image5": "19_KnowYourNumbers.jpg",
+			"pack-group-image6": "09_ExamineYourself.jpg",
+			"pack-group-image7": "24_TellSomeone.jpg",
+			"pack-group-image8": "37_SlowDown.jpg",
+			"pack-group-image9": "15_MeditateAndPropser.jpg",
+			"pack-group-image10": "39_GetYourFluShot.jpg"
+		},
+		{
+			"name": "Smart Start for pre-teens",
+			"current-image": "01_MoveMore.jpg",
+			"pack-group-image1": "01_MoveMore.jpg",
+			"pack-group-image2": "02_EatFood.jpg",
+			"pack-group-image3": "03_DrinkWater.jpg",
+			"pack-group-image4": "07_Don'tRushTheBrush.jpg",
+			"pack-group-image5": "06_WashYoursHands.jpg",
+			"pack-group-image6": "24_TellSomeone.jpg",
+			"pack-group-image7": "34_SmileMore.jpg",
+			"pack-group-image8": "38_AvoidSunburn.jpg",
+			"pack-group-image9": ".jpg",
+			"pack-group-image10": ".jpg"
+		},
+		{
+			"name": "You Know It for teenagers",
+			"current-image": "01_MoveMore.jpg",
+			"pack-group-image1": "01_MoveMore.jpg",
+			"pack-group-image2": "02_EatFood.jpg",
+			"pack-group-image3": "03_DrinkWater.jpg",
+			"pack-group-image4": "13_WrapItBeforeYouTapIt.jpg",
+			"pack-group-image5": "16_DoWhatMakesYouHappy.jpg",
+			"pack-group-image6": "24_TellSomeone.jpg",
+			"pack-group-image7": "34_SmileMore.jpg",
+			"pack-group-image8": "38_AvoidSunburn.jpg",
+			"pack-group-image9": ".jpg",
+			"pack-group-image10": ".jpg"
+		},
+		{
+			"name": "Nuggets for new parents",
+			"current-image": "21_KeepGoodRecords.jpg",
+			"pack-group-image1": "21_KeepGoodRecords.jpg",
+			"pack-group-image2": "08_BetterSafeThanSorry.jpg",
+			"pack-group-image3": "03_DrinkWater.jpg",
+			"pack-group-image4": "07_Don'tRushTheBrush.jpg",
+			"pack-group-image5": "24_TellSomeone.jpg",
+			"pack-group-image6": "26_WhoIsYourWingman.jpg",
+			"pack-group-image7": "33_FoodIsMedicine.jpg",
+			"pack-group-image8": "39_GetYourFluShot.jpg",
+			"pack-group-image9": "41_TellThemItWasGreat.jpg",
+			"pack-group-image10": "42_VaccinateYourChild.jpg"
 		}
 	]
 }
