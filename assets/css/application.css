@@ -757,6 +757,7 @@ img.scale-with-grid {
     float: left; }
 
   .current-image {
+    width: 248px;
     height: 350px; }
 
   .pack-images-group-line img {
@@ -784,6 +785,7 @@ img.scale-with-grid {
     float: left; }
 
   .current-image {
+    width: 341px;
     height: 480px; }
 
   .pack-images-group-line img {
@@ -811,6 +813,7 @@ img.scale-with-grid {
     float: left; }
 
   .current-image {
+    width: 362px;
     height: 510px; }
 
   .pack-images-group-line img {
