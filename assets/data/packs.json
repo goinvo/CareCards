@@ -2,6 +2,8 @@
 	"packs": [
 		{
 			"name": "Diabetes for Pre-Type 2",
+			"id": "diabetes",
+			"urlName" : "Diabetes%20for%20Pre-Type%202",
 			"current-image": "02_EatFood.jpg",
 			"pack-group-image1": "02_EatFood.jpg",
 			"pack-group-image2": "04_ExerciseIsMedicine.jpg",
@@ -16,6 +18,8 @@
 		},
 		{
 			"name": "Blood Pressure for High Blood Pressure",
+			"id": "blood-pressure",
+			"urlName": "Bloood%20Pressure%20for%20High%20Blood%20Pressure",
 			"current-image": "05_GetMoreSleep.jpg",
 			"pack-group-image1": "05_GetMoreSleep.jpg",
 			"pack-group-image2": "03_DrinkWater.jpg",
@@ -30,6 +34,8 @@
 		},
 		{
 			"name": "Cholesterol",
+			"id": "cholesterol",
+			"urlName": "Cholesterol",
 			"current-image": "11_TakeYourMedsOnTime.jpg",
 			"pack-group-image1": "11_TakeYourMedsOnTime.jpg",
 			"pack-group-image2": "01_MoveMore.jpg",
@@ -44,6 +50,8 @@
 		},
 		{
 			"name": "Surgery for pre/post-operation",
+			"id": "surgery",
+			"urlName": "Surgery%20for%20pre/post-operation",
 			"current-image": "01_MoveMore.jpg",
 			"pack-group-image1": "01_MoveMore.jpg",
 			"pack-group-image2": "02_EatFood.jpg",
@@ -58,6 +66,8 @@
 		},
 		{
 			"name": "Zen for mental health",
+			"id": "zen",
+			"urlName": "Zen%20for%20mental%20health",
 			"current-image": "14_TakeBabySteps.jpg",
 			"pack-group-image1": "14_TakeBabySteps.jpg",
 			"pack-group-image2": "05_GetMoreSleep.jpg",
@@ -72,6 +82,8 @@
 		},
 		{
 			"name": "Change for having impact on the healthcare system",
+			"id": "change",
+			"urlName": "Change%20for%20having%20impact%20on%20the%20healthcare%20system",
 			"current-image": "30_KnowTheCost.jpg",
 			"pack-group-image1": "30_KnowTheCost.jpg",
 			"pack-group-image2": "17_BringTheExamineRoomToMe.jpg",
@@ -86,6 +98,8 @@
 		},
 		{
 			"name": "Eat for nutrition",
+			"id": "eat",
+			"urlName": "Eat%20for%20nutrition",
 			"current-image": "02_EatFood.jpg",
 			"pack-group-image1": "02_EatFood.jpg",
 			"pack-group-image2": "03_DrinkWater.jpg",
@@ -100,6 +114,8 @@
 		},
 		{
 			"name": "Slow Down for de-stressing",
+			"id": "slow-down",
+			"urlName": "Slow%20Down%20for%20de-stressing",
 			"current-image": "05_GetMoreSleep.jpg",
 			"pack-group-image1": "05_GetMoreSleep.jpg",
 			"pack-group-image2": "12_HaveMoreSex.jpg",
@@ -114,6 +130,8 @@
 		},
 		{
 			"name": "Smart Start for pre-teens",
+			"id": "smart-start",
+			"urlName": "Smart%20Start%20for%20pre-teens",
 			"current-image": "01_MoveMore.jpg",
 			"pack-group-image1": "01_MoveMore.jpg",
 			"pack-group-image2": "02_EatFood.jpg",
@@ -128,6 +146,8 @@
 		},
 		{
 			"name": "You Know It for teenagers",
+			"id": "teenagers",
+			"urlName": "You%20Know%20It%20for%20teenagers",
 			"current-image": "01_MoveMore.jpg",
 			"pack-group-image1": "01_MoveMore.jpg",
 			"pack-group-image2": "02_EatFood.jpg",
@@ -142,6 +162,8 @@
 		},
 		{
 			"name": "Nuggets for new parents",
+			"id": "nuggets",
+			"urlName": "Nuggets%20for%20new%20parents",
 			"current-image": "21_KeepGoodRecords.jpg",
 			"pack-group-image1": "21_KeepGoodRecords.jpg",
 			"pack-group-image2": "08_BetterSafeThanSorry.jpg",

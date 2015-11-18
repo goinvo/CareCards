@@ -35,7 +35,7 @@
     <section class="row" id="packs">
       <script id="packsTpl" type="text/template">
       {{#packs}}
-      <div class="pack">
+      <div class="pack" id="{{id}}">
         <div class="current-image-wrap">
           <img src="../graphics/fronts/{{current-image}}" class="current-image">
         </div>
@@ -80,8 +80,8 @@
           <div class="clearfix"></div>
           <div class="social">
               <ul>
-                <li><a href="javascript:void(0)" target="_blank" class="button social-button" title="Tweet this"><div id="twitter"></div></a></li>
-                <li><a href="javascript:void(0)" target="_blank" class="button social-button" title="Share on Facebook"><div id="facebook"></div></a></li>
+                <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fcarecards.me%2F&text={{urlName}}%2C%20a%20Care%20Card%20Pack%20to%20help%20improve%20your%20health:%20http%3A%2F%2Fcarecards.me%2Fpages%2Fpacks.html%23{{id}}&via=goinvo" target="_blank" class="button social-button" title="Tweet this"><div id="twitter"></div></a></li>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcarecards.me%2Fpages%2Fpack.html%23{{id}}&t={{urlName}}%2C%20a%20Care%20Card%20Pack%20to%20help%20improve%20your%20health" target="_blank" class="button social-button" title="Share on Facebook"><div id="facebook"></div></a></li>
               </ul>
             </div>
         </div>
