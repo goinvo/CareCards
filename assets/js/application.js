@@ -689,27 +689,26 @@ $(document).ready(function() {
 
       //$(".pack .pack-images-group-line-one .image:first-child").addClass('hidden');
 
-      //remove dark cover on the selected small image
-      $(".image").click(function() {
-        /* Act on the event */
-        if ( $(window).width() > 750) {     
-          //Add your javascript for large screens here
-          $(this).closest('.pack').find(".image").removeClass('hidden');
-          $(this).addClass('hidden');
+      
+      if ( $(window).width() > 750) {   
+        $(".image").click(function() {  
+        //   //Add your javascript for large screens here
+        //   $(this).closest('.pack').find(".image").removeClass('hidden');
+        //   $(this).addClass('hidden');
           //change current image of the current padk
           var current_image = $(this).find("img").attr("name");
           $(this).closest('.pack').find('.current-image').attr("src","../graphics/fronts/"+current_image);
-        }
-        else {
-          //Add your javascript for small screens here
-          $(".image img").click(function(){
-              var imageAddress = $(this).attr("src");
-              var width = $(this).width();
-              var height = $(this).height();
-              openPhotoSwipe(imageAddress,width*6,height*6);
-          });
-        }
-      });
+        });
+      }
+      else {
+        //Add your javascript for small screens here
+        $(".image").click(function(){
+            var imageAddress = $(this).find("img").attr("src");
+            var width = $(this).find("img").width();
+            var height = $(this).find("img").height();
+            openPhotoSwipe(imageAddress,width*6,height*6);
+        });
+      }
     });
 });
 
