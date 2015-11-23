@@ -1,7 +1,7 @@
 {
 	"packs": [
 		{
-			"name": "Diabetes for Pre-Type 2",
+			"name": "Diabetes",
 			"id": "diabetes",
 			"urlName" : "Diabetes%20for%20Pre-Type%202",
 			"current-image": "02_EatFood.jpg",
@@ -17,7 +17,7 @@
 			"pack-group-image10": "50_KnowYourDiabetesPlan.jpg"
 		},
 		{
-			"name": "Blood Pressure for High Blood Pressure",
+			"name": "Blood Pressure",
 			"id": "blood-pressure",
 			"urlName": "Bloood%20Pressure%20for%20High%20Blood%20Pressure",
 			"current-image": "05_GetMoreSleep.jpg",
@@ -49,7 +49,7 @@
 			"pack-group-image10": "49_DrinkLessAlcohol.jpg"
 		},
 		{
-			"name": "Surgery for pre/post-operation",
+			"name": "Surgery",
 			"id": "surgery",
 			"urlName": "Surgery%20for%20pre/post-operation",
 			"current-image": "01_MoveMore.jpg",
@@ -65,8 +65,8 @@
 			"pack-group-image10": "47_AskQuestions.jpg"
 		},
 		{
-			"name": "Zen for mental health",
-			"id": "zen",
+			"name": "Mental Health",
+			"id": "mental-health",
 			"urlName": "Zen%20for%20mental%20health",
 			"current-image": "14_TakeBabySteps.jpg",
 			"pack-group-image1": "14_TakeBabySteps.jpg",
@@ -81,7 +81,7 @@
 			"pack-group-image10": "37_SlowDown.jpg"
 		},
 		{
-			"name": "Change for having impact on the healthcare system",
+			"name": "Change",
 			"id": "change",
 			"urlName": "Change%20for%20having%20impact%20on%20the%20healthcare%20system",
 			"current-image": "30_KnowTheCost.jpg",
@@ -97,7 +97,7 @@
 			"pack-group-image10": "52_SpeakUp.jpg"
 		},
 		{
-			"name": "Eat for nutrition",
+			"name": "Eat",
 			"id": "eat",
 			"urlName": "Eat%20for%20nutrition",
 			"current-image": "02_EatFood.jpg",
@@ -113,8 +113,8 @@
 			"pack-group-image10": ".jpg"
 		},
 		{
-			"name": "Slow Down for de-stressing",
-			"id": "slow-down",
+			"name": "Zen",
+			"id": "zen",
 			"urlName": "Slow%20Down%20for%20de-stressing",
 			"current-image": "05_GetMoreSleep.jpg",
 			"pack-group-image1": "05_GetMoreSleep.jpg",
@@ -129,8 +129,8 @@
 			"pack-group-image10": "39_GetYourFluShot.jpg"
 		},
 		{
-			"name": "Smart Start for pre-teens",
-			"id": "smart-start",
+			"name": "Kids",
+			"id": "kids",
 			"urlName": "Smart%20Start%20for%20pre-teens",
 			"current-image": "01_MoveMore.jpg",
 			"pack-group-image1": "01_MoveMore.jpg",
@@ -145,8 +145,8 @@
 			"pack-group-image10": "48_SugarKills.jpg"
 		},
 		{
-			"name": "You Know It for teenagers",
-			"id": "teenagers",
+			"name": "Teens",
+			"id": "teens",
 			"urlName": "You%20Know%20It%20for%20teenagers",
 			"current-image": "01_MoveMore.jpg",
 			"pack-group-image1": "01_MoveMore.jpg",
@@ -161,8 +161,8 @@
 			"pack-group-image10": "48_SugarKills.jpg"
 		},
 		{
-			"name": "Nuggets for new parents",
-			"id": "nuggets",
+			"name": "New Parents",
+			"id": "new-parents",
 			"urlName": "Nuggets%20for%20new%20parents",
 			"current-image": "21_KeepGoodRecords.jpg",
 			"pack-group-image1": "21_KeepGoodRecords.jpg",

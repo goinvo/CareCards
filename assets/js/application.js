@@ -633,7 +633,8 @@ $(document).ready(function() {
           'url'  : '/#about'
         }, {
           'name' : 'Buy',
-          'url'  : '' //http://prefundia.com/projects/view/care-cards/5723/
+          'url'  : 'http://www.amazon.com/Health-Axioms-Card-Juhan-Sonin/dp/B00IBJQPX8/',
+          'target' : '_blank'
         }, {
           'name' : 'Feedback',
           'url'  : 'mailto:juhan@goinvo.com'
@@ -641,7 +642,7 @@ $(document).ready(function() {
       ]
     };
     var menu_tpl = '<div class="container"><ul>{{#menuItems}}' + 
-                      '<li><a href="{{url}}">{{name}}</a></li>' + 
+                      '<li><a href="{{url}}" target="{{target}}">{{name}}</a></li>' + 
                     '{{/menuItems}}</ul></div>';
     var menu_html = Mustache.to_html(menu_tpl, menu);
     $('#menu').html(menu_html);
@@ -658,7 +659,8 @@ $(document).ready(function() {
               {name : "Sarah Kaiser",   role : "Artist, lead illustrator"},
               {name : "Jane Kokernak",  role : "Editor, researcher"},
               {name : "Emily Twaddell", role : "Editor, researcher"},
-              {name : "Jennifer Patel", role : "Designer, web presence"}]
+              {name : "Jennifer Patel", role : "Designer, web presence"},
+              {name : "Yanyang Zhou", role : "Developer, web presence"}]
       },
       {   name : "Other Contributors",
           teamMembers : [

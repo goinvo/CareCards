@@ -2250,6 +2250,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/pack_cover\/BloodPressure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 334592,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/BloodPressure.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/BloodPressure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/CardBack.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380005,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/CardBack.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/CardBack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Cholesterol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398087,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Cholesterol.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Cholesterol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Diabetes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 270599,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Diabetes.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Diabetes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/DrawYourOwn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188295,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/DrawYourOwn.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/DrawYourOwn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Eat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 347910,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Eat.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Eat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Kids.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 335894,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Kids.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Kids.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/MentalHealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 297803,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/MentalHealth.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/MentalHealth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/NewParents.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357943,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/NewParents.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/NewParents.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Surgery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361386,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Surgery.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Surgery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Teens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326229,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Teens.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Teens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Zen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369055,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Zen.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Zen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/posters\/brushyourteeth.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
