@@ -646,6 +646,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/opt-cards\/askquestions.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 386171,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/askquestions.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/askquestions.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/opt-cards\/avoidsunburn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -763,6 +774,17 @@
 		"initialSize": 62450,
 		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/dowhatmakesyouhappy.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/dowhatmakesyouhappy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/opt-cards\/drinklessalcohol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341013,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/drinklessalcohol.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/drinklessalcohol.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -899,6 +921,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/opt-cards\/knowyourdiabetesplan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362726,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/knowyourdiabetesplan.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/knowyourdiabetesplan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/opt-cards\/knowyournumbers.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -928,6 +961,17 @@
 		"initialSize": 50192,
 		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/liveyourcareplan.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/liveyourcareplan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/opt-cards\/manageyourbloodpressure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398163,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/manageyourbloodpressure.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/manageyourbloodpressure.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1042,6 +1086,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/opt-cards\/speakup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302405,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/speakup.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/speakup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/opt-cards\/startnow.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1049,6 +1104,17 @@
 		"initialSize": 56147,
 		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/startnow.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/startnow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/opt-cards\/sugarkills.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279475,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/sugarkills.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/sugarkills.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2250,6 +2316,149 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/fronts\/BloodPressure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 334592,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/BloodPressure.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/BloodPressure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/CardBack.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380005,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/CardBack.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/CardBack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Change.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.73301e+06,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Change.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Change.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Cholesterol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398087,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Cholesterol.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Cholesterol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Diabetes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 270599,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Diabetes.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Diabetes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/DrawYourOwn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188295,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/DrawYourOwn.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/DrawYourOwn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Eat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 347910,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Eat.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Eat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Kids.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 335894,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Kids.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Kids.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/MentalHealth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 297803,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/MentalHealth.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/MentalHealth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/NewParents.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357943,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/NewParents.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/NewParents.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Surgery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361386,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Surgery.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Surgery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Teens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326229,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Teens.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Teens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Zen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369055,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Zen.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Zen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/pack_cover\/BloodPressure.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2268,6 +2477,17 @@
 		"initialSize": 380005,
 		"inputAbbreviatedPath": "\/graphics\/pack_cover\/CardBack.jpg",
 		"outputAbbreviatedPath": "\/graphics\/pack_cover\/CardBack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/pack_cover\/Change.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.73301e+06,
+		"inputAbbreviatedPath": "\/graphics\/pack_cover\/Change.jpg",
+		"outputAbbreviatedPath": "\/graphics\/pack_cover\/Change.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

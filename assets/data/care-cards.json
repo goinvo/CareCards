@@ -269,5 +269,41 @@
     "id"   : "sit-less",
     "img"  : "sitless.jpg",
     "desc" : " "
+  }, {
+    "name" : "Speak Up",
+    "urlName" : "Speak%20Less",
+    "id"   : "speak-up",
+    "img"  : "speakup.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Manage Your Blood Pressure",
+    "urlName" : "Manage%20Your%20Blood%20Pressure",
+    "id"   : "manage-your-blood-pressure",
+    "img"  : "manageyourbloodpressure.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Ask Questions",
+    "urlName" : "Ask%20Questions",
+    "id"   : "ask-questions",
+    "img"  : "askquestions.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Sugar Kills",
+    "urlName" : "Sugar%20Kills",
+    "id"   : "sugar-kills",
+    "img"  : "sugarkills.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Drink Less Alcohol",
+    "urlName" : "Drink%20Less%20Alcohol",
+    "id"   : "drink-less-alcohol",
+    "img"  : "drinklessalcohol.jpg",
+    "desc" : " "
+  }, {
+    "name" : "Know Your Diabetes Plan",
+    "urlName" : "Know%20Your%20Diabetes%20Plan",
+    "id"   : "know-your-diabetes-plan",
+    "img"  : "knowyourdiabetesplan.jpg",
+    "desc" : " "
   }]
 }

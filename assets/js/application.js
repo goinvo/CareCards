@@ -693,21 +693,18 @@ $(document).ready(function() {
 
       
       if ( $(window).width() > 750) {   
-        $(".image").click(function() {  
-        //   //Add your javascript for large screens here
-        //   $(this).closest('.pack').find(".image").removeClass('hidden');
-        //   $(this).addClass('hidden');
-          //change current image of the current padk
-          var current_image = $(this).find("img").attr("name");
+        $(".pack-images-group img").click(function() {
+          //change current image of the current pack
+          var current_image = $(this).attr("name");
           $(this).closest('.pack').find('.current-image').attr("src","../graphics/fronts/"+current_image);
         });
       }
       else {
         //Add your javascript for small screens here
-        $(".image").click(function(){
-            var imageAddress = $(this).find("img").attr("src");
-            var width = $(this).find("img").width();
-            var height = $(this).find("img").height();
+        $(".pack-images-group img").click(function(){
+            var imageAddress = $(this).attr("src");
+            var width = $(this).width();
+            var height = $(this).height();
             openPhotoSwipe(imageAddress,width*6,height*6);
         });
       }
