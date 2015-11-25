@@ -659,7 +659,8 @@ img.scale-with-grid {
  * ================================================== */
 .pack {
   width: 100%;
-  padding: 50px 0; }
+  padding: 60px 0;
+  overflow: hidden; }
   .pack .current-image {
     float: left;
     border-radius: 15px;
@@ -670,10 +671,13 @@ img.scale-with-grid {
       border-radius: 5px;
       box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
       float: left; }
+    .pack .pack-images-group img:hover {
+      cursor: pointer; }
   .pack .social {
     float: none; }
     .pack .social li {
-      padding-left: 0; }
+      padding-left: 0;
+      margin-right: 10px; }
   .pack .clearfix {
     content: ".";
     visibility: hidden;
