@@ -39,8 +39,11 @@ Author
 **Sarah Kaiser**<br>
 The fabulous artist who brought the concepts and agitprop vibe to life.
 
-**Jane Kokernak**<br>
+**Jane Kokernak**, **Emily Twaddell**<br>
 Editor and researcher
+
+**Beth Herlin**<br>
+Product designer and researcher
 
 **Kelly Mansfield**<br>
 Another fabulous illustrator who seeded many compositions.
