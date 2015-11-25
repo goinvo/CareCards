@@ -2448,28 +2448,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/graphics\/fronts\/Zen.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 369055,
-		"inputAbbreviatedPath": "\/graphics\/fronts\/Zen.jpg",
-		"outputAbbreviatedPath": "\/graphics\/fronts\/Zen.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/graphics\/fronts\/Zen2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 185633,
-		"inputAbbreviatedPath": "\/graphics\/fronts\/Zen2.jpg",
-		"outputAbbreviatedPath": "\/graphics\/fronts\/Zen2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/graphics\/pack_cover\/BloodPressure.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

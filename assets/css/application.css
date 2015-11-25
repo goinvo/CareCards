@@ -540,7 +540,7 @@ hr {
     margin-bottom: 0; }
     #nav #menu ul li {
       display: inline-block;
-      padding-right: 30px;
+      padding-right: 20px;
       margin-top: 10px; }
       #nav #menu ul li:last-child {
         padding-right: 0px; }
