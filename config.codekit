@@ -2316,6 +2316,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/fronts\/53_EatLessMeat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221617,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/53_EatLessMeat.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/53_EatLessMeat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/fronts\/BloodPressure.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2342,9 +2353,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.73301e+06,
+		"initialSize": 160888,
 		"inputAbbreviatedPath": "\/graphics\/fronts\/Change.jpg",
 		"outputAbbreviatedPath": "\/graphics\/fronts\/Change.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Change.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.73301e+06,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Change.png",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Change.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2441,9 +2463,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 326229,
+		"initialSize": 137881,
 		"inputAbbreviatedPath": "\/graphics\/fronts\/Teens.jpg",
 		"outputAbbreviatedPath": "\/graphics\/fronts\/Teens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/Zen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161063,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/Zen.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/Zen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2732,11 +2765,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/pages\/packs.html": {
+	"\/packs.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/packs.html",
+		"inputAbbreviatedPath": "\/packs.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
