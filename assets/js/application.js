@@ -689,9 +689,6 @@ $(document).ready(function() {
       var html = Mustache.to_html(packsTpl, data);
       $('#packs').html(html);
 
-      //$(".pack .pack-images-group-line-one .image:first-child").addClass('hidden');
-
-      
       if ( $(window).width() > 750) {   
         $(".pack-images-group img").click(function() {
           //change current image of the current pack
@@ -702,26 +699,41 @@ $(document).ready(function() {
       else {
         //Add your javascript for small screens here
         $(".pack-images-group img").click(function(){
-            var imageAddress = $(this).attr("src");
-            var width = $(this).width();
-            var height = $(this).height();
-            openPhotoSwipe(imageAddress,width*6,height*6);
+            var currentIndex = $(this).index();
+            var width = $(this).width() * 6;
+            var height = $(this).height() * 6;
+            var items =[];
+            var index = currentIndex;
+            var item;
+            for(var i = 0; i < 13; i++) {
+               item = {
+                src: $(this).parent('.pack-images-group').find("img:nth-child("+(index+1)+")").attr('src'),
+                w: width,
+                h: height
+               };
+               items.push(item);
+               index++;
+               if(index > 12) {
+                index = 13 - index;
+               }
+            }
+            openPhotoSwipe(items);
         });
       }
     });
 });
 
-function openPhotoSwipe(imageAddress,width,height) {
+function openPhotoSwipe(items) {
     var pswpElement = document.querySelectorAll('.pswp')[0];
 
     // build items array
-    var items = [
-        {
-            src: imageAddress,
-            w: width,
-            h: height
-        }
-    ];
+    // var items = [
+    //     {
+    //         src: imageAddress,
+    //         w: width,
+    //         h: height
+    //     }
+    // ];
     
     // define options (if needed)
     var options = {
