@@ -627,7 +627,7 @@ $(document).ready(function() {
           'url'  : '/#cards'
         },{
           'name' : 'Packs',
-          'url'  : '/packs.html'
+          'url'  : '/packs'
         }, {
           'name' : 'About',
           'url'  : '/#about'
