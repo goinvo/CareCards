@@ -246,10 +246,10 @@
     "img"  : "vaccinate.jpg",
     "desc" : "<p>Vaccines produce immunity from serious diseases. They are well designed and rigorously tested in scientific studies, and they protect the health of you, your child, and the community.</p><p>Follow the recommended schedule of vaccines, which starts for babies at 6 months old, and save your child from diseases that once injured or killed thousands of children. Polio, once the most feared disease in America, has been eliminated because of vaccines.</p><p>Vaccines, especially injected ones, may cause some discomfort and even pain at the site. Your child may fuss and complain. This is normal and can be soothed.</p><p>Discomfort from the vaccine is minimal compared to the pain, trauma, and even death that the disease itself could cause. Without the measles vaccine, one of the most effective available, your child has a 90% chance of contracting it from an infected person.</p><p>Talk to your trusted pediatrician or nurse practitioner and read valid information sources to understand vaccine technology and its place in human health.</p><p>Keep your child on schedule for the series of vaccines recommended from birth through the teenage years.</p>"
   }, {
-    "name" : "Smile More",
-    "urlName" : "Smile%20More",
-    "id"   : "smile-more",
-    "img"  : "smilemore.jpg",
+    "name" : "Smile",
+    "urlName" : "Smile",
+    "id"   : "smile",
+    "img"  : "smile.jpg",
     "desc" : "<p>Charles Darwin, writing in 1872, suggested that &quot;even the simulation of an emotion arouses it in our minds.&quot; A century later, the facial feedback hypothesis asserted that muscle feedback from facial expressions helped regulate emotions. A change in the body’s expression of emotion might prompt genuine feeling.</p><p>Deliberately turning up the corners of your mouth &mdash; smiling &mdash; may ‘trick’ the mind and body into a better mood.</p><p>A smile also draws people to you, which is good for social interactions.</p><p>If tired or stressed, prompt yourself to smile. Your face will appear brighter and more refreshed, improving your appearance and approachability. Because of mirror neurons, people will likely repay your smile with their own, and in turn boost your mood.</p><p>Even if you’re not in the mood, think &quot;smile&quot; and let it light up your face and trigger a moment of happiness, your own and others.</p>"
   }, {
     "name" : "Skip the Salt",
