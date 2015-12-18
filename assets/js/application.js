@@ -689,6 +689,18 @@ $(document).ready(function() {
       var html = Mustache.to_html(packsTpl, data);
       $('#packs').html(html);
 
+      var url = window.location.href;
+      if(url.indexOf("#")!= -1) {
+          var anchor = url.substr(url.indexOf("#") + 1).toString();
+          //console.log(anchor)
+          // console.log($("#diabetes"))
+          // var top = document.getElementById(anchor).offsetTop; //Getting Y of target element
+          // window.scrollTo(0, top);
+          var link = "location.href='#"+anchor+"'";
+          console.log(link)
+          $("body").attr("onload",link)
+      }
+
       if ( $(window).width() > 750) {   
         $(".pack-images-group img").click(function() {
           //change current image of the current pack
@@ -721,6 +733,7 @@ $(document).ready(function() {
         });
       }
     });
+
 });
 
 function openPhotoSwipe(items) {
