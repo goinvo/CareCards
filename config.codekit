@@ -712,6 +712,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/opt-cards\/checkyourbloodsugar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70023,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/checkyourbloodsugar.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/checkyourbloodsugar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/opt-cards\/controlyourcholesterol.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -807,6 +818,17 @@
 		"initialSize": 71868,
 		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/eatfood.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/eatfood.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/opt-cards\/eatlessmeat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100144,
+		"inputAbbreviatedPath": "\/assets\/images\/opt-cards\/eatlessmeat.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/opt-cards\/eatlessmeat.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2356,9 +2378,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 221617,
+		"initialSize": 100144,
 		"inputAbbreviatedPath": "\/graphics\/fronts\/53_EatLessMeat.jpg",
 		"outputAbbreviatedPath": "\/graphics\/fronts\/53_EatLessMeat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/fronts\/54_CheckYourBloodSugar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70023,
+		"inputAbbreviatedPath": "\/graphics\/fronts\/54_CheckYourBloodSugar.jpg",
+		"outputAbbreviatedPath": "\/graphics\/fronts\/54_CheckYourBloodSugar.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

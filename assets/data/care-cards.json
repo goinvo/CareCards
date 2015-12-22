@@ -262,48 +262,60 @@
     "urlName" : "Slow%20Down",
     "id"   : "slow-down",
     "img"  : "slowdown.jpg",
-    "desc" : " "
+    "desc" : "<p>Rushing produces errors. Being distracted when you are with someone prevents deep connection. Hurrying through a meal diminishes your enjoyment of the food and may upset your digestion.</p><ul><li>A human be-ing, not a human do-ing.</li><li>Let yourself have some silence.</li><li>Single-tasking--focus completely on one thing at a time.</li><li>Do less. Decide what is really important, and let the rest go.</li><li>Reduce your commitments.</li><li>Learn to be present, no matter what you are doing.</li><li>Disconnect from the electronic world.</li><li>Focus on the people, nature, food as you eat it.</li><li>Breathe.</li></ul>"
   }, {
     "name" : "Sit Less",
     "urlName" : "Sit%20Less",
     "id"   : "sit-less",
     "img"  : "sitless.jpg",
-    "desc" : " "
+    "desc" : "<p>It’s not a new idea: people have known since the 1950s that sitting for long periods of time is not good for your health. Prolonged sitting has been found to slow the body’s metabolism of glucose and significantly cuts the production of enzymes that break down fats in the blood.</p><p>But standing all day isn’t good for us, either. It burns a few more calories, but it strains the circulatory system, legs, and feet, and increases the risk of varicose veins.</p><p>How to find a happy medium at work? Try these tips:</p><li>Sit while writing or doing computer work</li><li>Stand while talking on the phone</li><li>Hold standing meetings—keep them short!</li><li>Visit a co-worker instead of sending a text or e-mail</li><li>Every 20–30 minutes, stand up and move for a couple of minutes</li>"
   }, {
     "name" : "Speak Up",
     "urlName" : "Speak%20Less",
     "id"   : "speak-up",
     "img"  : "speakup.jpg",
-    "desc" : " "
+    "desc" : "<p>Physicians have an important role to play in health advocacy for patients and populations. Their voices are needed in the community: as community volunteers, public health and public policy experts, and in other roles that support human well-being. In fact some researchers believe that advocacy competencies should be introduced in medical schools.</p><p>Many doctors still feel there is too much risk in acting publicly. Some are overwhelmed by the administrative demands of healthcare reform. Others are simply burned out.</p><p>Just as patients must learn to advocate for themselves, so do medical practitioners.</p>"
   }, {
     "name" : "Manage Your Blood Pressure",
     "urlName" : "Manage%20Your%20Blood%20Pressure",
     "id"   : "manage-your-blood-pressure",
     "img"  : "manageyourbloodpressure.jpg",
-    "desc" : " "
+    "desc" : "<p>In addition to helping you feel your best, a healthy weight helps you to lower your risk for high blood pressure, diabetes, high cholesterol, and more.</p><p>Body Mass Index (BMI) is one measure that you and your medical practitioner can use to determine the healthiest weight range for you. It’s important to know both the top and bottom of your healthy range, since being underweight carries many risks as well, including anemia, fragile bones, and a weakened immune system.</p><p>Try these tips for getting to a healthier weight:</p><li>Know what goes into your food. Learn how to interpret nutrition information on package labels.</li><li>Use fresh ingredients rather than processed foods, and cook at home more often.</li><li>Take appropriate portions—don’t super-size!</li><li>Make every bite count—avoid empty calories.</li><li>Decrease your screen time and move more!</li>"
   }, {
     "name" : "Ask Questions",
     "urlName" : "Ask%20Questions",
     "id"   : "ask-questions",
     "img"  : "askquestions.jpg",
-    "desc" : " "
+    "desc" : "<p>Who is the most important member of your care team? You are!</p><p>Being a strong self-advocate is important to your health, even when you aren’t sick. Here are some tips to remember:</p><ul><li>Become an active participant in your own healthcare plan.</li><li>Know your rights.</li><li>Learn how to communicate clearly.</li><li>Identify your needs and wants.</li><li>Keep track of your health information.</li><li>Learn how to access your medical records.</li><li>Learn about your special needs or conditions.</li><li>Ask questions, before, during, and after an appointment.</li><li>Record what the doctor tells you.</li><li>Bring a trusted advisor along to your appointments.</li></ul><p>You deserve to be treated with dignity and respect. If you aren’t comfortable talking with your healthcare provider or other members of your care team, seek help through counseling or patient advocacy resources.</p>"
   }, {
     "name" : "Sugar Kills",
     "urlName" : "Sugar%20Kills",
     "id"   : "sugar-kills",
     "img"  : "sugarkills.jpg",
-    "desc" : " "
+    "desc" : "<p>Sucrose. Fructose. They’re not just about cavities and empty calories any more.</p><p>Research suggests that sugar’s negative impact on human health results not only from its caloric value—it’s in how our bodies process sugar, and that is the same whether one is lean or obese. High sugar consumption is closely linked to metabolic syndrome, insulin resistance, diabetes, and several other chronic disorders.</p><p>Added sugars are hard to avoid in the American diet. Reduced-fat products, “naturally sweetened” items, fruit and vegetable juices, and many low-fat, low-sodium “healthy” foods are loaded with sugar.</p><p>Talk to your care team. Learn to read food labels. Question information sources. Know your risks.</p>"
   }, {
     "name" : "Drink Less Alcohol",
     "urlName" : "Drink%20Less%20Alcohol",
     "id"   : "drink-less-alcohol",
     "img"  : "drinklessalcohol.jpg",
-    "desc" : " "
+    "desc" : "<p>If you drink alcohol, moderation is key. Alcohol overuse can increase your risk for cancer, pancreatitis, liver disease, high blood pressure, stroke, heart damage, accidental death, and suicide.</p><p>Try these tips to curb your alcohol intake:</p><ul><li>Use a smaller glass</li><li>Substitute flavored seltzer or juice</li><li>Check alcohol content and choose the lighter option</li><li>Avoid drinks with ambiguous amounts of alcohol like punch and cocktails</li><li>Choose activities that don’t involve drinking</li></ul>"
   }, {
     "name" : "Know Your Diabetes Plan",
     "urlName" : "Know%20Your%20Diabetes%20Plan",
     "id"   : "know-your-diabetes-plan",
     "img"  : "knowyourdiabetesplan.jpg",
-    "desc" : " "
+    "desc" : "<p>Staying healthy with diabetes can mean lifestyle changes. Together with your care team, you can create a plan to actively manage your diabetes in the context of your overall health. </p><p>A diabetes management plan helps remind you to:</p><ul><li>Check blood sugars</li><li>Check feet</li><li>Eat healthy</li><li>Exercise regularly</li><li>Manage weight</li><li>Reduce salt</li><li>Take meds regularly</li><li>Manage stress</li><li>Get enough sleep</li><li>Quit smoking</li><li>Limit alcohol</li></ul><p>You can live a healthy life with diabetes, and your care team is there to guide you.</p>"
+  }, {
+    "name" : "Eat Less Meat",
+    "urlName" : "Eat%20Less%20Meat",
+    "id" : "eat-less-meat",
+    "img" : "eatlessmeat.jpg",
+    "desc" : "<p>Removing red and processed meat from your diet reduces your risk for cancer, heart disease, type 2 diabetes, hypertension, high cholesterol, obesity, and more.</p><p>Raising animals for food accounts for over a third of our fossil fuel consumption and is the leading source of water pollution.</p><p>Consuming the residual antibiotics in meat - even organic - lead to drug-resistant “superbugs”. The more we eat it, the more people die from simple and preventable bacterial infections.</p><p>You won’t be missing anything. The key nutrients in meat can all be found in a plant-based diet of fruits, vegetables, grains, beans, legumes and nuts.</p><p>Pick from a variety of alternatives - tofu, seitan, tempeh, vegetable meat, mushrooms, beans, quinoa, the list goes on!</p><p>Start with Meatless Mondays, and work your way toward totally meatless. Whether you are a child, an athlete, pregnant, or lactating. Being vegetarian is just plain healthier.</p>"
+  }, {
+    "name" : "Check Your Blood Sugar",
+    "urlName" : "Check%20Your%20Blood%20Sugar",
+    "id" : "check-your-blood-sugar",
+    "img" : "checkyourbloodsugar.jpg",
+    "desc" : "<p>If you are diabetic, keeping track of your blood glucose (blood “sugar”) level is an essential part of your care plan. Talk with your doctor about your target levels and what to do if your glucose level is too high or too low. A diabetes educator can explain the tools, techniques, recording methods, and how to interpret your numbers.</p><p>Blood glucose levels can be affected by food, medicine, and activity. In addition to following your regular tracking schedule, check your blood if you experience any of these symptoms of low blood sugar:</p><ul><li>Hunger</li><li>Trembling</li><li>Sweating, light-headedness</li><li>Sleepiness</li><li>Anxiety or confusion</li></ul><p>Keep a record of your blood glucose numbers, the time of day, and any other relevant information to share with your care team.</p>"
   }]
 }
