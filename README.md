@@ -8,7 +8,7 @@ CareCards
 
 Care Cards put you in touch with habits to improve your health, life, and well-being. Our sometimes surprising, always practical  mantras nudge you toward the healthiest life possible. This deck of cards will transform the way you think about yourself and what it means to be healthy.
 
-There are 44 cards in our deck. On the front of each card is a beautiful illustration reminding you of a specific tenet that can move you in the direction of better health. On the back of each card, we give you essential insights, tips, and help in manifesting that axiom in your life.
+There are 54 cards in our deck. On the front of each card is a beautiful illustration reminding you of a specific tenet that can move you in the direction of better health. On the back of each card, we give you essential insights, tips, and help in manifesting that axiom in your life.
 
 #### Easy-to-use, to take, to share
 
@@ -44,6 +44,12 @@ Editor and researcher
 
 **Beth Herlin**<br>
 Product designer and researcher
+
+**Jennifer Patel**<br>
+Designer and engineer
+
+**YanYang Zhou**<br>
+Engineer
 
 **Kelly Mansfield**<br>
 Another fabulous illustrator who seeded many compositions.
