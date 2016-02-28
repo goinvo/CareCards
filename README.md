@@ -45,7 +45,7 @@ Editor and Researcher
 **Beth Herlin**<br>
 Product designer and Researcher
 
-**Jennifer Patel**, **YanYang Zhou**
+**Jennifer Patel**, **YanYang Zhou**<br>
 Designer and engineer
 
 **Kelly Mansfield**<br>
