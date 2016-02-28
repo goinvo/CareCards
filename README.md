@@ -37,22 +37,19 @@ Author, [juhan@goinvo.com](mailto:juhan@goinvo.com)
 Author
 
 **Sarah Kaiser**<br>
-The fabulous artist who brought the concepts and agitprop vibe to life.
+Lead Concept Artist and Illustrator
 
 **Jane Kokernak**, **Emily Twaddell**<br>
-Editor and researcher
+Editor and Researcher
 
 **Beth Herlin**<br>
-Product designer and researcher
+Product designer and Researcher
 
-**Jennifer Patel**<br>
+**Jennifer Patel**, **YanYang Zhou**
 Designer and engineer
 
-**YanYang Zhou**<br>
-Engineer
-
 **Kelly Mansfield**<br>
-Another fabulous illustrator who seeded many compositions.
+Illustrator
 
 
 ## License
