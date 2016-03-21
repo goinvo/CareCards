@@ -22,7 +22,7 @@
 		{
 			"name": "Blood Pressure",
 			"id": "blood-pressure",
-			"urlName": "Bloood%20Pressure",
+			"urlName": "bp",
 			"current-image": "BloodPressure.jpg",
 			"pack-group-image1": "BloodPressure.jpg",
 			"pack-group-image2": "03_DrinkWater.jpg",
