@@ -115,7 +115,7 @@
     "desc" : "<p>Tracking your health through data, not just senses, lets you see you health in actionable ways.</p><p>Some data come from the lab tests your doctor orders. Make sure you understand what the numbers mean.</p><p>Apps and wearable sensors &mdash; for tracking sleep, activity, and food intake patterns &mdash; give you powerful daily data to monitor effects and make changes.</p><p>Data = medicine.</p><p>Your doctor shares some with you. It's time you collected your own health data and shared some with him.</p>"
   }, {
     "name" : "Give Me My Data!",
-    "urlName" : "Give%20Me%20My%20Data!",
+    "urlName" : "Give%20Me%20My%20Data",
     "id"   : "give-me-my-data",
     "img"  : "givememydata.jpg",
     "desc" : "<p>Health habits and decisions are partially based on information.</p><p>When doctors, hospitals, and labs give us easy access to our health data, we can act more knowledgeably.</p><p>Medical charts must be redesigned, on paper and online, to be fully understood. Designers can help.</p><p>It's not enough to open the file cabinet; the health care system must exploit technologies that make getting and using our data more seamless with other tasks, like goal setting, fitness tracking, and calorie budgeting.</p>"
@@ -225,7 +225,7 @@
     "name" : "Healthcare Is a Human Right",
     "urlName" : "Healthcare%20Is%20a%20Human%20Right",
     "id"   : "healthcare-human-right",
-    "img"  : "humanright.jpg",
+    "img"  : "healthcarehumanright.jpg",
     "desc" : "<p>The health of our communities depends on the health of individual members.</p><p>The Universal Declaration of Human Rights, for all people and all nations, was proclaimed by the United Nations in 1948. Included as a fundamental right is a standard living that supports the health and well-being of one’s self and family.</p><p>World health leaders have asserted that governments must generate conditions in which every person can be as healthy as possible. The right to health does not mean a right to be healthy.</p><p>Because of insufficient access to health care and medical resources, 150 million people annually suffer financial catastrophe, and 100 million people pushed below the poverty line, because of personal expenditures related to health.</p><p>You can join workers’ campaigns, at your workplace or through a union, to advocate for universal healthcare. Politically, you can join a people’s movement, like one ongoing in Vermont, attend public forums, write letters to elected officials in your state, and vote for health care access.</p><p>Even if your own health care needs are covered, look for opportunities to insure access to health care for all.</p>"
   },{
     "name" : "Meet Your Eats",
@@ -237,7 +237,7 @@
     "name" : "Get Your Flu Shot",
     "urlName" : "Get%20Your%20Flu%20Shot",
     "id"   : "get-your-flu-shot",
-    "img"  : "flushot.jpg",
+    "img"  : "getyourflushot.jpg",
     "desc" : "<p>Influenza (flu) is a highly contagious and serious respiratory disease that is caused by a virus and can lead to serious complications, like pneumonia. It's way more than a &quot;bad cold.&quot;</p><p>Everyone 6 months or older should get a flu vaccine &mdash; whether shot or nasal spray &mdash; at the start of every flu season.</p><p>And, because flu viruses are constantly mutating or changing, and different flu viruses cause illnesses each year, it's critical to get a flu vaccine annually. Scientists and public health researchers track the flu and select vaccines best matched to viruses in current circulation.</p><p>While other health practices, such as frequent hand sanitizing, can help you lessen your exposure to the flu, the best way to avoid the flu is the current vaccine. It's not enough to have gotten one last year.</p><p>Getting vaccinated also protects your community, providing &quot;herd immunity,&quot; or an effect where enough people have been vaccinated that there is little opportunity for a local outbreak. By getting a flu shot, you help infants and pregnant women, for example, who cannot be immunized.</p>"
   }, {
     "name" : "Vaccinate Your Child",
@@ -294,10 +294,10 @@
     "img"  : "sugarkills.jpg",
     "desc" : "<p>Sucrose. Fructose. They’re not just about cavities and empty calories any more.</p><p>Research suggests that sugar’s negative impact on human health results not only from its caloric value—it’s in how our bodies process sugar, and that is the same whether one is lean or obese. High sugar consumption is closely linked to metabolic syndrome, insulin resistance, diabetes, and several other chronic disorders.</p><p>Added sugars are hard to avoid in the American diet. Reduced-fat products, “naturally sweetened” items, fruit and vegetable juices, and many low-fat, low-sodium “healthy” foods are loaded with sugar.</p><p>Talk to your care team. Learn to read food labels. Question information sources. Know your risks.</p>"
   }, {
-    "name" : "Drink Less Alcohol",
-    "urlName" : "Drink%20Less%20Alcohol",
-    "id"   : "drink-less-alcohol",
-    "img"  : "drinklessalcohol.jpg",
+    "name" : "Shrink the Drink",
+    "urlName" : "Shrink%20the%20Drink",
+    "id"   : "shrink-the-drink",
+    "img"  : "shrinkthedrink.jpg",
     "desc" : "<p>If you drink alcohol, moderation is key. Alcohol overuse can increase your risk for cancer, pancreatitis, liver disease, high blood pressure, stroke, heart damage, accidental death, and suicide.</p><p>Try these tips to curb your alcohol intake:</p><ul><li>Use a smaller glass</li><li>Substitute flavored seltzer or juice</li><li>Check alcohol content and choose the lighter option</li><li>Avoid drinks with ambiguous amounts of alcohol like punch and cocktails</li><li>Choose activities that don’t involve drinking</li></ul>"
   }, {
     "name" : "Know Your Diabetes Plan",
@@ -317,5 +317,11 @@
     "id" : "check-your-blood-sugar",
     "img" : "checkyourbloodsugar.jpg",
     "desc" : "<p>If you are diabetic, keeping track of your blood glucose (blood “sugar”) level is an essential part of your care plan. Talk with your doctor about your target levels and what to do if your glucose level is too high or too low. A diabetes educator can explain the tools, techniques, recording methods, and how to interpret your numbers.</p><p>Blood glucose levels can be affected by food, medicine, and activity. In addition to following your regular tracking schedule, check your blood if you experience any of these symptoms of low blood sugar:</p><ul><li>Hunger</li><li>Trembling</li><li>Sweating, light-headedness</li><li>Sleepiness</li><li>Anxiety or confusion</li></ul><p>Keep a record of your blood glucose numbers, the time of day, and any other relevant information to share with your care team.</p>"
+  }, {
+    "name" : "Manage Your Weight",
+    "urlName" : "",
+    "id" : "",
+    "img" : "manageweight.jpg",
+    "desc" : "<p>In addition to helping you feel your best, a healthy weight helps you to lower your risk for high blood pressure, diabetes, high cholesterol, and more. </p><p>Body Mass Index (BMI) is one measure that you and your medical practitioner can use to determine the healthiest weight range for you. It’s important to know both the top and bottom of your healthy range, since being underweight carries many risks as well, including anemia, fragile bones, and a weakened immune system.</p><p>Try these tips for getting to a healthier weight:</p><ul><li>Know what goes into your food. Learn how to interpret nutrition information on package labels.</li><li>Use fresh ingredients rather than processed foods, and cook at home more often. </li><li>Take appropriate portions &mdash;don’t super-size!</li><li>Make every bite count &mdash;avoid empty calories.</li><li>Decrease your screen time and move more!</li></ul>"
   }]
 }
