@@ -23,15 +23,7 @@ module.exports = function(grunt) {
 		        files: {
 		            'assets/css/application.css': 'assets/scss/application.scss'
 		        }
-		    },
-		    build: {
-		        options: {
-		            style: 'compressed'
-		        },
-		        files: {
-		            'assets/css/build/application.css': 'assets/scss/application.scss'
-		        }
-		    } 
+		    }
 		},
       connect: {
         server: {
