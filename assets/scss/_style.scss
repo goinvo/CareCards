@@ -139,29 +139,39 @@ img.scale-with-grid {
 				border-radius: 36px;
 				&:hover{
 					background-color: #4791BA;
-					#twitter {
+					.twitter {
 						background: url("../images/twitter-white.svg") no-repeat;
 						background-size: contain;
 						background-position: right 50% bottom 50%;
 					}
-					#facebook{
+					.facebook{
 						background: url("../images/facebook-white.svg") no-repeat;
 						background-size: contain;
 						background-position: right 50% bottom 50%;
 					}
+					.download{
+						background: url("../images/download-white.svg") no-repeat;
+						background-size: contain;
+						background-position: right 50% bottom 50%;
+					}
 				}
-				#twitter, #facebook {
+				.twitter, .facebook, .download {
 					height:18px;
 					width: 18px;
 					padding: 0;
 				}
-				#twitter {
+				.twitter {
 					background: url("../images/twitter.svg") no-repeat;
 					background-size: contain;
 					background-position: right 50% bottom 50%;
 				}
-				#facebook{
+				.facebook{
 					background: url("../images/facebook.svg") no-repeat;
+					background-size: contain;
+					background-position: right 50% bottom 50%;
+				}
+				.download{
+					background: url("../images/download.svg") no-repeat;
 					background-size: contain;
 					background-position: right 50% bottom 50%;
 				}
