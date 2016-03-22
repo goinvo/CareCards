@@ -134,8 +134,8 @@
   }, {
     "name" : "Tell Them It Was Great",
     "urlName" : "Tell%20Them%20It%20Was%20Great",
-    "id"   : "tell-them-is-was-great",
-    "img"  : "tellthemitwasgreat.jpg",
+    "id"   : "tell-them-great",
+    "img"  : "tellthemitwasgreat_2.jpg",
     "desc" : "<p>Dopamine, the feel good chemical in our brains, is released when people hear something they like.</p><p>Positive messages are more powerful and lasting motivators than criticism. If you want to pack a punch, praise should be specific and timely.</p><p>We can also give ourselves credit and reward new health habits when personal goals are reached.</p><p>And a little boasting about positive results may inspire someone else to tackle a health or life challenge.</p>"
   }, {
     "name" : "Tell Someone",
@@ -268,7 +268,7 @@
     "urlName" : "Sit%20Less",
     "id"   : "sit-less",
     "img"  : "sitless.jpg",
-    "desc" : "<p>It’s not a new idea: people have known since the 1950s that sitting for long periods of time is not good for your health. Prolonged sitting has been found to slow the body’s metabolism of glucose and significantly cuts the production of enzymes that break down fats in the blood.</p><p>But standing all day isn’t good for us, either. It burns a few more calories, but it strains the circulatory system, legs, and feet, and increases the risk of varicose veins.</p><p>How to find a happy medium at work? Try these tips:</p><ul><li>Sit while writing or doing computer work</li><li>Stand while talking on the phone</li><li>Hold standing meetings—keep them short!</li><li>Visit a co-worker instead of sending a text or e-mail</li><li>Every 20–30 minutes, stand up and move for a couple of minutes</li></ul>"
+    "desc" : "<p>It’s not a new idea: people have known since the 1950s that sitting for long periods of time is not good for your health. Prolonged sitting has been found to slow the body’s metabolism of glucose and significantly cuts the production of enzymes that break down fats in the blood.</p><p>But standing all day isn’t good for us, either. It burns a few more calories, but it strains the circulatory system, legs, and feet, and increases the risk of varicose veins.</p><p>How to find a happy medium at work? Try these tips:</p><li>Sit while writing or doing computer work</li><li>Stand while talking on the phone</li><li>Hold standing meetings—keep them short!</li><li>Visit a co-worker instead of sending a text or e-mail</li><li>Every 20–30 minutes, stand up and move for a couple of minutes</li>"
   }, {
     "name" : "Speak Up",
     "urlName" : "Speak%20Less",
@@ -280,7 +280,7 @@
     "urlName" : "Manage%20Your%20Blood%20Pressure",
     "id"   : "manage-your-blood-pressure",
     "img"  : "manageyourbloodpressure.jpg",
-    "desc" : "<p>In addition to helping you feel your best, a healthy weight helps you to lower your risk for high blood pressure, diabetes, high cholesterol, and more.</p><p>Body Mass Index (BMI) is one measure that you and your medical practitioner can use to determine the healthiest weight range for you. It’s important to know both the top and bottom of your healthy range, since being underweight carries many risks as well, including anemia, fragile bones, and a weakened immune system.</p><p>Try these tips for getting to a healthier weight:</p><ul><li>Know what goes into your food. Learn how to interpret nutrition information on package labels.</li><li>Use fresh ingredients rather than processed foods, and cook at home more often.</li><li>Take appropriate portions—don’t super-size!</li><li>Make every bite count—avoid empty calories.</li><li>Decrease your screen time and move more!</li></ul>"
+    "desc" : "<p>In addition to helping you feel your best, a healthy weight helps you to lower your risk for high blood pressure, diabetes, high cholesterol, and more.</p><p>Body Mass Index (BMI) is one measure that you and your medical practitioner can use to determine the healthiest weight range for you. It’s important to know both the top and bottom of your healthy range, since being underweight carries many risks as well, including anemia, fragile bones, and a weakened immune system.</p><p>Try these tips for getting to a healthier weight:</p><li>Know what goes into your food. Learn how to interpret nutrition information on package labels.</li><li>Use fresh ingredients rather than processed foods, and cook at home more often.</li><li>Take appropriate portions—don’t super-size!</li><li>Make every bite count—avoid empty calories.</li><li>Decrease your screen time and move more!</li>"
   }, {
     "name" : "Ask Questions",
     "urlName" : "Ask%20Questions",
