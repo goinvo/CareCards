@@ -58,11 +58,10 @@ Creative Commons Attribution v3.0
 ## Dev - Adding Cards
 When adding new cards to carecards.me
 
-* from raw psd, save as progressive jpg in assets/images/hiRes
+* from raw psd, save to print as flattened pdf
+* from raw psd, uncheck resample image, change to 72 dpi, width 978px (2x max size). save as progressive jpg in assets/images/hiRes
 * include large, optimized images in assets/images/optCards
-** from previous step, uncheck resample image, change to 72 dpi, width 978px (2x max size)save as progressive jpg at 0 quality
-** if necessary, also run through kraken.io for smaller files
+** from previous step, save as progressive jpg at 0 quality (size of 72dpi, 978 x 1439px)
+** also run through kraken.io for smaller files
 ** if necessary, run through grunt-contrib-imagemin for more compression
 ** aim for < 100 KB, preferably ~50 KB (or less!). Smaller is better
-* add title, description, image filename, etc in care-cards.json
-* if card is part of a pack, also include in packs.json
