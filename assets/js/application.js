@@ -705,7 +705,7 @@ $(document).ready(function() {
         $(".pack-images-group img").click(function() {
           //change current image of the current pack
           var current_image = $(this).attr("name");
-          $(this).closest('.pack').find('.current-image').attr("src","../graphics/fronts/"+current_image);
+          $(this).closest('.pack').find('.current-image').attr("src","../assets/images/optCards/"+current_image);
         });
       }
       else {
