@@ -54,3 +54,11 @@ Illustrator
 
 ## License
 Creative Commons Attribution v3.0
+
+
+### Development
+* npm install to include all required packages
+* run grunt - this will run watch and connect so you can view local changes at localhost:8080
+* add styles to _styles.scss,  _fonts.scss, and _skeleton.scss - watch will compile application.scss into application.css
+* add scripts to index.js
+* run grunt concat in another terminal to build changes to index.js into application.js 
