@@ -675,7 +675,7 @@ hr {
   background-color: #fafafa;
   margin-top: 50px;
 }
-#about-wrapper #about, #about-wrapper #team {
+#about-wrapper .row {
   max-width: 700px;
   padding: 50px 0px 0px 0px;
 }
@@ -701,6 +701,7 @@ img.scale-with-grid {
 
 .card {
   margin: 10px 0 10px 0;
+  padding-top: 50px;
 }
 .card .card-desc {
   padding: 40px 0px 60px 0px;
@@ -829,6 +830,36 @@ img.scale-with-grid {
   display: block;
   height: 0;
   clear: both;
+}
+
+/* Quotes
+ * ================================================== */
+#feedback.column {
+  margin-left: 0;
+}
+#feedback .quote {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  font-size: 2rem;
+  position: relative;
+}
+#feedback .quote:before {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  height: 1px;
+  width: 50%;
+  border-bottom: 1px solid #e1e1e1;
+}
+#feedback .quote p {
+  margin-bottom: 0;
+}
+#feedback .quote .author {
+  color: #979797;
+  text-align: right;
+  font-size: 1.5rem;
+  margin-top: .5rem;
 }
 
 /* Footer

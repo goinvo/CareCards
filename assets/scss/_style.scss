@@ -54,7 +54,7 @@ $transition: .3s;
 #about-wrapper {
 	background-color: #fafafa;
 	margin-top: 50px;
-	#about, #team {
+	.row {
 	    max-width: 700px;
 	    padding: 50px 0px 0px 0px;
 	}
@@ -85,6 +85,7 @@ img.scale-with-grid {
 
 .card {
 	margin: 10px 0 10px 0;
+	padding-top: 50px;
 	.card-desc {
 		padding: 40px 0px 60px 0px;
 		color: #454545;
@@ -226,7 +227,38 @@ img.scale-with-grid {
 	}
 }
 
-
+/* Quotes
+ * ================================================== */
+ #feedback {
+ 	&.column {
+ 		margin-left: 0;
+ 	}
+ 	.quote {
+ 		padding-bottom: 4rem;
+ 		padding-top: 4rem;
+ 		font-size: 2rem;
+ 		position: relative;
+ 		&:before {
+ 			content : "";
+			position: absolute;
+			left    : 25%;
+			bottom  : 0;
+			height  : 1px;
+			width   : 50%;
+			border-bottom: 1px solid #e1e1e1;
+ 		}
+ 		p {
+	 		margin-bottom: 0;
+	 	}
+ 		.author {
+	 		color: #979797;
+	 		text-align: right;
+	 		font-size: 1.5rem;
+	 		margin-top: .5rem;
+	 	}
+	 	
+ 	}
+ }
 
 /* Footer
  * ================================================== */

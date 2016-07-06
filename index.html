@@ -65,6 +65,24 @@
         <h2>About Care Cards</h2>
         <p>Care Cards put you in touch with habits to improve your health, life, and well-being. Our sometimes surprising, always practical axioms nudge you toward the healthiest life possible. This deck of cards will transform the way you think about yourself and what it means to be healthy.</p><p>There are 54 cards in our deck. On the front of each card is a beautiful illustration reminding you of a specific axiom that can move you in the direction of better health. On the back of each card, we give you essential insights, tips, and help in manifesting that axiom in your life.</p>
       </div>
+
+      <div class="row column" id="feedback">
+        <h2>What People Are Saying</h2>
+        <div id="quotes">
+          <script id="quotesTpl" type="text/template">
+            {{#quotes}}
+            <div class="quote">
+              <p>{{quote}}</p>
+              <div class="author">
+                <p>&mdash; {{author}}, {{position}}</p>
+                <p class="article"><a href="{{url}}">{{article}}</a></p>
+              </div>
+            </div>
+            {{/quotes}}
+          </script>
+        </div>
+      </div>
+
       <div class="row column" id="team">
       </div>
        <div class="row column" id="footer">

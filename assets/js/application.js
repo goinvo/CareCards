@@ -625,7 +625,7 @@ $(document).ready(function() {
         {
           'name' : 'Cards',
           'url'  : '/#cards'
-        },{
+        }, {
           'name' : 'Packs',
           'url'  : '/packs'
         }, {
@@ -647,10 +647,21 @@ $(document).ready(function() {
     var menu_html = Mustache.to_html(menu_tpl, menu);
     $('#menu').html(menu_html);
    
-    //footer
-    var currentYear = (new Date).getFullYear();
-    $('#currentYear').text(currentYear); 
+    //cards
+    $.getJSON('./assets/data/care-cards.json', function(data) {
+      var card_tpl = $('#cardTpl').html();
+      var html = Mustache.to_html(card_tpl, data);
+      $('#cards').html(html);
+    });
 
+    //quotes
+    $.getJSON('./assets/data/quotes.json', function(data) {
+      var quote_tpl = $('#quotesTpl').html();
+      var html = Mustache.to_html(quote_tpl, data);
+      $('#quotes').html(html);
+    });
+
+    //team
     team = { teams: [
       {   name : "Team",
           teamMembers : [
@@ -659,13 +670,13 @@ $(document).ready(function() {
               {name : "Sarah Kaiser",   role : "Artist, lead illustrator"},
               {name : "Jane Kokernak",  role : "Editor, researcher"},
               {name : "Emily Twaddell", role : "Editor, researcher"},
-              {name : "Jennifer Patel", role : "Designer, web presence"},
-              {name : "Yanyang Zhou", role : "Developer, web presence"}]
+              {name : "Jennifer Patel", role : "Designer/Engineer, web presence"},
+              {name : "Yanyang Zhou", role : "Engineer, web presence"}]
       },
       {   name : "Other Contributors",
           teamMembers : [
               {name : "Beth Herlin",     role : "Designer, researcher"},
-              {name : "Kelly Mansfield", role : "illustrator"},
+              {name : "Kelly Mansfield", role : "Illustrator"},
               {name : "Dirk Knemeyer",   role : ""},
               {name : "Eric Benoit",     role : ""}]
       }]
@@ -676,12 +687,9 @@ $(document).ready(function() {
     var team_html = Mustache.to_html(team_tpl, team, team_partials);
     $('#team').html(team_html);
 
-    //cards
-    $.getJSON('./assets/data/care-cards.json', function(data) {
-      var card_tpl = $('#cardTpl').html();
-      var html = Mustache.to_html(card_tpl, data);
-      $('#cards').html(html);
-    });
+    //footer
+    var currentYear = (new Date).getFullYear();
+    $('#currentYear').text(currentYear); 
 
     //packs
     $.getJSON('../../assets/data/packs.json', function(data) {
@@ -737,28 +745,28 @@ $(document).ready(function() {
 });
 
 function openPhotoSwipe(items) {
-    var pswpElement = document.querySelectorAll('.pswp')[0];
+  var pswpElement = document.querySelectorAll('.pswp')[0];
 
-    // build items array
-    // var items = [
-    //     {
-    //         src: imageAddress,
-    //         w: width,
-    //         h: height
-    //     }
-    // ];
-    
-    // define options (if needed)
-    var options = {
-             // history & focus options are disabled on CodePen        
-        history: false,
-        focus: false,
+  // build items array
+  // var items = [
+  //     {
+  //         src: imageAddress,
+  //         w: width,
+  //         h: height
+  //     }
+  // ];
+  
+  // define options (if needed)
+  var options = {
+           // history & focus options are disabled on CodePen        
+      history: false,
+      focus: false,
 
-        showAnimationDuration: 0,
-        hideAnimationDuration: 0
-        
-    };
-    
-    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-        gallery.init();
+      showAnimationDuration: 0,
+      hideAnimationDuration: 0
+      
+  };
+  
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+      gallery.init();
 }

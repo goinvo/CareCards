@@ -1,0 +1,31 @@
+{ "quotes" : [
+  {
+    "quote" : "We need to prescribe these simple, beautiful recipes for health to our patients and our loved ones.",
+    "author" : "Roni Zeiger, M.D.",
+    "position" : "former Chief Health Strategist at Google, co-founder of Smart Patients",
+    "article" : ""
+  }, {
+    "quote" : "People are thirsty for health advice. They read, search online, and wonder: Am I doing OK? Am I doing the right things for my health? What if, when someone asks the universe (read: the internet), for health advice, they got back a quick tip, backed by evidence?",
+    "author" : "Susannah Fox",
+    "position" : "Digital Health Strategist",
+    "article" : ""
+  }, {
+    "quote" : "The Care Cards deck exudes its own geeky charm.",
+    "author" : "National Public Radio",
+    "position" : "",
+    "article"  : "If A Picture's Worth 1,000 Words, Could It Help You Floss?",
+    "url" : "http://www.npr.org/sections/health-shots/2014/03/28/295734262/if-a-pictures-worth-1-000-words-could-it-help-you-floss?ft=1&f=103537970"
+  }, {
+    "quote" : "The cards work because they focus on routine and are designed to be user-friendly. Each card uses beautiful-but-accessible art, and the text is short, simple, and clear.",
+    "author" : "Patient Safety and Quality Healthcare Magazine",
+    "position" : "",
+    "article"  : "Turning Advice into Lifestyle",
+    "url" : "www.psqh.com/news-health-axioms-turning-advice-into-lifestyle"
+  }, {
+    "quote" : "The ultimate goal [of the Care Cards] is to inspire us to be self-monitoring, self-empowered patients. If we do this, we will be the change the U.S. health system needs.",
+    "author" : " Jane Sarasohn-Kahn",
+    "position" : "HealthcareDIY",
+    "article"  : "Playing Cards for DIY Health",
+    "url" : "https://healthcarediy.com/living/the-health-axioms-playing-cards-for-diy-health/"
+  }]
+}
