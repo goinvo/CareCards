@@ -7,69 +7,69 @@ $( document ).ready(function() {
     loadData();
     showRandomQuote();
   
-    //mixpanel.init("2ca2ab4537146c4447db8609d5575b6a");
+    //mixpanel.init("INSERT MIXPANEL ID HERE");
+    // track when a user opens a new tab
     //mixpanel.track("new tab");
 });
 function showRandomQuote() {
-    var rnd = Math.round(Math.random()*(data.length-1));
-    var date = new Date();
-    var week = date.format('j');
+    
+  var rnd = Math.round(Math.random()*(data.length-1));
+  var date = new Date();
+  var week = date.format('j');
+    
+  // set week to a random number
+  // comment to keep week as week number
+  week = rnd;
+    
+  if(week > data.length) {
     week = rnd;
-    
-    if(week > data.length) {
-      week = rnd;
-    }
-    console.log('week: ' + week);
-		
-		var url;
-			
-		url = "<img src='/img/" + data[week].img + "'/>";
-			
-  
-    document.getElementById("name").innerHTML = "— " + data[week].name;
-    document.getElementById("quote").innerHTML = data[week].name;
-    document.getElementById("caption").innerHTML = data[week].desc;
-		document.getElementById("image").innerHTML = url
-    
-    
-    
-    $('body').css({"font-family": "Avenir Next"});
-
-    
-    $('span.agree-text').text(data[week].agree);
-    $('span.disagree-text').text(data[week].disagree);
-    
-    nameToLoad = data[week].img.slice(0,-4);
-    
-    animateGenius("#image");
-    
-    $("video.genius").click(function(){
-	//mixpanel.track("genius clicked", {"genius": data[week].name});
+  }
+  // console.log('week: ' + week);
 	
-    })
+  // url to poster
+	var url;
+			
+	url = "<img src='/img/" + data[week].img + "'/>";
   
-    function showCaption() {
-	//mixpanel.track("show caption", {"genius": data[week].name});
-	//console.log('caption in');
-	$( "#caption" ).fadeIn('fast');
-	$("#caption-container").css("border-bottom", "1px solid black");
-    }
+  document.getElementById("name").innerHTML = "— " + data[week].name;
+  document.getElementById("quote").innerHTML = data[week].name;
+  document.getElementById("caption").innerHTML = data[week].desc;
+  document.getElementById("image").innerHTML = url;
     
-    var statsVisible = false;
+  $('body').css({"font-family": "Avenir Next"});
+  $('span.agree-text').text(data[week].agree);
+  $('span.disagree-text').text(data[week].disagree);
+  
+  nameToLoad = data[week].img.slice(0,-4);
+  
+  animateGenius("#image");
+  
+  $("video.genius").click(function(){
+    //mixpanel.track("genius clicked", {"genius": data[week].name});
+  })
+  
+  function showCaption() {
+    //mixpanel.track("show caption", {"genius": data[week].name});
+    //console.log('caption in');
+    $( "#caption" ).fadeIn('fast');
+    $("#caption-container").css("border-bottom", "1px solid black");
+  }
+    
+  var statsVisible = false;
 
-    function animateGenius(element) {
-			//alert("animate " + element);
-			$( element ).animate({
-					opacity: 1.0//,
-					//bottom: "-80px"
-			}, 500, "easeOutQuart", function() {
-					$( "#quote" ).fadeIn('fast');
-					$('#caption').fadeIn(function() {
-						//$('#name').fadeIn();
-						
-					});
-			});
-    }
+  function animateGenius(element) {
+    //alert("animate " + element);
+    $( element ).animate({
+        opacity: 1.0//,
+        //bottom: "-80px"
+    }, 500, "easeOutQuart", function() {
+        $( "#quote" ).fadeIn('fast');
+        $('#caption').fadeIn(function() {
+          //$('#name').fadeIn();
+          
+        });
+    });
+  }
   
     function hideCaption() {
 			//console.log('caption out');
