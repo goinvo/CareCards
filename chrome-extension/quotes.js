@@ -7,9 +7,9 @@ $( document ).ready(function() {
     loadData();
     showRandomQuote();
   
-    //mixpanel.init("INSERT MIXPANEL ID HERE");
+    mixpanel.init("95c6ffeacd788ed19e76ff280cc3ff93");
     // track when a user opens a new tab
-    //mixpanel.track("new tab");
+    mixpanel.track("new tab");
 });
 function showRandomQuote() {
     
