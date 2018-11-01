@@ -62,3 +62,5 @@ Creative Commons Attribution v3.0
 * add styles to _styles.scss,  _fonts.scss, and _skeleton.scss - watch will compile application.scss into application.css
 * add scripts to index.js
 * run grunt concat in another terminal to build changes to index.js into application.js 
+
+### For guidance integrating Care Cards into your product or service, contact us at hello@goinvo.com. ###
