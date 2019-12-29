@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Care Cards</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+			html {
+				height: 100%;
+			}
+			body {
+        min-width: 250px;
+        font-family: 'Avenir Next';
+        line-height: 150%;
+        
+        margin: 0;
+        font-size: 21px;
+				min-height: 100%;
+				/*background-image: linear-gradient(to top, #fad0c4 0%, #fad0c4 1%, #ffd1ff 100%);*/
+			}
+			.background {
+				min-height: 100%;
+				position: fixed;
+				width: 100%;
+			}
+      h3 {
+				font-weight: normal;
+				font-style: italic;
+      }
+    .container {
+			display: flex;
+			
+    }
+		
+		#img-container {
+			
+    }
+		
+		.caption-background {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			/*float: right;*/
+    }
+    #caption-container {
+        float: left;
+				width: 480px;
+				/*background: #fff;*/
+				/*box-shadow: 0px 7px 37px -5px rgba(0,0,0,0.31);*/
+				padding: 20px;
+				margin-left: 40px;
+				
+    }
+		#image img {
+        
+				box-shadow: 0px 7px 37px -5px rgba(0,0,0,0.31);
+				
+				
+				
+				height: 100vh;
+    }
+		
+		#image {
+        opacity: 0;
+        height: 100%;
+        
+    }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+      #animation {
+				width: 100%;
+	
+				position: fixed;
+				bottom: 200px;
+      }
+      #moving-image {
+				position: absolute;
+				
+      }
+      #name {
+        display: none;
+	position: relative;
+        padding-top: 100px;
+	padding-bottom: 100px;
+        font-weight: 200;
+	font-size: 36px;
+	color: #000;
+	/*text-transform: uppercase;*/
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+      }
+    #quote {
+        display: none;
+        position: relative;
+        padding-top: 10%;
+        font-style: italic;
+        font-weight: 700;
+        font-size: calc(21px + 0.4vh);
+        line-height: 150%;
+        /*letter-spacing: -2px;*/
+        color: #000;
+        width: 480px;
+    }
+    
+      
+      
+    
+      #caption {
+        display: none;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: -10px;
+        font-size:calc(14px + 0.2vh);
+        background: white;
+        line-height: 150%;
+        color: black;
+        /*left: 100px;*/
+        text-align: left;
+        width: calc(360px + 5vw);
+        /*border-radius: 3px;
+        border: 1px solid #000;*/
+        
+      }
+      .arrow_box {
+				position: relative;
+							z-index: 100;
+				background: #fff;
+				border: 1px solid #000;
+      }
+      .arrow_box:after, .arrow_box:before {
+              top: 100%;
+              left: 50%;
+              border: solid transparent;
+              content: " ";
+              height: 0;
+              width: 0;
+              position: absolute;
+              pointer-events: none;
+      }
+      
+      .arrow_box:after {
+              border-color: rgba(255, 255, 255, 0);
+              border-top-color: #fff;
+              border-width: 8px;
+              margin-left: -8px;
+      }
+      .arrow_box:before {
+              border-color: rgba(0, 0, 0, 0);
+              border-top-color: #000;
+              border-width: 9px;
+              margin-left: -9px;
+      }
+      .agree-container {
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 200px;
+	color: white;
+      }
+      .button {
+        cursor: pointer;
+        /*border: 1px solid #000;*/
+        color: white;
+        /*background: black;*/
+        border-radius: 3px;
+        padding: 8px 12px;
+        font-style: italic;
+        line-height: 220%;
+				text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.22);
+      }
+      .agree {
+        position: fixed;
+        bottom: 5px;
+        left: 5px;
+        font-size: 16px;
+      }
+      .disagree {
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        font-size: 16px;
+      }
+      .button.agree-text, .button.disagree-text {
+        transition: background 0.3s;
+      }
+      .button.agree-text:hover {
+        background: #1c935d;
+      }
+      .button.disagree-text:hover {
+        background: #d63730;
+      }
+      #links-container {
+        position: fixed;
+        bottom: 0;
+        right: 10px;
+      }
+      #tweetit {
+        font-size: 14px;
+      }
+      #countdown {
+        position: fixed;
+        bottom: 0;
+        left: 10px;
+        font-size: 14px;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      #shareit {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+      }
+      #shareit img, #getit img {
+        width: 40px;
+      }
+      #getit {
+        width: 40px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+      }
+      
+      .stats-button {
+        position: fixed;
+        top: 8px;
+        left: 5px;
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+      }
+      .stats-line-1 {
+        margin-top: 10px;
+        width: 40px;
+        border-top: 3px solid #fff;
+				box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.12);
+      }
+      .stats-line-2 {
+        margin-top: 10px;
+        width: 30px;
+        border-top: 3px solid #fff;
+				box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.12);
+      }
+      .stats-line-3 {
+        margin-top: 10px;
+        width: 20px;
+        border-top: 3px solid #fff;
+				box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.12);
+      }
+      .stats-container {
+        width: 100%;
+				text-align: center;
+        position: absolute;
+        display: none;
+        /*left: -100%;*/
+        top: 30px;
+        background: white;
+				/*width: 800px;*/
+      }
+      .left {
+        width: 50%;
+        height: 400px;
+        position: relative;
+        left: -100%;
+        float: left;
+      }
+      .right {
+        width: 50%;
+        height: 400px;
+        position: relative;
+        right: -100%;
+        float: left;
+      }
+      .stats-container p {
+	float: left;
+	margin: 0;
+      }
+      .stat {
+	clear: both;
+	font-size: 18px;
+      }
+      .stats-name {
+	float: right;
+	padding-right: 3px;
+      }
+      span.percentage-bar {
+	display: inline-block;
+	/*float: left;*/
+      }
+      .stats-percentage {
+	text-align: left;
+	float: left;
+      }
+      .bar {
+	background: #000;
+	width: 10px;
+	height: 6px;
+	text-align: left;
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+      }
+      .get-app {
+	display: none;
+	position: fixed;
+	top: 5px;
+	right: 4px;
+      }
+      /* animations */
+      @keyframes rightToLeft
+      {
+	  from {
+	      right: -40%;
+	  }
+	  to {
+	      right: 120%;
+	  }
+      }
+    </style>
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript" src="date.format.js"></script>
+    <script src='quotes.js'></script>
+    <script src='mixpanel.js'></script>
+    <!--<script src='stats.js'></script>-->
+  </head>
+
+  <body>
+		<div class='background'>
+		    <div class="container">
+			    
+			<div id="name">
+			</div>
+			<div id="img-container">
+			    <div id="image">
+			    </div>
+			    <div id="image-two">
+				    
+			    </div>
+			    <div class="center">
+				    
+			    </div>
+			</div>
+			<div class="caption-background">
+			    <div id="caption-container">
+				<div id="quote">
+    
+				</div>
+				<div id="caption">
+				    
+				</div>
+			    </div>
+			</div>
+			
+		    </div>
+		</div>
+  </body>
+</html>
